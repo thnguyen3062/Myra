@@ -1,0 +1,481 @@
+{
+"skeleton": {
+	"hash": "Gn2jSzPZZBRL5213GLjfMDMT5ys",
+	"spine": "3.8.99",
+	"x": 40,
+	"y": -988,
+	"width": 998,
+	"height": 903,
+	"images": "./images/",
+	"audio": "E:/_Working/Myth/Rank/RankIcon_Platinum"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Root", "parent": "root", "length": 105, "rotation": 90, "x": 538.9, "y": -478.55 },
+	{ "name": "4Gems", "parent": "Root", "length": 42.97, "rotation": -88.05, "x": 0.85, "y": 0.37 },
+	{ "name": "TopGem", "parent": "Root", "length": 15.86, "rotation": -89.53, "x": 247.19, "y": -0.28 },
+	{ "name": "BotGem", "parent": "Root", "length": 14.3, "rotation": -89.09, "x": -278.24, "y": 1.29 },
+	{ "name": "BGStone", "parent": "Root", "length": 39.09, "rotation": 88.53, "x": -0.66, "y": 0.66 },
+	{ "name": "BGFrame", "parent": "Root", "length": 36.38, "rotation": 91.36, "x": -72.53, "y": -1.39 },
+	{ "name": "InnerRing", "parent": "Root", "length": 38.2, "rotation": -87.56, "x": -17.03, "y": 0.35 },
+	{ "name": "Ring", "parent": "Root", "length": 32.71, "rotation": 180, "x": -3.1, "y": -0.11 }
+],
+"slots": [
+	{ "name": "Avatar", "bone": "root", "attachment": "Avatar" },
+	{ "name": "InnerRing", "bone": "root", "attachment": "InnerRing" },
+	{ "name": "Ring", "bone": "root", "attachment": "Ring" },
+	{ "name": "BGFr", "bone": "root", "attachment": "BGFr" },
+	{ "name": "BGStone", "bone": "root", "attachment": "BGStone" },
+	{ "name": "4Gems", "bone": "root", "attachment": "4Gems" },
+	{ "name": "BotGem", "bone": "root", "attachment": "BotGem" },
+	{ "name": "TopGem", "bone": "root", "attachment": "TopGem" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"4Gems": {
+				"4Gems": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 1, 2, 226.93, -225.16, 1, 1, 2, -244.79, -209.08, 1, 1, 2, -230.83, 200.68, 1, 1, 2, 240.9, 184.6, 1 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 472,
+					"height": 410
+				}
+			},
+			"Avatar": {
+				"Avatar": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 1, 7, 182.4, -193.35, 1, 1, 7, -198.26, -177.15, 1, 1, 7, -180.66, 236.48, 1, 1, 7, 200, 220.28, 1 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 381,
+					"height": 414
+				}
+			},
+			"BGFr": {
+				"BGFr": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 1, 6, -487.17, 448.64, 1, 1, 6, 510.55, 424.89, 1, 1, 6, 489.72, -449.87, 1, 1, 6, -508, -426.11, 1 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 998,
+					"height": 875
+				}
+			},
+			"BGStone": {
+				"BGStone": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 1, 5, -426.82, 386.97, 1, 1, 5, 404.91, 408.3, 1, 1, 5, 425.21, -383.44, 1, 1, 5, -406.52, -404.77, 1 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 832,
+					"height": 792
+				}
+			},
+			"BotGem": {
+				"BotGem": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 1, 4, 71.87, -33.36, 1, 1, 4, -71.11, -31.09, 1, 1, 4, -70.06, 34.91, 1, 1, 4, 72.92, 32.64, 1 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 143,
+					"height": 66
+				}
+			},
+			"InnerRing": {
+				"InnerRing": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 1, 7, 271.53, -286.22, 1, 1, 7, -296.96, -262.03, 1, 1, 7, -273.53, 288.47, 1, 1, 7, 294.95, 264.28, 1 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 569,
+					"height": 551
+				}
+			},
+			"Ring": {
+				"Ring": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 1, 8, 295.35, 289.99, 1, 1, 8, 295.35, -292.01, 1, 1, 8, -298.65, -292.01, 1, 1, 8, -298.65, 289.99, 1 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 582,
+					"height": 594
+				}
+			},
+			"TopGem": {
+				"TopGem": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 1, 3, 87.31, -63.36, 1, 1, 3, -88.69, -61.91, 1, 1, 3, -87.68, 61.08, 1, 1, 3, 88.31, 59.64, 1 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 176,
+					"height": 123
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"RankIconPlatinum_Off": {
+		"bones": {
+			"Root": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 1.3333, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 1.3333, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 1.3333, "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"TopGem": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 1.1667, "curve": "stepped" },
+					{ "time": 1.3333, "curve": "stepped" },
+					{ "time": 1.4667, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 1.1667 },
+					{ "time": 1.3333, "x": -191.11 },
+					{ "time": 1.4, "x": -180.42 },
+					{ "time": 1.4667, "x": -191.11, "curve": "stepped" },
+					{ "time": 2, "x": -191.11 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 1.1667, "curve": "stepped" },
+					{ "time": 1.3333, "curve": "stepped" },
+					{ "time": 1.4667, "curve": "stepped" },
+					{ "time": 1.9333 },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"Ring": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 1.2333, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 1.2333, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.3667, "x": 1.05, "y": 1.05 },
+					{ "time": 0.5 },
+					{ "time": 1.1, "x": 1.05, "y": 1.05 },
+					{ "time": 1.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"InnerRing": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 1.3333, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 1.3333, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{},
+					{ "time": 1.1667, "x": 0.95, "y": 0.95 },
+					{ "time": 1.2333, "x": 1.05, "y": 1.05 },
+					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"BotGem": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 1.1667, "curve": "stepped" },
+					{ "time": 1.3333, "curve": "stepped" },
+					{ "time": 1.4667, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 1.1667 },
+					{ "time": 1.3333, "x": 239.77 },
+					{ "time": 1.4, "x": 227.9 },
+					{ "time": 1.4667, "x": 239.77, "curve": "stepped" },
+					{ "time": 2, "x": 239.77 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 1.1667, "curve": "stepped" },
+					{ "time": 1.3333, "curve": "stepped" },
+					{ "time": 1.4667, "curve": "stepped" },
+					{ "time": 1.9333 },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"BGStone": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 1.3333, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 1.3333, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.4333, "x": 0.95, "y": 0.95 },
+					{ "time": 0.5333, "x": 0.8, "y": 0.8 },
+					{ "time": 0.6, "x": 1.05, "y": 1.05 },
+					{ "time": 1.2 },
+					{ "time": 1.2667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"BGFrame": {
+				"rotate": [
+					{},
+					{ "time": 0.4333, "angle": -1.36 },
+					{ "time": 0.6, "angle": 178.64, "curve": "stepped" },
+					{ "time": 0.7667, "angle": 178.64, "curve": "stepped" },
+					{ "time": 0.8667, "angle": 178.64 },
+					{ "time": 1.3333, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.1, "x": -11 },
+					{ "time": 0.4333, "x": 23.7, "y": -6.56 },
+					{ "time": 0.5333, "x": 86.27, "y": 50.16 },
+					{ "time": 0.6, "x": 101.24 },
+					{ "time": 0.7667, "x": 134.13, "curve": "stepped" },
+					{ "time": 0.8667, "x": 134.13 },
+					{ "time": 1.3333, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.1, "x": 1.05, "y": 1.05 },
+					{ "time": 0.4333, "x": 0.8, "y": 0.8 },
+					{ "time": 0.7667, "x": 0.95, "y": 0.95 },
+					{ "time": 0.8667, "x": 1.05, "y": 1.05 },
+					{ "time": 0.9667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"4Gems": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": -1.95 },
+					{ "time": 0.7, "angle": 178.05 },
+					{ "time": 0.8333, "angle": -176.95 },
+					{ "time": 1.0667, "angle": 178.05 },
+					{ "time": 1.3, "angle": -2.95 },
+					{ "time": 1.3333, "angle": 180 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.7, "curve": "stepped" },
+					{ "time": 1.3333, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.7 },
+					{ "time": 1.0667, "x": 0.95, "y": 0.95 },
+					{ "time": 1.3, "x": 0.65, "y": 0.65 },
+					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"RankIconPlatinum_On": {
+		"bones": {
+			"BotGem": {
+				"rotate": [
+					{ "time": 0.2667, "curve": "stepped" },
+					{ "time": 1.6333, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "x": 239.78 },
+					{ "time": 0.2667, "curve": "stepped" },
+					{ "time": 1.6333, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 0.2667, "curve": "stepped" },
+					{ "time": 1.6333, "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"TopGem": {
+				"rotate": [
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "x": -189.72 },
+					{ "time": 0.2667, "curve": "stepped" },
+					{ "time": 1.6333, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 2 }
+				]
+			},
+			"Root": {
+				"rotate": [
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "time": 2 }
+				]
+			},
+			"4Gems": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.9 },
+					{ "time": 1.0333, "angle": -91.95, "curve": "stepped" },
+					{ "time": 1.5333, "angle": -91.95 },
+					{ "time": 1.6333 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.9, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7667, "x": 0, "y": 0 },
+					{ "time": 0.9, "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"BGFrame": {
+				"rotate": [
+					{},
+					{ "time": 0.1333, "angle": -91.36 },
+					{ "time": 0.2667, "angle": 178.64 },
+					{ "time": 0.3667, "curve": "stepped" },
+					{ "time": 0.9667, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "time": 0.1333, "x": 64.72, "y": 57.02 },
+					{ "time": 0.2667, "x": 124.59 },
+					{ "time": 0.3667, "curve": "stepped" },
+					{ "time": 0.9667, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0 },
+					{ "time": 0.1333, "curve": "stepped" },
+					{ "time": 0.3667, "curve": "stepped" },
+					{ "time": 0.9667 },
+					{ "time": 1, "x": 1.2, "y": 1.2, "curve": "stepped" },
+					{ "time": 1.1333, "x": 1.2, "y": 1.2 },
+					{ "time": 1.2333, "x": 0.95, "y": 0.95, "curve": "stepped" },
+					{ "time": 1.5, "x": 0.95, "y": 0.95 },
+					{ "time": 1.5667, "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"BGStone": {
+				"rotate": [
+					{ "angle": 180 },
+					{ "time": 0.8333, "angle": -178.53 },
+					{ "time": 0.9333, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.8333, "x": -21.57 },
+					{ "time": 0.9333, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7, "x": 0, "y": 0 },
+					{ "time": 0.8333, "curve": "stepped" },
+					{ "time": 0.9333, "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"InnerRing": {
+				"rotate": [
+					{ "time": 1.1667, "angle": 87.56 },
+					{ "time": 1.4, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "time": 1.1667, "x": 4.69, "y": -4.69 },
+					{ "time": 1.4, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 },
+					{ "time": 0.9333, "curve": "stepped" },
+					{ "time": 1.4, "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"Ring": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": 0 },
+					{ "time": 1, "curve": "stepped" },
+					{ "time": 2 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8625463498557930108
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GroundHole
+  m_Shader: {fileID: -6465566751694194690, guid: 937802a37a5b988479b07190984300af, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CrackTex:
+        m_Texture: {fileID: 2800000, guid: 5e72018c982fec4498aaf3800319cd43, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ErosionTex:
+        m_Texture: {fileID: 2800000, guid: 43d446703eb61da4793b48e2d0ec7d3e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 6c741140126b8d84eb56591a58a431ae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StoneTex:
+        m_Texture: {fileID: 2800000, guid: 06fe17c300ea902409fbe3cb1841e6fa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_73255c75b9ef42868171aac5a064bebe: -0.2
+    - Vector1_7c28d721cd8047228dfab29579a56a1e: 1.63
+    - Vector1_be866e0d82cd4d1198f1b6e897519d98: 0
+    - Vector1_cf9601065e194586b781f90979997f06: 2.08
+    - Vector1_d673f25dc4044a5b867bb4a87d8abc49: 0.99
+    - Vector1_e94ff7b0e0424612a4bd0e9b5ca0159d: 0
+    - Vector1_f5bc53d23dfd4496b119a41a7f57e093: 0.5
+    - _Hp: 20
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - Color_fbe9651d82cb4f4382de434b2a486cb3: {r: 0.26907688, g: 1, b: 0.16509426, a: 0}
+    - Vector2_23a3cd274c1c4f568078fc000b9ab8b0: {r: 0.3, g: 0.9, b: 0, a: 0}
+    - Vector4_9eaccdc3731542df8dfe0a2f3163ba70: {r: 0.6, g: 0.4, b: 0, a: 0}
+    - Vector4_e4eff61911c048199ba790ed7f165afc: {r: 1.44, g: 0.22, b: -0.1, a: 0}
+    - Vector4_f12f56ca7b2b451a95f6264ac26a74ee: {r: 1, g: 1, b: 0, a: 0}
+    - Vector4_fcbcd9e92a504043bb58c2d5e4c9dd06: {r: 0.8, g: 1.16, b: 0.86, a: 1.46}
+    - Vector4_fcbcd9e92a504043bb58c2d5e4c9dd06_1: {r: 0.78, g: 0.84, b: 0.78, a: 0.9}
+  m_BuildTextureStacks: []

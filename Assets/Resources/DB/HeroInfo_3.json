@@ -1,0 +1,2766 @@
+[
+  {
+    "id": 10010,
+    "name": "Big General",
+    "skillname": [],
+    "description": [],
+    "keyword": []
+  },
+  {
+    "id": 10008,
+    "name": "Athena",
+    "skillname": [],
+    "description": [],
+    "keyword": []
+  },
+  {
+    "id": 10007,
+    "name": "Arrow rain",
+    "skillname": [],
+    "description": [
+      "한 라인에서 무작위 적에게 1 피해 주기. 2번 반복."
+    ],
+    "keyword": []
+  },
+  {
+    "id": 10006,
+    "name": "Huge Champion",
+    "skillname": [],
+    "description": [],
+    "keyword": []
+  },
+  {
+    "id": 10005,
+    "name": "Athena's Soldier",
+    "skillname": [],
+    "description": [],
+    "keyword": []
+  },
+  {
+    "id": 10004,
+    "name": "Ares's Frontliner",
+    "skillname": [],
+    "description": [],
+    "keyword": []
+  },
+  {
+    "id": 10003,
+    "name": "Ares's Follower",
+    "skillname": [],
+    "description": [],
+    "keyword": []
+  },
+  {
+    "id": 10002,
+    "name": "Champion of Ares",
+    "skillname": [],
+    "description": [],
+    "keyword": []
+  },
+  {
+    "id": 10001,
+    "name": "Champion of Athena",
+    "skillname": [],
+    "description": [],
+    "keyword": []
+  },
+  {
+    "id": 10000,
+    "name": "Ares",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>처치 후</style> +1 공격력 획득."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 375,
+    "name": "Ghost of Tiger",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 무작위로 적에게 2 피해 주기."
+    ],
+    "keyword": []
+  },
+  {
+    "id": 374,
+    "name": "Buff Champion of Zeus",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>라운드 시작:</style> C.O Zeus creates fading <b>Lightning Strike</b> in hand."
+    ],
+    "keyword": []
+  },
+  {
+    "id": 373,
+    "name": "Buff Champion of Hades",
+    "skillname": [],
+    "description": [
+      "<style=Ultimate>준비 종료:</style> C.O Hades deals 1 to front ally to create <b>Avenging spirit</b> beside."
+    ],
+    "keyword": []
+  },
+  {
+    "id": 372,
+    "name": "Buff Champion of Poseidon",
+    "skillname": [],
+    "description": [
+      "Give C.O Poseidon +1 ATK, HP and <link=\"cleave\"><sprite=14></link>."
+    ],
+    "keyword": []
+  },
+  {
+    "id": 371,
+    "name": "Buff Champion of Ares",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>처치 후:</style> +1 공격력 획득."
+    ],
+    "keyword": []
+  },
+  {
+    "id": 370,
+    "name": "Buff Hades 2",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>라운드 시작:</style> Hades creates Fading <b>Avenging spirit</b> in hand."
+    ],
+    "keyword": []
+  },
+  {
+    "id": 369,
+    "name": "Buff Hades 1",
+    "skillname": [],
+    "description": [
+      "아군이 하나 이상 처치될 때마다, 이곳에 있는 무작위 적에게 1 피해를 줍니다."
+    ],
+    "keyword": []
+  },
+  {
+    "id": 368,
+    "name": "Buff Au Co 2",
+    "skillname": [],
+    "description": [
+      "Au Co +1 HP.\n",
+      "Au Co deals 1 to opposite enemy each time 1 or more ally receive <b>Shield</b>."
+    ],
+    "keyword": []
+  },
+  {
+    "id": 367,
+    "name": "Buff Au Co 1",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>라운드 시작:</style> Au Co gives random ally here Shield."
+    ],
+    "keyword": []
+  },
+  {
+    "id": 366,
+    "name": "Buff Zeus 2",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>전투 시작:</style> Zeus deals 1 to a random enemy here, repeat 1 time."
+    ],
+    "keyword": []
+  },
+  {
+    "id": 365,
+    "name": "Buff Zeus 1",
+    "skillname": [],
+    "description": [
+      "이번 라운드에 두 번째 주문을 시전한 후, 이곳의 적에게 1 피해를 입힙니다."
+    ],
+    "keyword": []
+  },
+  {
+    "id": 364,
+    "name": "Buff Athena 2",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>전투 시작:</style> If Athena in Front: Give Athena +1 HP, ally beside +1 ATK this round."
+    ],
+    "keyword": []
+  },
+  {
+    "id": 363,
+    "name": "Buff Athena 1",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>전투 시작:</style> 만약 애테나가 전방에 있다면, 이곳의 동맹들에게 이번 라운드에 +1 공격력 부여.\n",
+      "후방: 대신 +1 체력."
+    ],
+    "keyword": []
+  },
+  {
+    "id": 362,
+    "name": "Buff Ares 3",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>처치 후</style> Ready Ares."
+    ],
+    "keyword": []
+  },
+  {
+    "id": 361,
+    "name": "Buff Ares 2",
+    "skillname": [],
+    "description": [
+      "<style=Ultimate>준비 종료:</style> If Ares is ready, 결투 시작."
+    ],
+    "keyword": []
+  },
+  {
+    "id": 360,
+    "name": "Buff Ares 1",
+    "skillname": [],
+    "description": [
+      "Ares에게 +2 공격력, 체력 부여."
+    ],
+    "keyword": []
+  },
+  {
+    "id": 357,
+    "name": "Buff Son Tinh 1",
+    "skillname": [],
+    "description": [
+      "-1 Mana for my Beast cards.\n My first Beast <b>summoned</b> each round gets +1 ATK that round."
+    ],
+    "keyword": []
+  },
+  {
+    "id": 356,
+    "name": "Buff Poseidon 1",
+    "skillname": [],
+    "description": [
+      "+1 공격력, 체력 및 <link=\"cleave\"><sprite=14></link> 얻기.\n. ",
+      "<style=Ultimate>준비 종료:</style> 옆에 <b>Tentacle II</b> 소환."
+    ],
+    "keyword": []
+  },
+  {
+    "id": 355,
+    "name": "Lost Soul",
+    "skillname": [],
+    "description": [],
+    "keyword": []
+  },
+  {
+    "id": 354,
+    "name": "Bathala",
+    "skillname": [
+      "Thousands Island",
+      "Power Creator"
+    ],
+    "description": [
+      "Create 1 <sprite=20> for every 3 allies Summoned.",
+      "Gain +1 ATK for each <sprite=20> you created."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 353,
+    "name": "Bathala*",
+    "skillname": [
+      "Thousands Island",
+      "Power Creator",
+      "Guidance of the God"
+    ],
+    "description": [
+      "Create 1 <sprite=20> for every 3 allies Summoned.",
+      "Gain +1 ATK for each <sprite=20> you created.",
+      "<style=Ultimate>Ultimate:</style> After you created 7 <sprite=20>, <style=Ultimate>준비 종료:</style> Mortal allies gain +1 ATK, HP."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 352,
+    "name": "Champion of Zeus",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 351,
+    "name": "Champion of Zeus",
+    "skillname": [],
+    "description": [
+      "<link=\"pierce\"><sprite=16></link> 획득."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 350,
+    "name": "Champion of Hades",
+    "skillname": [],
+    "description": [
+      "<link=\"godslayer\"><sprite=17></link> 획득."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 349,
+    "name": "Champion of Poseidon",
+    "skillname": [],
+    "description": [
+      "<style=Ultimate>준비 종료:</style> 준비 종료: 옆에 촉수 I을 소환합니다."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 348,
+    "name": "Champion of Athena",
+    "skillname": [],
+    "description": [
+      "Gain +1 ATK."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 347,
+    "name": "Champion of Ares",
+    "skillname": [],
+    "description": [
+      "<link=\"breaker\"><sprite=12></link> 획득."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 346,
+    "name": "God of Protection",
+    "skillname": [
+      "Protect",
+      "Aura Sphere"
+    ],
+    "description": [
+      "<style=Ultimate>준비 종료:</style> If self is Ready, give front ally <b>Shield</b>.",
+      "Gain +1 ATK.\nGive random ally here +1 ATK this round each time ally receives <b>Shield</b>."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 345,
+    "name": "Poseidon",
+    "skillname": [
+      "Rising Threat",
+      "Tentacle"
+    ],
+    "description": [
+      "<style=Ultimate>준비 종료:</style> Summon <b>Tentacle I</b> beside.",
+      "Gain +1 ATK, HP and <link=\"cleave\"><sprite=14></link>.\n<style=Ultimate>준비 종료:</style> Summon <b>Tentacle II</b> beside."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 344,
+    "name": "Au Co",
+    "skillname": [],
+    "description": [
+      "<style=Ultimate>준비 종료:</style> If self is Ready, give front ally <b>Shield</b>."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 343,
+    "name": "Zeus",
+    "skillname": [
+      "Punishment",
+      "Chainlightning"
+    ],
+    "description": [
+      "<style=Prepare>라운드 시작:</style> Create Fading <b>Lightning strike</b> in hand.",
+      "Deal 1 to enemies here after you cast the second spell this round."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 342,
+    "name": "Athena",
+    "skillname": [
+      "Brave and Wisdom",
+      "Tactical Formation"
+    ],
+    "description": [
+      "<style=Prepare>라운드 시작:</style> Create random Fading <b>Brave Owl</b> or <b>Wisdom Owl</b> in hand.",
+      "<style=Prepare>전투 시작:</style> If self in Front: 아군들에게 이 라운드에 +1 공격력 부여.\nBack: +1 HP instead."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 341,
+    "name": "Ares",
+    "skillname": [
+      "Taste of Victory",
+      "Fight Me"
+    ],
+    "description": [
+      "Gain +1 ATK.\n<b>GLORY</b>: Gain +1 ATK.",
+      "<style=Ultimate>준비 종료:</style> If self is Ready, 결투 시작."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 340,
+    "name": "Ares I",
+    "skillname": [
+      "Taste of Victory",
+      "Bloodlust"
+    ],
+    "description": [
+      "Gain +1 ATK.\n<b>GLORY</b>: Gain +1 ATK.",
+      "<b>GLORY</b>: Ready self."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 272,
+    "name": "Mountain Tribe Reinforcement",
+    "skillname": [],
+    "description": [
+      "무작위로 <b>Beastman Guardian</b> 2마리 소환하기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 240,
+    "name": "Faefolk Farmer",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 아군에게 2 치유하기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 237,
+    "name": "Bear Marauder",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 결투 시작."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 217,
+    "name": "God of storm",
+    "skillname": [],
+    "description": [
+      "Deal 1 to enemy Nexus for each spell you cast."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 216,
+    "name": "God of Sacrifice",
+    "skillname": [],
+    "description": [
+      "<style=Ultimate>준비 종료:</style> Deal 1 to opposite enemy."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 215,
+    "name": "God of Nature",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>전투 시작:</style> Gain +1 ATK this round for each ally here."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 214,
+    "name": "God of Strategy",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>전투 시작:</style> Give front ally +1 ATK this round."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 213,
+    "name": "God of Valor",
+    "skillname": [
+      "Spear Spike",
+      "Warcry"
+    ],
+    "description": [
+      "<style=Ultimate>공격 후:</style> Deal 1 to enemy Nexus."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 208,
+    "name": "Son Tinh III*",
+    "skillname": [
+      "Strength of Mountain Tribe",
+      "Leader's Call",
+      "Overwhelming Call"
+    ],
+    "description": [
+      "<style=Ultimate>공격 후:</style> Give <b>Beast</b> allies here +1 ATK, HP this round.",
+      "Gain +1 HP and <link=\"overrun\"><sprite=0></link>.\n<style=Prepare>전투 시작:</style> Gain +1 ATK this round for each <b>Beast</b> ally here.",
+      "<style=Ultimate>Ultimate:</style> Spend 2 <sprite=20>, <style=Prepare>라운드 시작:</style> Summon <b>Beast Warrior</b> randomly."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 206,
+    "name": "Thuy Tinh",
+    "skillname": [
+      "",
+      "Sneak Attack",
+      "Revenge"
+    ],
+    "description": [
+      "<link=\"godslayer\"><sprite=17></link>\n",
+      "Gain +1 ATK.\n<b>Active:</b> Discard 1 to fight opposite target, then <b>Exhaust</b> self.",
+      "If front <b>Aquatic</b> ally is <b>defeated</b>, <b>Ready</b> self."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 203,
+    "name": "Electrifying",
+    "skillname": [],
+    "description": [
+      "Give +1 ATK and <link=\"pierce\"><sprite=16></link> this round to 1 ally."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 202,
+    "name": "Wisdom Owl",
+    "skillname": [],
+    "description": [
+      "두 적 교체하기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 201,
+    "name": "Demeter's blessing",
+    "skillname": [],
+    "description": [
+      "아군을 준비시키기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 200,
+    "name": "Mountain tribe rising",
+    "skillname": [],
+    "description": [
+      "한 라인의 아군에게 <link=\"overrun\"><sprite=0></link> 부여."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 199,
+    "name": "Blind mummy",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 다른 아군에게 2 피해 주기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 198,
+    "name": "Dark Spirit",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> Dark Spirit 1장 소환."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 197,
+    "name": "Bravery Owl",
+    "skillname": [],
+    "description": [
+      "<style=Ultimate>공격 후:</style> 아군들에게 이 라운드에 +1 공격력 부여."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 196,
+    "name": "Martial art Student",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 195,
+    "name": "Playful Specter",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 아군에게 1 피해 주기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 194,
+    "name": "Undead",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 193,
+    "name": "Manta Rider",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 192,
+    "name": "Faefolk master",
+    "skillname": [],
+    "description": [
+      "하나 이상의 아군이 실드를 받을 때마다 이 라운드에 +1 공격력 얻기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 191,
+    "name": "Blacksmith",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 여기 아군에게 이 라운드에 +1 공격력 부여."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 190,
+    "name": "Kraken",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 옆에 Tentacle II 소환하고 수중 아군에게 <link=\"overrun\"><sprite=0></link> 부여."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 189,
+    "name": "God of Sacrifice",
+    "skillname": [],
+    "description": [
+      "1장 버리고 부활한 언데드를 옆에 소환합니다."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 188,
+    "name": "God of Passage",
+    "skillname": [],
+    "description": [
+      "<style=Ultimate>준비 종료:</style> Deal 1 to front ally to deal 1 to opposite enemy."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 187,
+    "name": "God of Nurture",
+    "skillname": [],
+    "description": [
+      "<style=Ultimate>준비 종료:</style> Give front ally +1 ATK, HP this round."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 186,
+    "name": "Au Co II",
+    "skillname": [
+      "Bless",
+      "Aura Strike"
+    ],
+    "description": [
+      "<style=Prepare>라운드 시작:</style> Give 1 random ally here <b>Shield</b>.",
+      "Deal 1 to opposite enemy each time 1 or more allies received <b>Shield</b>."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 185,
+    "name": "Hades IV*",
+    "skillname": [
+      "Rise of the Death",
+      "Flame of Underworld",
+      "Hound of Hades"
+    ],
+    "description": [
+      "<style=Ultimate>준비 종료:</style> Deal 1 to front ally to summon <b>Avenging Spirit</b> beside.",
+      "<style=Prepare>전투 시작:</style> If self is Ready, deal 1 to other units here.",
+      "<style=Ultimate>Ultimate:</style> Spend 1 <sprite=20> and 2 Mana: Summon <b>Cerberus</b>."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 184,
+    "name": "Hades III",
+    "skillname": [
+      "Vengeance Army",
+      "Flame of Underworld"
+    ],
+    "description": [
+      "<style=Prepare>라운드 시작:</style> Create Fading <b>Avenging Spirit</b> in hand.",
+      "<style=Prepare>전투 시작:</style> If self is Ready, deal 1 to other units here."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 183,
+    "name": "Athena",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>라운드 시작:</style> Create random Fading <b>Brave Owl</b> or <b>Wisdom Owl</b> in hand."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 182,
+    "name": "Beastman Guardian",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": []
+  },
+  {
+    "id": 181,
+    "name": "Cerberus",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> Gain +1 ATK, HP for each <b>Avenging Spirit</b> you summoned."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 180,
+    "name": "Mytiny",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 179,
+    "name": "Zodiac Cat",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> Fight enemy here. <b><link=\"zodiac\"><style=Summon>Zodiacsemble 3:</style></link></b> Gain <link=\"godslayer\"><sprite=18></link>."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 178,
+    "name": "Zodiac Goat",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> Deal 1 to units here. <b><link=\"zodiac\"><style=Summon>Zodiacsemble 3:</style></link></b> And other lane."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 177,
+    "name": "Zodiac Snake",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> Defeat 1 Mortal. <b><link=\"zodiac\"><style=Summon>Zodiacsemble 4:</style></link></b> Or God."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 176,
+    "name": "Zodiac Buffalo",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> Gain <link=\"breaker\"><sprite=11></link>. <b><link=\"zodiac\"><style=Summon>Zodiacsemble 3:</style></link></b> <link=\"breaker\"><sprite=21></link> instead."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 175,
+    "name": "Zodiac Rooster",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> Give +2 ATK this round to other allies here. <b><link=\"zodiac\"><style=Summon>Zodiacsemble 3:</style></link></b> And other lane."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 174,
+    "name": "Zodiac Tiger",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 결투 시작. <b><link=\"zodiac\"><style=Summon>Zodiacsemble 3:</style></link></b> Gain +1 ATK."
+    ],
+    "keyword": [
+      "combo"
+    ]
+  },
+  {
+    "id": 173,
+    "name": "Zodiac Monkey",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> Gain 1 Mana. <b><link=\"zodiac\"><style=Summon>Zodiacsemble 3:</style></link></b> And draw 1 Zodiac."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 172,
+    "name": "Zodiac Pig",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> Exhaust opposite enemy. <b><link=\"zodiac\"><style=Summon>Zodiacsemble 3:</style></link></b> All units instead."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 171,
+    "name": "Zodiac Horse",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> Deal 1 damage to enemies here. <b><link=\"zodiac\"><style=Summon>Zodiacsemble 3:</style></link></b> And other lane."
+    ],
+    "keyword": [
+      "pierce"
+    ]
+  },
+  {
+    "id": 170,
+    "name": "Zodiac Mouse",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> Create 1 <sprite=20>. <b><link=\"zodiac\"><style=Summon>Zodiacsemble 4:</style></link></b> Create 1 more."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 169,
+    "name": "Zodiac Dragon",
+    "skillname": [],
+    "description": [
+      "Reduce 1 Spend for Zodiac allies."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 168,
+    "name": "Zodiac Rabbit",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> Give +1 ATK, HP this round to allies here. <b><link=\"zodiac\"><style=Summon>Zodiacsemble 3:</style></link></b> And other lane."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 167,
+    "name": "Aquafolk rising",
+    "skillname": [],
+    "description": [
+      "수중 아군에게 <link=\"godslayer\"><sprite=18></link> 부여."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 166,
+    "name": "Bloodlust",
+    "skillname": [],
+    "description": [
+      "아군에게 1 피해 주고 이 라운드에 +1 공격력 부여."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 165,
+    "name": "Will-o-wisp",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>패배:</style> 상대 대상에게 1 피해 주기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 164,
+    "name": "Crab Behemoth",
+    "skillname": [],
+    "description": [
+      "피해를 받을 때마다 상대 타워에게 2 피해 주기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 163,
+    "name": "Fish Soldier",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 162,
+    "name": "Herald of Zeus",
+    "skillname": [],
+    "description": [
+      "이 라운드에 첫 번째 주문을 시전하면 상대 타워에 1 피해 주기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 161,
+    "name": "Faefolk sage",
+    "skillname": [],
+    "description": [
+      "주문을 시전할 때마다 이 라운드에 +1 공격력 얻기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 160,
+    "name": "Faefolk Guardian",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 실드 부여."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 159,
+    "name": "Inspiring Gladiator",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>처치 후</style> 상대 타워에게 1 피해 주기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 158,
+    "name": "Warrior Cub",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 156,
+    "name": "God of Protection",
+    "skillname": [],
+    "description": [
+      "이곳에 있는 무작위 동맹에게, 아군이 보호막을 받을 때마다, 이번 라운드에 +1 공격력 부여합니다."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 155,
+    "name": "God of Nature",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>전투 시작:</style> 이곳에 있는 각 동맹마다 이번 라운드에 +1 공격력 획득."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 154,
+    "name": "God of Valor",
+    "skillname": [],
+    "description": [
+      "<style=Ultimate>공격 후:</style> 반대편 타워에 1 피해 입힘."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 153,
+    "name": "Zodiac Dog I",
+    "skillname": [
+      "Together We stand",
+      "Call to Arms",
+      "Zodiacsemble"
+    ],
+    "description": [
+      "Remove color requirement to summon for Zodiac allies.",
+      "<b>Active:</b> Consume 1 Mana to draw 1 Zodiac.",
+      "Spend 1 <sprite=20>, The first Zodiac you summon each round costs 1 less.\nAfter you summoned 12 <b>unique</b> Zodiacs, you win."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 152,
+    "name": "Son Tinh I",
+    "skillname": [
+      "Side by Side",
+      "Leader's Call"
+    ],
+    "description": [
+      "<style=Prepare>전투 시작:</style> Give <b>Beast</b> ally beside +1 ATK, HP this round.",
+      "Gain +1 HP and <link=\"overrun\"><sprite=0></link>.\n<style=Prepare>전투 시작:</style> Gain +1 ATK this round for each <b>Beast</b> ally here."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 151,
+    "name": "Au Co",
+    "skillname": [],
+    "description": [
+      "<style=Ultimate>준비 종료:</style> 만약 자신이 준비되어 있다면, 전방 동맹에게 보호막 부여."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 150,
+    "name": "Zeus I",
+    "skillname": [
+      "Wrath",
+      "Raining Thunder"
+    ],
+    "description": [
+      "Deal 1 to 1 random enemy after you cast the first spell this round.",
+      "<style=Prepare>전투 시작:</style> Deal 1 to 1 random enemy here, repeat 1 more time."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 149,
+    "name": "Avenging Spirit",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>패배:</style> Deal 1 to enemy Nexus."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 148,
+    "name": "Hades I",
+    "skillname": [
+      "Vengeance army",
+      "Last Breath"
+    ],
+    "description": [
+      "<style=Prepare>라운드 시작:</style> Create Fading <b>Avenging Spirit</b> in hand.",
+      "Deal 1 to 1 random enemy here each time 1 or more allies is <b>defeated</b>."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 147,
+    "name": "Faefolk Archer",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 146,
+    "name": "Spellweaver",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 145,
+    "name": "Hades",
+    "skillname": [],
+    "description": [
+      "<style=Ultimate>준비 종료:</style> 전방 동맹에게 1 피해를 주고, 옆에 응징의 영혼을 소환합니다."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 143,
+    "name": "Poseidon",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>전투 시작:</style> Give <b>Aquatic</b> allies here +1 ATK this round."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 142,
+    "name": "Son Tinh*",
+    "skillname": [],
+    "description": [
+      "<style=Ultimate>공격 후:</style> Give <b>Beast</b> allies here +1 ATK, HP this round."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 140,
+    "name": "Hatred",
+    "skillname": [],
+    "description": [
+      "아군에게 <link=\"godslayer\"><sprite=18></link> 부여."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 139,
+    "name": "Thuy Tinh I*",
+    "skillname": [
+      "",
+      "King of Aquafolk",
+      "Revenge",
+      "Aquafolk's Ragestorm"
+    ],
+    "description": [
+      "<link=\"godslayer\"><sprite=17></link>\n",
+      "<style=Ultimate>준비 종료:</style> Give <b>Aquatic</b> allies here <link=\"godslayer\"><sprite=18></link> this round.",
+      "If front <b>Aquatic</b> ally is <b>defeated</b>, <b>Ready</b> self.",
+      "<style=Ultimate>Ultimate:</style> Spend 1 <sprite=20>, Self and <b>Aquatic</b> allies gain +1 ATK this round each time 1 or more <b>Aquatic</b> allies is <b>defeated</b>."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 138,
+    "name": "Fragment of soul",
+    "skillname": [],
+    "description": [
+      "유닛에게 1 피해 주고 잃어버린 영혼 소환."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 137,
+    "name": "Ares I*",
+    "skillname": [
+      "Taste of Victory",
+      "Bloodlust",
+      "Never Ending War"
+    ],
+    "description": [
+      "Gain +1 ATK.\n<b>GLORY</b>: Gain +1 ATK.",
+      "<b>GLORY</b>: Ready self.",
+      "<style=Ultimate>Ultimate:</style> Spend 1 <sprite=20>, Gain <link=\"combo\"><sprite=8></link>."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 136,
+    "name": "Soul drain",
+    "skillname": [],
+    "description": [
+      "아군에게 1 피해 주고 다른 아군에게 1 치유."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 135,
+    "name": "Blessing of Thunder God",
+    "skillname": [],
+    "description": [
+      "한 라인의 아군에게 <link=\"pierce\"><sprite=16></link> 부여."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 134,
+    "name": "Ritual of protection",
+    "skillname": [],
+    "description": [
+      "한 라인의 아군에게 실드 부여."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 133,
+    "name": "Athena's blessing",
+    "skillname": [],
+    "description": [
+      "아군에게 +1 공격력 부여."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 132,
+    "name": "Battlecry",
+    "skillname": [],
+    "description": [
+      "아군에게 이 라운드에 +1 공격력 부여."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 131,
+    "name": "Call to arms",
+    "skillname": [],
+    "description": [
+      "무작위로 <b>Tiger Warrior</b> 2마리 소환하기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 130,
+    "name": "Healing touch",
+    "skillname": [],
+    "description": [
+      "대상에게 3 치유하기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 129,
+    "name": "Prolific growth",
+    "skillname": [],
+    "description": [
+      "아군에게 2 치유하고 이 라운드에 +2 공격력 부여."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 128,
+    "name": "Sudden attack",
+    "skillname": [],
+    "description": [
+      "아군에게 결투를 시작하고 그 후 고갈시키기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 127,
+    "name": "Wolfgang",
+    "skillname": [],
+    "description": [
+      "<style=Summon>전투 시작:</style> 여기에 있는 동안 연합당마다 공격력 1 증가합니다."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 126,
+    "name": "Strategist Beastman",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 만약 전면에 있다면: +1 체력.\n",
+      "뒤: 대신 +1 공격력 얻기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 125,
+    "name": "Hothead Soldier",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>준비 종료:</style> 상대 타워 공격."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 124,
+    "name": "Sigrun, the Victorious",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>처치 후</style> 상대 타워 공격하기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 123,
+    "name": "Arena Berserker",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>처치 후</style> 상대 대상과 싸우기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 122,
+    "name": "Agent of Hades",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 다른 아군에게 1 피해 주고 상대편 적에게 2 피해 주기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 121,
+    "name": "Electric Eel",
+    "skillname": [],
+    "description": [
+      "피해를 받을 때마다 상대 대상에게 1 피해 주기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 120,
+    "name": "Malice Spirit",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>패배:</style> 상대 대상에게 1 피해 주기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 119,
+    "name": "Soul Collector",
+    "skillname": [],
+    "description": [
+      "하나 이상의 아군이 처치될 때마다 상대 대상에게 1 피해 주기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 118,
+    "name": "Au Co's Disciple",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 여기 아군에게 실드 부여."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 117,
+    "name": "Faefolk Shieldman",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> Give <b>Shield</b> to another ally."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 116,
+    "name": "Siege",
+    "skillname": [],
+    "description": [
+      "적 타워에게 2 피해 주기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 115,
+    "name": "Blood for knowledge",
+    "skillname": [],
+    "description": [
+      "아군에게 1 피해 주고 1장 뽑기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 114,
+    "name": "Outrage",
+    "skillname": [],
+    "description": [
+      "모든 유닛에게 2 피해 주기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 113,
+    "name": "Bear warrior",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 결투 시작."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 112,
+    "name": "Frontline Captain",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Engaging Soldier",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 110,
+    "name": "Redmane horse",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>라운드 시작 또는 소환:</style> 여기의 대상에게 1의 피해를 입힙니다."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 109,
+    "name": "Athena",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>라운드 시작:</style> 라운드 시작: 용감한 올빼미 또는 지혜로운 올빼미을 손에 생성."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 108,
+    "name": "Dragoon Leader",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 107,
+    "name": "Aquatic's Soldier",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 106,
+    "name": "Hungry Spirit",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>패배:</style> 1장 뽑기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Boar warrior",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Elephant Brawler",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Wolf Warrior",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 102,
+    "name": "Wolfgang Leader",
+    "skillname": [],
+    "description": [
+      "<style=Summon>전투 시작:</style> 여기에 있는 동안 연합당마다 공격력 1 증가합니다."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Tree Sentinel",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 손에 있는 가장 높은 비용의 카드에 이번 라운드에 마나 2 감소합니다."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Kraken Caller",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 옆에 Tentacle I 소환하기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Faefolk healer",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 아군에게 1 치유하기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Vanguard",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Rampaging demon",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Catapult",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 소환: 상대 타워에게 1 피해 주기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Frontline Warrior",
+    "skillname": [],
+    "description": [
+      "<style=Ultimate>준비 종료:</style> 자신이 앞에 있을 경우 이 라운드에 <link=\"breaker\"><sprite=11></link> 얻기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Strategist",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>전투 시작:</style> 앞에 있는 아군에게 이 라운드에 +1 공격력 부여"
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Elite warrior",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>처치 후</style> +1 공격력 획득."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Faefolk mage",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>라운드 시작:</style> 라운드 시작: 이 라운드에 최대 1 마나 얻기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Prophet",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 2장 뽑기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Faefolk brawler",
+    "skillname": [],
+    "description": [
+      "마법을 시전할 때마다 +1 공격력 얻기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Dragoon",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Tomb spirit",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>패배:</style> 같은 위치에 강하게 소환하기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Boogeyman",
+    "skillname": [],
+    "description": [
+      "피해를 받을 때마다 상대 타워에게 1 피해 주기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Angry Aquafolk",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>패배:</style> 패배: 뒤에 있는 아군에게 이 라운드에 +1 공격력 부여."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Demon of Hatred",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 83,
+    "name": "For Knowledge",
+    "skillname": [],
+    "description": [
+      "아군에게 2 피해 주고 2장 뽑기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Underworld's Flame",
+    "skillname": [],
+    "description": [
+      "모든 유닛에게 1 피해 주기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Jiang Shi",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Spartan Soldier",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      "breaker"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Jiangshi Master",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>패배:</style> 같은 위치에 강하게 소환하기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Set Fanatic",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Hades's General",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>공격 전:</style> 여기 적에게 1 피해 주기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Electric Eel Warrior",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Demon Jellyfish",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>패배:</style> 패배: 여기 적에게 1 피해 주기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Puffer Fish",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 다른 아군에게 1 피해 주고 상대편 적에게 1 피해 주기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Wandering Fish",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>패배:</style> 1장 뽑기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Shrimp Soldier",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>패배:</style> 패배: 뒤에 있는 아군에게 이 라운드에 +1 공격력 부여."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Hammerhand Shark",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 70,
+    "name": "God of Passage",
+    "skillname": [],
+    "description": [
+      "전방 동맹에게 1 피해를 주어 옆에 응징의 영혼을 생성합니다."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Thuy Tinh*",
+    "skillname": [
+      "",
+      "Sneak Attack",
+      "Revenge",
+      "Aquafolk's Ragestorm"
+    ],
+    "description": [
+      "<link=\"godslayer\"><sprite=17></link>",
+      "Gain +1 ATK.\n<b>Active:</b> Discard 1 to fight opposite target, then <b>EXHAUST</b> self.",
+      "If front <b>Aquatic</b> ally is <b>defeated</b>, <b>Ready</b> self.",
+      "<style=Ultimate>Ultimate:</style> Spend 1 <sprite=20>: Self and <b>Aquatic</b> allies gain +1 ATK this round each time 1 or more <b>Aquatic</b> allies is <b>defeated</b>."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Lightning strike",
+    "skillname": [],
+    "description": [
+      "Deal 1 to 1 random enemy in 1 lane."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Power overwhelming 2",
+    "skillname": [],
+    "description": [
+      "Deal 2 to 1 enemy."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Aphodite's Charm",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Foresight strike",
+    "skillname": [],
+    "description": [
+      "적에게 1 피해 주고 1장 뽑기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Power overwhelming I",
+    "skillname": [],
+    "description": [
+      "적에게 2 피해 주고 손에 사라지는 강력한 힘 2 생성."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Double lightning",
+    "skillname": [],
+    "description": [
+      "유닛에게 1 피해 주고 손에 사라지는 번개 스트라이크 생성."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Ground slam",
+    "skillname": [],
+    "description": [
+      "한 라인의 유닛에게 2 피해 주기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Au Co's blessing",
+    "skillname": [],
+    "description": [
+      "아군에게 실드 부여."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Thunderbolt",
+    "skillname": [],
+    "description": [
+      "목표에게 3 피해 주기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Unstable power",
+    "skillname": [],
+    "description": [
+      "무작위 적에게 1 피해 주기, 1번 반복."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Faefolk",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 적에게 1 피해 주기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Aphrodite's dancer",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 상대편 적 고갈시키기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 56,
+    "name": "The Seer",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 1장 뽑기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Faefolk Chieftain",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Zeus's disciple",
+    "skillname": [],
+    "description": [
+      "주문을 사용한 후 여기의 적들에게 1의 피해를 입힙니다."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Zeus's worshipper",
+    "skillname": [],
+    "description": [
+      "<style=Ultimate>준비 종료:</style> 준비 종료: 손에 번개 스트라이크 생성."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Zeus's follower",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style>소환: 손에 번개 스트라이크 생성."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Faefolk Swordman",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 50,
+    "name": "God of Storm",
+    "skillname": [
+      "Energize",
+      "Thunder Strike"
+    ],
+    "description": [
+      "Gain +1 ATK this round each time you draw card.",
+      "Deal 1 to enemy Nexus each time you cast spell."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Zeus",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>라운드 시작:</style> 손에 <b>번개 스트라이크를</b> 생성."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Kraken Tentacle 3",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Swordfish Duelist",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 결투 시작."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Egyptian Archer",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 상대편 적에게 1 피해 주기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Wrath of Kraken",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> Gain +1 ATK, HP for each Tentacle you summoned."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Tentacle II",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Tentacle I",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Blessed by Ares",
+    "skillname": [],
+    "description": [
+      "아군에게 +1 공격력 및 <link=\"combo\"><sprite=8></link> 부여."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Arrow rain",
+    "skillname": [],
+    "description": [
+      "한 라인에서 무작위 적에게 1 피해 주기. 2번 반복."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Long Siege",
+    "skillname": [],
+    "description": [
+      "적 타워에게 3 피해 주기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Bloodthirsty Champion",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>처치 후</style> +1 공격력 획득."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Achilles, the UnDefeated",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>처치 후</style> 완전한 체력으로 회복하기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Favor of Ares",
+    "skillname": [],
+    "description": [
+      "<style=Ultimate>공격 후:</style> 반대편 타워에 1 피해 입힘."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Sunset Griffin",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 이 라운드에 <link=\"combo\"><sprite=8></link> 얻기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Murderous Reckoner",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 결투 시작."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Arena Newcomer",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>처치 후</style> +1 공격력 획득."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Arena Challenger",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Pusher",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 상대 타워에게 2 피해 주기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Arena Fan",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>전투 시작:</style> 앞에 있는 아군에게 이 라운드에 +1 공격력 부여"
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Ares Fanatic",
+    "skillname": [],
+    "description": [
+      "<style=Ultimate>준비 종료:</style> 자신이 앞에 있을 경우 이 라운드에 <link=\"breaker\"><sprite=19></link> 얻기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Spartan Warrior",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 23,
+    "name": "God of Strategy",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>전투 시작:</style> 전방 동맹에게 이번 라운드에 +1 공격력 부여."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Ares",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>처치 후:</style> +1 공격력 획득."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Gift of Power",
+    "skillname": [],
+    "description": [
+      "아군에게 +2 공격력 및 <link=\"overrun\"><sprite=0></link> 부여."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Gift of Strength",
+    "skillname": [],
+    "description": [
+      "아군을 준비시키고 이 라운드에 +1 공격력 부여."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 19,
+    "name": "The True Kraken",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 옆에 Tentacle II 소환하기.\n",
+      "<style=Prepare>전투 시작:</style> 여기 아군마다 이 라운드에 +1 공격력 얻기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 18,
+    "name": "9 Ivories Elephant",
+    "skillname": [],
+    "description": [
+      "<style=Prepare>준비 종료:</style> 여기 아군에게 이 라운드에 +1 체력 부여."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Furious Cyclop",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Tide Caller",
+    "skillname": [],
+    "description": [
+      "<style=Summon>전투 시작:</style> 여기에 있는 동안 연합당마다 공격력 1 증가합니다."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Rhino Beastman",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Wild Boar",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Great Mytiny",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 손에 있는 가장 높은 비용의 카드에 이번 라운드에 마나 1 감소합니다."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Spartan Protector",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 아군에게 실드 부여."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Krakenling",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 옆에 Tentacle I 소환하기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Shark General",
+    "skillname": [],
+    "description": [
+      "<style=Ultimate>준비 종료:</style> 무작위로 Shark Soldier 소환하기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Mad Ox",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Stone Elephant",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Mytiny",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 손에 있는 가장 높은 비용의 카드에 이번 라운드에 마나 1 감소합니다."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Mountain Robber",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 다른 아군에게 1 피해 주고 1장 뽑기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Psychic Master",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 두 적 교체하기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Healer Monkey",
+    "skillname": [],
+    "description": [
+      "<style=Summon>소환:</style> 다른 아군에게 2 치유하기."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Shark Soldier",
+    "skillname": [],
+    "description": [
+      ""
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 2,
+    "name": "God of Nurture",
+    "skillname": [],
+    "description": [
+      "<style=Ultimate>준비 종료:</style> 앞에 있는 아군에게 이 라운드에 +1 체력 부여."
+    ],
+    "keyword": [
+      ""
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Poseidon",
+    "skillname": [],
+    "description": [
+      "<style=Ultimate>준비 종료:</style> 옆에 Tentacle I 소환하기."
+    ],
+    "keyword": [
+      ""
+    ]
+  }
+]

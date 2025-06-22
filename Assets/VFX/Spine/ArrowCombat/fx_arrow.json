@@ -1,0 +1,160 @@
+{
+"skeleton": {
+	"hash": "ly0nH2MdxpGRLzsz1/UV5E7buLM",
+	"spine": "3.8.99",
+	"x": -90.1,
+	"y": -112,
+	"width": 362,
+	"height": 224,
+	"images": "./images/",
+	"audio": "I:/Fx/Fx_dot 2/fx_arrow"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "ArrowK", "parent": "root" },
+	{ "name": "Arrow", "parent": "ArrowK" },
+	{ "name": "Arrow2", "parent": "ArrowK", "x": 90 },
+	{ "name": "Arrow3", "parent": "ArrowK", "x": 180 }
+],
+"slots": [
+	{ "name": "BG2", "bone": "root" },
+	{ "name": "red_glow", "bone": "Arrow", "color": "ffffff00", "attachment": "re_glow", "blend": "additive" },
+	{ "name": "red_glow2", "bone": "Arrow2", "color": "ffffff00", "attachment": "re_glow", "blend": "additive" },
+	{ "name": "red_glow3", "bone": "Arrow3", "color": "ffffff00", "attachment": "re_glow", "blend": "additive" },
+	{ "name": "red", "bone": "Arrow", "color": "ffffff00", "attachment": "red" },
+	{ "name": "red2", "bone": "Arrow2", "color": "ffffff00", "attachment": "red" },
+	{ "name": "red3", "bone": "Arrow3", "color": "ffffff00", "attachment": "red" }
+],
+"skins": [
+	{
+		"name": "blue",
+		"attachments": {
+			"red": {
+				"red": { "name": "blue", "width": 118, "height": 150 }
+			},
+			"red2": {
+				"red": { "name": "blue", "width": 118, "height": 150 }
+			},
+			"red3": {
+				"red": { "name": "blue", "width": 118, "height": 150 }
+			},
+			"red_glow": {
+				"re_glow": { "name": "blue_glow", "x": 0.9, "width": 182, "height": 224 }
+			},
+			"red_glow2": {
+				"re_glow": { "name": "blue_glow", "x": 0.9, "width": 182, "height": 224 }
+			},
+			"red_glow3": {
+				"re_glow": { "name": "blue_glow", "x": 0.9, "width": 182, "height": 224 }
+			}
+		}
+	},
+	{
+		"name": "red",
+		"attachments": {
+			"red": {
+				"red": { "width": 118, "height": 150 }
+			},
+			"red2": {
+				"red": { "width": 118, "height": 150 }
+			},
+			"red3": {
+				"red": { "width": 118, "height": 150 }
+			},
+			"red_glow": {
+				"re_glow": { "x": 0.9, "width": 182, "height": 224 }
+			},
+			"red_glow2": {
+				"re_glow": { "x": 0.9, "width": 182, "height": 224 }
+			},
+			"red_glow3": {
+				"re_glow": { "x": 0.9, "width": 182, "height": 224 }
+			}
+		}
+	}
+],
+"animations": {
+	"start": {
+		"slots": {
+			"red": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.2667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.7667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.2667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.5333, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.0333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.5333, "color": "ffffff00" }
+				]
+			},
+			"red2": {
+				"color": [
+					{ "time": 0.1333, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.4, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.9, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.4, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.6667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.1667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.6667, "color": "ffffff00" }
+				]
+			},
+			"red3": {
+				"color": [
+					{ "time": 0.2667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.2667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.5333, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.0333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.5333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.8, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.3, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.8, "color": "ffffff00" }
+				]
+			},
+			"red_glow": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.2667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.7667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.2667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.5333, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.0333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.5333, "color": "ffffff00" }
+				]
+			},
+			"red_glow2": {
+				"color": [
+					{ "time": 0.1333, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.4, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.9, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.4, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.6667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.1667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.6667, "color": "ffffff00" }
+				]
+			},
+			"red_glow3": {
+				"color": [
+					{ "time": 0.2667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.2667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.5333, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.0333, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.5333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.8, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.3, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.8, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

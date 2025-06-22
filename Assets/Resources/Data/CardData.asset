@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 536c13795b61457419183e9893f5014c, type: 3}
+  m_Name: CardData
+  m_EditorClassIdentifier: 
+  skillDataInfo:
+  - godName: Ares II
+    heroID: 22
+    skillIds: 1b000000000000001d000000000000001e00000000000000db010000000000008900000000000000
+  - godName: Au Co I
+    heroID: 151
+    skillIds: bb01000000000000bc01000000000000dc01000000000000be01000000000000e500000000000000
+  - godName: Athena
+    heroID: 109
+    skillIds: d700000000000000d8000000000000007600000000000000
+  - godName: Champion of Ares
+    heroID: 347
+    skillIds: c501000000000000c601000000000000
+  - godName: Champion of Poseidon
+    heroID: 349
+    skillIds: c901000000000000ca01000000000000
+  - godName: Champion of Hades
+    heroID: 350
+    skillIds: cb01000000000000cc01000000000000
+  - godName: Champion of Zeus
+    heroID: 351
+    skillIds: cd01000000000000ce01000000000000
+  - godName: God of Nature II
+    heroID: 155
+    skillIds: 2b010000000000002c010000000000003501000000000000
+  - godName: God of Nurture II
+    heroID: 2
+    skillIds: eb00000000000000ec00000000000000ed00000000000000
+  - godName: God of Passage II
+    heroID: 70
+    skillIds: ee00000000000000f000000000000000f200000000000000
+  - godName: God of Protection II
+    heroID: 156
+    skillIds: 8b00000000000000c600000000000000c700000000000000c800000000000000
+  - godName: God of Sacrifice II
+    heroID: 189
+    skillIds: 2d010000000000002f010000000000003601000000000000
+  - godName: God of storm II
+    heroID: 50
+    skillIds: 320100000000000033010000000000003901000000000000
+  - godName: God of Strategy II
+    heroID: 23
+    skillIds: 270100000000000028010000000000002901000000000000
+  - godName: God of Valor II
+    heroID: 154
+    skillIds: 860000000000000087000000000000008800000000000000
+  - godName: Poseidon I
+    heroID: 1
+    skillIds: e700000000000000e800000000000000ea00000000000000
+  - godName: Thuy Tinh I
+    heroID: 69
+    skillIds: db00000000000000dc00000000000000de00000000000000
+  - godName: Thuy Tinh II
+    heroID: 69
+    skillIds: 49000000000000004b000000000000004c00000000000000
+  - godName: Thuy Tinh III
+    heroID: 206
+    skillIds: 0f010000000000001101000000000000
+  - godName: Son Tinh I
+    heroID: 152
+    skillIds: 83000000000000008400000000000000
+  - godName: Son Tinh II
+    heroID: 142
+    skillIds: c000000000000000c100000000000000c300000000000000
+  - godName: "S\u01A1n Tinh III"
+    heroID: 208
+    skillIds: 170100000000000018010000000000001a01000000000000
+  - godName: Hades II
+    heroID: 145
+    skillIds: 7c000000000000007d000000000000007e000000000000007a00000000000000e100000000000000
+  - godName: Zodiac Dog
+    heroID: 153
+    skillIds: cc00000000000000ce00000000000000cf00000000000000
+  - godName: Zeus II
+    heroID: 49
+    skillIds: 3200000000000000330000000000000034000000000000007f0000000000000080000000000000001301000000000000
+  - godName: Ares Tut
+    heroID: 10000
+    skillIds: d401000000000000d601000000000000d701000000000000
+  skillSound:
+  - nameSound: Lightning strike
+    soundID: Lightning strike
+    skillIds: 4600000000000000
+  - nameSound: Thunderbolt
+    soundID: Thunderbolt
+    skillIds: 3e00000000000000
+  - nameSound: Tentacles Appear
+    soundID: Tentacles Appear
+    skillIds: 0e000000000000000f0000000000000010000000000000001100000000000000
+  - nameSound: Zeus Ulti
+    soundID: Zeus Ulti
+    skillIds: 3300000000000000
+  - nameSound: Ground Slam
+    soundID: Ground Slam
+    skillIds: 4000000000000000
+  - nameSound: Egyptian Archer
+    soundID: Egyptian Archer
+    skillIds: 2d00000000000000
+  - nameSound: Arrow rain
+    soundID: Arrow rain
+    skillIds: 2b00000000000000
+  - nameSound: Long siege
+    soundID: Long siege
+    skillIds: 2a000000000000007100000000000000
+  - nameSound: Generic Spell
+    soundID: Generic Spell
+    skillIds: 0c0000000000000034000000000000003c000000000000003b0000000000000044000000000000007000000000000000
+  - nameSound: Set Fanatic
+    soundID: Set Fanatic
+    skillIds: 56000000000000005d000000000000005f000000000000006d00000000000000
+  - nameSound: Water spell
+    soundID: Water spell
+    skillIds: 95000000000000005200000000000000
+  - nameSound: God of Passage
+    soundID: God of Passage
+    skillIds: 4c000000000000004d000000000000004e00000000000000

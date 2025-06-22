@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1.0, maximum-scale=1.0">
+    <title>UUID</title>
+</head>
+
+<body>
+    <script src="fp.min.js"></script>
+    <script>        
+        //https://github.com/fingerprintjs/fingerprintjs
+        // Initialize an agent at application startup.
+        const fpPromise = FingerprintJS.load();
+        (async () => {
+            // Get the visitor identifier when you need it.
+            const fp = await fpPromise;
+            const result = await fp.get();
+
+            // This is the visitor identifier:
+            const visitorId = result.visitorId;
+            console.log(visitorId);
+            location.href = "ascheme://uuid?value=" + visitorId;
+        })();
+    </script>
+</body>
+
+</html>

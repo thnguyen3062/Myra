@@ -1,0 +1,1485 @@
+[
+   {
+      "id": 1,
+      "name": "POSEIDON",
+      "description": [
+         "<style=Prepare>PREPARE End:</style>Summon a <b>Kraken's Tentacle 1, 1|1, Fragile</b> beside Poseidon",
+         "Gain <b>Cleave 2</b> +1|+1 permanently",
+         "<style=Prepare>PREPARE End:</style>Summon a <b>Kraken's Tentacle 2, 2|1, Fragile</b> beside Poseidon",
+         "<style=Ultimate>ULTIMATE SKILL:</style><b>(Consume 2 Shard)</b> Summon a <b>The Great Kraken, X|X, Cleave X.</b> X is the number of Kraken's Tentacle had been summoned (X=?)"
+      ],
+      "keyword": [
+         "cleave"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 2,
+      "name": "God of Nurture",
+      "description": [
+         "<style=Ultimate>ACTIVE:</style>Heal 1 to any ally",
+         "<style=Prepare>PREPARE End:</style>Give +1|+1 this round to an ally in front"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 3,
+      "name": "Shark Soldier",
+      "description": [
+         "<link=\"cleave\"><sprite=15></link>\n"
+      ],
+      "keyword": [
+         "cleave"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 4,
+      "name": "Healer Monkey",
+      "description": [
+         "<style=Summon>Summon:</style>Heal 1 to an ally"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 5,
+      "name": "Psychic Master",
+      "description": [
+         "<style=Summon>Summon:</style>Swap position of 2 enemies"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 6,
+      "name": "Moutain Robber",
+      "description": [
+         "<style=Summon>Summon:</style>Deal 1 to any other ally then draw 1 Card"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 7,
+      "name": "Mytiny",
+      "description": [
+         "<style=Summon>Summon:</style>Create 1 <b>Shard</b>"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 8,
+      "name": "Stone  Elephant",
+      "description": [],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 9,
+      "name": "Mad Ox",
+      "description": [
+         "<link=\"breaker\"><sprite=12></link>\n"
+      ],
+      "keyword": [
+         "breaker"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 10,
+      "name": "Shark General",
+      "description": [
+         "<link=\"cleave\"><sprite=15></link>\n",
+         "<style=Prepare>COMBAT Start:</style>Gain +1|0 this round for each allies in the same lane"
+      ],
+      "keyword": [
+         "cleave"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 11,
+      "name": "Krakenling",
+      "description": [
+         "<style=Summon>Summon:</style>Summon a <b>Kraken's Tentacle 1|1, Fragile</b> beside this Unit"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 12,
+      "name": "Spartan Protector",
+      "description": [
+         "<style=Summon>Summon:</style>Give <b>Shield</b> to another ally"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 13,
+      "name": "Great Mytiny",
+      "description": [
+         "<style=Summon>Summon:</style>Create 1 <b>Shard</b>"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 14,
+      "name": "Wild Boar",
+      "description": [
+         "<link=\"breaker\"><sprite=11></link>\n"
+      ],
+      "keyword": [
+         "breaker"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 15,
+      "name": "Rhino Beastman",
+      "description": [
+         "<link=\"overrun\"><sprite=0></link>\n"
+      ],
+      "keyword": [
+         "overrun"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 16,
+      "name": "Tide Caller",
+      "description": [
+         "<link=\"overrun\"><sprite=1></link>  <link=\"cleave\"><sprite=5></link>\n",
+         "<style=Prepare>COMBAT Start:</style>Gain +1|0 this round for all allies in the same lane"
+      ],
+      "keyword": [
+         "overrun",
+         "cleave"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 17,
+      "name": "Furious Cyclop",
+      "description": [
+         "<link=\"overrun\"><sprite=0></link>\n"
+      ],
+      "keyword": [
+         "overrun"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 18,
+      "name": "9 Ivories Elephant",
+      "description": [
+         "<link=\"overrun\"><sprite=0></link>\n",
+         "<style=Prepare>COMBAT Start:</style>ALL allies in the same lane gain Breaker 1 this round"
+      ],
+      "keyword": [
+         "overrun"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 19,
+      "name": "The True Kraken",
+      "description": [
+         "<link=\"cleave\"><sprite=13></link>\n",
+         "<style=Prepare>COMBAT Start:</style>Summon a <b>Kraken's Tentacle 2|2</b> beside this Unit\n",
+         "<style=Prepare>COMBAT Start:</style>Gain +1|0 this round for each allies in the same lane"
+      ],
+      "keyword": [
+         "cleave"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 20,
+      "name": "Rune of Strength",
+      "description": [
+         "Give an ally +2|+2 this round and <b>Ready</b> it"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 21,
+      "name": "Rune of Power",
+      "description": [
+         "Give an ally +2|0 and <b>Overrun</b> this round"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 22,
+      "name": "ARES",
+      "description": [
+         "+1|+0 permanently\n<b>GLORY:</b> +1|+0 permanently",
+         "<style=Prepare>PREPARE End:</style>If Ares is <b>Ready, fight</b> the opposite enemy, then exhaust Ares",
+         "<style=Ultimate>ULTIMATE SKILL:</style><b>(Consume 1 Shard)</b> Ares gain <b>Combo 2</b> permanently"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 23,
+      "name": "God of Strategy",
+      "description": [
+         "<style=Prepare>COMBAT Start:</style>Give +1|0 this round to ally unit in front",
+         "<style=Ultimate>ACTIVE:</style>Swap position of 2 allies"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 24,
+      "name": "Spartan Warrior",
+      "description": [
+         "<link=\"breaker\"><sprite=12></link>\n"
+      ],
+      "keyword": [
+         "breaker"
+      ],
+      "hero_number": 24
+   },
+   {
+      "id": 25,
+      "name": "Ares Fanatic",
+      "description": [
+         "<style=Prepare>PREPARE End:</style>If this Unit in frontline, gain <b>Breaker 2</b> this round"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 26,
+      "name": "Arena Fan",
+      "description": [
+         "<style=Prepare>COMBAT Start:</style>Grant +1|+0 this round to ally in front"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 29,
+      "name": "Pusher",
+      "description": [
+         "<style=Summon>Summon:</style>Deal 2 to enemy Tower on this lane"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 30,
+      "name": "Arena Challenger",
+      "description": [],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 32,
+      "name": "Arena Newcomer",
+      "description": [
+         "<b>GLORY:</b> Gain +1|0 permanently"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 34,
+      "name": "Murderous Reckoner",
+      "description": [
+         "<style=Summon>Summon:</style><b>Fight</b> the opposite enemy"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 35,
+      "name": "Sunset Griffin",
+      "description": [
+         "<style=Prepare>COMBAT Start:</style>Gain Combo 2 if in front row"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 36,
+      "name": "Favor of Ares",
+      "description": [
+         "<style=Summon>After Strike:</style>+1|0 this round to ALL allies on this lane"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 38,
+      "name": "Achilles, the Undefeated",
+      "description": [
+         "<link=\"combo\"><sprite=8></link>\n",
+         "<b>GLORY:</b> Fully Heal\n<style=Summon>Summon:</style><b>Fight</b> the opposite enemy"
+      ],
+      "keyword": [
+         "combo"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 39,
+      "name": "Bloodthirsty Champion",
+      "description": [
+         "<link=\"combo\"><sprite=8></link>\n",
+         "<b>GLORY:</b> Gain +1|+0 permanently"
+      ],
+      "keyword": [
+         "combo"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 40,
+      "name": "Long Siege",
+      "description": [
+         "Deal 3 to a tower"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 41,
+      "name": "Arrow Rain",
+      "description": [
+         "Choose a lane and deal 3 randomly split between enemies in that lane"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 42,
+      "name": "Blessed by Ares",
+      "description": [
+         "Give an ally <b>Combo 2</b> and +1+|0 this round"
+      ],
+      "keyword": [
+         "combo"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 43,
+      "name": "Kraken Tentacles 1",
+      "description": [
+         "<sprite=4>\n"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 44,
+      "name": "Kraken Tentacles 2",
+      "description": [
+         "<sprite=4>\n"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 45,
+      "name": "Great Tentacles",
+      "description": [
+         "Poseidon created this unit"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 46,
+      "name": "Egyptian Archer",
+      "description": [
+         "<style=Summon>Summon:</style>Deal 1 damage to opposite enemy"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 47,
+      "name": "Swordfish Duelist",
+      "description": [
+         "<style=Summon>Summon:</style><b>Fight</b> opposite enemy"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 48,
+      "name": "Kraken Tentacles 3",
+      "description": [
+         "<sprite=4>\n",
+         "The True Kraken created this unit"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 49,
+      "name": "Zeus",
+      "description": [
+         "<style=Prepare>Round Start:</style>Create a spell <b>Lightning Strike</b> in hand this round</style>",
+         "After you cast the second spells this round, deal 1 to all enemies on the same lane"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 50,
+      "name": "God of Storm",
+      "description": [],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 51,
+      "name": "Faefolk Swordman",
+      "description": [
+         "<link=\"pierce\"><sprite=16>\n</link>",
+         "After you cast a spell, +1|0 permanently"
+      ],
+      "keyword": [
+         "pierce"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 52,
+      "name": "Zeus's Follower",
+      "description": [
+         "<link=\"pierce\"><sprite=16>\n</link>",
+         "<style=Summon>Summon:</style>Create a spell <b>Lightning Strike</b> in hand"
+      ],
+      "keyword": [
+         "pierce"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 53,
+      "name": "Zeus's Worshipper",
+      "description": [
+         "<style=Prepare>PREPARE End:</style>Create a spell <b>Lightning Strike</b> in hand"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 54,
+      "name": "Zeus's Disciple",
+      "description": [
+         "<style=Prepare>COMBAT Start:</style>Deal 1 to all targets on the same lane"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 55,
+      "name": "Faefolk Chieftan",
+      "description": [
+         "<style=Prepare>Round Start:</style>Gain 1 max Mana temporary"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 56,
+      "name": "The Seer",
+      "description": [
+         "<link=\"pierce\"><sprite=16>\n</link>",
+         "<style=Summon>Summon:</style>Draw 1"
+      ],
+      "keyword": [
+         "pierce"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 57,
+      "name": "Aphrodite's Dancer",
+      "description": [
+         "<style=Summon>Summon:</style><b>Exhaust</b> the opposite enemy"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 58,
+      "name": "Faefolk",
+      "description": [
+         "<style=Summon>Summon:</style>Deal 1 to any unit"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 59,
+      "name": "Unstable Power",
+      "description": [
+         "Deal 2 randomly split between all enemies"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 60,
+      "name": "Thunderbolt",
+      "description": [
+         "Deal 3 to a unit target"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 61,
+      "name": "Au Co’s Blessing",
+      "description": [
+         "Give <b>Shield</b> to an ally"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 62,
+      "name": "Ground Slam",
+      "description": [
+         "Choose a lane. Deal 2 to all units on that lane"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 63,
+      "name": "Double Lightning",
+      "description": [
+         "Deal 1 to an unit\n",
+         "Create a <b>Spell Lightning Strike</b> in hand this round"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 64,
+      "name": "Power Overwhelming 1",
+      "description": [
+         "Deal 1 to an enemy\n",
+         "Create a spell <b>Power overwhelming 2</b> in hand this round"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 65,
+      "name": "Foresight Strike",
+      "description": [
+         "Deal 1 to an enemy\n",
+         "Draw a card"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 66,
+      "name": "Aphodite's Charm",
+      "description": [
+         "<b>Exhaust</b> an enemy"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 67,
+      "name": "Power Overwhelming 2",
+      "description": [
+         "Deal 2 to a target (unit or tower)"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 68,
+      "name": "Lightning Strike",
+      "description": [
+         "Deal 1 to an enemy"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 69,
+      "name": "Thuy Tinh",
+      "description": [
+         "<link=\"godslayer\"><sprite=16>\n</link>"
+      ],
+      "keyword": [
+         "godslayer"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 70,
+      "name": "God of Passage",
+      "description": [],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 71,
+      "name": "Hammerhand Shark",
+      "description": [
+         "<link=\"overrun\"><sprite=0>\n</link>",
+         "After this unit got damaged, +2|0 this round"
+      ],
+      "keyword": [
+         "overrun"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 72,
+      "name": "Shrimp Soldier",
+      "description": [
+         "<style=Summon>Defeated:</style>+1|0 this round to the ally behind"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 73,
+      "name": "Wandering Spirit",
+      "description": [
+         "<style=Summon>Defeated:</style>Draw a card"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 74,
+      "name": "Pufferfish",
+      "description": [
+         "<style=Summon>Summon:</style>Deal 1 to other ally, then deal 1 to the opposite enemy"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 75,
+      "name": "Demon Jellyfish",
+      "description": [
+         "<link=\"godslayer\"><sprite=18>\n</link>",
+         "<style=Summon>Defeated:</style>Deal 1 to all enemies on the same lane"
+      ],
+      "keyword": [
+         "godslayer"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 76,
+      "name": "Electric Eel Warrior",
+      "description": [
+         "After an ally is defeated, deal 1 to the opposite Tower"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 77,
+      "name": "Tomb Keeper",
+      "description": [
+         "<link=\"godslayer\"><sprite=18>\n</link>",
+         "<b>Before Strike: </b>Deal 1 to all enemies on the same lane"
+      ],
+      "keyword": [
+         "godslayer"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 78,
+      "name": "Set Fanatic",
+      "description": [
+         "After this unit got damaged, deal 2 to the opposite Tower"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 79,
+      "name": "Jiang Shi Master",
+      "description": [
+         "<style=Summon>Defeated:</style>Create a mortal Jiang Shi 0|1 in the same place"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 80,
+      "name": "Spartan Soldier",
+      "description": [
+         "<link=\"breaker\"><sprite=12></link>\n"
+      ],
+      "keyword": [
+         "breaker"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 81,
+      "name": "Jiang Shi",
+      "description": [],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 82,
+      "name": "Sandstorm",
+      "description": [
+         "<b>SPELL:</b> Deal 1 to all unit"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 83,
+      "name": "For Knowledge",
+      "description": [
+         "<b>SPELL:</b> Deal 2 to an ally then draw 2 card"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 84,
+      "name": "Demon of Hatred",
+      "description": [
+         "<link=\"godslayer\"><sprite=16>\n</link>",
+         "<b>Before strike:</b>Deal 2 to all enemies on the same lane"
+      ],
+      "keyword": [
+         "godslayer"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 85,
+      "name": "Angry Aquafolk",
+      "description": [
+         "<link=\"godslayer\"><sprite=16>\n</link>",
+         "<style=Summon>Defeated:</style>+1|0 this round to the ally behind"
+      ],
+      "keyword": [
+         "godslayer"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 86,
+      "name": "Boogeyman",
+      "description": [
+         "After this unit got damaged, deal 1 to the opposite Tower"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 87,
+      "name": "Tomb Spirit",
+      "description": [
+         "<style=Summon>Defeated:</style>Create a mortal Jiang Shi 0|1 in the same place"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 88,
+      "name": "Dragoon",
+      "description": [
+         "<link=\"godslayer\"><sprite=16>\n</link>"
+      ],
+      "keyword": [
+         "godslayer"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 89,
+      "name": "Faefolk Brawler",
+      "description": [
+         "After you cast a spell, +1|+0 permanently"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 90,
+      "name": "Prophet",
+      "description": [
+         "<style=Summon>Summon:</style>Draw 2"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 91,
+      "name": "Faefolk Mage",
+      "description": [
+         "<link=\"pierce\"><sprite=16>\n</link>",
+         "<style=Prepare>Round Start:</style>Gain 1 max Mana temporary"
+      ],
+      "keyword": [
+         "pierce"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 93,
+      "name": "Elite Warrior",
+      "description": [
+         "<link=\"combo\"><sprite=8></link>\n",
+         "<b>GLORY:</b> Gain +2|0 permanently"
+      ],
+      "keyword": [
+         "combo"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 147,
+      "name": "Faefolk Wizard",
+      "description": [
+         "<link=\"pierce\"><sprite=16>\n</link>"
+      ],
+      "keyword": [
+         "pierce"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 94,
+      "name": "Strategist",
+      "description": [
+         "<link=\"breaker\"><sprite=12></link>\n",
+         "<style=Prepare>COMBAT Start:</style>+2|+0 this round to the ally in front"
+      ],
+      "keyword": [
+         "breaker"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 95,
+      "name": "Frontline Warrior",
+      "description": [
+         "<style=Prepare>PREPARE End:</style>If this unit is in front, Gain Breaker 2 this round"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 96,
+      "name": "Catapult",
+      "description": [
+         "<style=Summon>Summon:</style>Deal 1 to the opposite tower"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 99,
+      "name": "Faefolk Healer",
+      "description": [
+         "<style=Summon>Summon:</style>Heal 2 to any other ally"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 100,
+      "name": "Kraken Caller",
+      "description": [
+         "<style=Summon>Summon:</style>Summon a Kraken's Tentacle 1|1, Fragile beside this unit"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 101,
+      "name": "Tree Sentinel",
+      "description": [
+         "<style=Summon>Summon:</style>Creat 2 shards"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 102,
+      "name": "Bunny Gang",
+      "description": [
+         "<style=Prepare>COMBAT Start:</style>Gain +1|0 this round for each ally in the same lane"
+      ],
+      "keyword": [
+         "fragile"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 106,
+      "name": "Hungry Spirit",
+      "description": [],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 146,
+      "name": "Spellweaver",
+      "description": [
+         "<link=\"pierce\"><sprite=16>\n</link>"
+      ],
+      "keyword": [
+         "pierce"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 110,
+      "name": "Redmane Horse",
+      "description": [
+         "<style=Prepare>COMBAT Start:</style>Deal 1 to all targets on the same lane"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 113,
+      "name": "Bear Warrior",
+      "description": [
+         "<style=Summon>Summon:</style>Fight the opposite enemy"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 114,
+      "name": "Outrage",
+      "description": [
+         "Deal 2 to all units"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 115,
+      "name": "Blood for Knowledge",
+      "description": [
+         "Deal 1 to an ally then draw 1"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 116,
+      "name": "Siege",
+      "description": [
+         "Deal 2 to a tower"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 109,
+      "name": "Athena II",
+      "description": [
+         "<style=Prepare>COMBAT Start:</style><b>Frontline:</b>+0|+1 to Athena and +1|+0 to the ally beside Athena this round",
+         "<style=Prepare>COMBAT Start:</style>If Athena is on:\n<b>- Frontline:</b> +1|+0 to all allies on the same lane with Athena this round\n<b>- Backline: </b>+0|+1 to all allies on the same lane with Athena this round",
+         "<b>CONSUME 1 Shard:</b> Choose one lane, +1|+0 this round and Ready all allies on that lane"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 148,
+      "name": "Hades I",
+      "description": [
+         "<style=Prepare>Round Start:</style>Create an \"Avenging Spirit\" Fading in hand",
+         "<b>Avenging Spirit:</b> 1 Mana 1 Shard Purple Mortal, 1|2, Fragile.\n<b>Defeated:</b> Deal 1 to opposite Tower)",
+         "After an ally is defeated, deal 1 to a random enemy unit on the same lane with Hades"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 145,
+      "name": "Hades II",
+      "description": [
+         "<style=Prepare>PREPARE End:</style>Deal 1 to the ally in front to create an \"Avenging spirit\" 1|2, Fragile, Defeated: Deal 1 to the opposite Tower, beside Hades",
+         "After an ally is defeated, deal 1 to a random enemy unit on the same lane with Hades",
+         "<b>CONSUME 1 Shard and 2 Mana:</b> Summon a \"Ceberus\" X|X, Godslayer 3. X is the number of Avenging spirits have been summoned"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 150,
+      "name": "Zeus I",
+      "description": [
+         "After you cast the first Spell this round, deal 1 to a random enemy",
+         "<style=Prepare>COMBAT Start:</style>Deal 1 to a random enemy, then repeat 1 time"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 151,
+      "name": "Au Co I",
+      "description": [
+         "<style=Prepare>PREPARE End:</style>If Au Co is ready, the ally in front receive Shield",
+         "After an ally received Shield, deal 1 to the enemy in front of Au Co"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 152,
+      "name": "Son Tinh I",
+      "description": [
+         "<style=Prepare>COMBAT Start:</style>+1|+1 to the Beast ally beside Son Tinh this round",
+         "(+0|+1 and Overrun permanently to Son Tinh)\n<style=Prepare>COMBAT Start:</style>+1|+0 this round to Son Tinh for each Beast allies on the same lane"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 142,
+      "name": "Son Tinh II",
+      "description": [
+         "<style=Summon>After Strike:</style>+1|+1 this round to all Beast allies on the same lane with Son Tinh",
+         "(+1|+1 and Overrun permanently to Son Tinh)\nReduce cost of Beast Mortal cards in hand by 1",
+         "<style=Prepare>COMBAT Start:</style>+1|+0 this round to all Beast allies",
+         "<b>CONSUME 2 Shards: </b><style=Prepare>Round Start:</style>Summon a \"Beast warrior\", 2|3, Beast on a random position"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 153,
+      "name": "Zodiac Dog I",
+      "description": [
+         "<b>Passive: </b>You can play Zodiacs from any color",
+         "<b>Active :</b>Pay 1 mana to draw a Zodiac from your deck",
+         "<b>(Aura) </b>The first Zodiac played each turn costs 1 less. You gain victory when you have played 12 different Zodiacs"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 154,
+      "name": "God of Valor II",
+      "description": [
+         "<style=Summon>After Strike:</style>Deal 1 to the opposite Tower",
+         "<style=Summon>Before Strike:</style>+1|+0 to God of Valor this round",
+         "<b>CONSUME 2 Shard: </b>God of Valor gains Combo permanently"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 155,
+      "name": "God of Nature I",
+      "description": [
+         "<style=Prepare>PREPARE End:</style>Create \"Mythiny\" 1|1, Fragile in front of God of Nature",
+         "<style=Prepare>COMBAT Start:</style>+1|+0 this round to all allies on the same lane with God of Nature"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 156,
+      "name": "God of Protection II",
+      "description": [
+         "<style=Prepare>PREPARE End:</style>If God of Protection is ready, the ally in front gains shield",
+         "(+1|+0 permanently)\nAfter an ally received Shield, +1|+0 this round to a random ally on the same lane with God of Protection",
+         "<b>CONSUME 1 Shard: ACTIVATE: </b>Choose 2 allies to gain Shield"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 127,
+      "name": "Wolfgang",
+      "description": [
+         "<style=Prepare>COMBAT Start:</style>+1|+0 this round for each allies on the same lane"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 157,
+      "name": "Beast Warrior",
+      "description": [],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 158,
+      "name": "Warrior Cub",
+      "description": [],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 123,
+      "name": "Arena Berserker",
+      "description": [
+         "<b>Glory:</b> Fight opposite target"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 159,
+      "name": "Inspiring Gladiator",
+      "description": [
+         "<link=\"combo\"><sprite=8></link>\n",
+         "<b>Glory:</b> Deal 1 to opposite Tower"
+      ],
+      "keyword": [
+         "combo"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 125,
+      "name": "Hothead Soldier",
+      "description": [
+         "<style=Prepare>COMBAT Start:</style>Strike opposite tower"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 126,
+      "name": "Strategist Beastman",
+      "description": [
+         "<style=Prepare>PREPARE End:</style><b>- Frontline:</b> +0|+1 this round\n-<b>- Backline:</b> +1|+0 this round"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 160,
+      "name": "Faefolk Guardian",
+      "description": [
+         "<style=Summon>Summon:</style>Gain Shield"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 161,
+      "name": "Faefolk Sage",
+      "description": [],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 117,
+      "name": "Faefolk Shieldman",
+      "description": [
+         "<style=Summon>Summon:</style>Give Shield to another ally"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 118,
+      "name": "Au Co's Disciple",
+      "description": [
+         "<link=\"pierce\"><sprite=16>\n</link>",
+         "<style=Summon>Summon:</style>Give Shield to all allies on the same lane"
+      ],
+      "keyword": [
+         "pierce"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 162,
+      "name": "Herald of Zeus",
+      "description": [
+         "<b>First time after cast a spell this round:</b> Deal 1 to the opposite Tower"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 163,
+      "name": "Fish Soldier",
+      "description": [],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 120,
+      "name": "Malice Spirit",
+      "description": [
+         "<style=Summon>Defeated:</style>Deal 1 to the opposite target"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 121,
+      "name": "Eletric Eel",
+      "description": [
+         "<b>After taken damage</b>: Deal 1 to the opposite target"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 122,
+      "name": "Agent of Hades",
+      "description": [
+         "<style=Summon>Defeated:</style>Deal 1 to an ally to deal 2 to the opposite target"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 164,
+      "name": "Crab Behemoth",
+      "description": [
+         "<b>After taken damage:</b> deal 2 to the opposite Tower"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 165,
+      "name": "Will -o- wisp",
+      "description": [
+         "<style=Summon>Defeated:</style>Deal 1 to the opposite target"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 128,
+      "name": "Sudden Attack",
+      "description": [
+         "Choose an ally. That ally fight the opposite enemy, then exhaust"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 131,
+      "name": "Call to Arms",
+      "description": [
+         "Create 2 \"Beast warrior\", 2|2, Beast in 2 random positions"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 129,
+      "name": "Prolific Growth",
+      "description": [
+         "Heal 2 and +2|+0 to an ally this round"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 130,
+      "name": "Healing Touch",
+      "description": [
+         "Heal 3 to a target"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 132,
+      "name": "Battlecry",
+      "description": [
+         "Give +1|+0 to an ally this round"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 133,
+      "name": "Athena's Blessing",
+      "description": [
+         "Give +1|+0 permanently to an ally"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 166,
+      "name": "Bloodlust",
+      "description": [
+         "Deal 1 to an ally then +1|+0 to that ally this round"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 136,
+      "name": "Soul Drain",
+      "description": [
+         "Deal 1 to an ally to heal 1 to another ally"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 167,
+      "name": "Aquafolk Rising",
+      "description": [
+         "Give Godslayer 2 to all Aquatic allies this round"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 168,
+      "name": "Zodiac Rabbit",
+      "description": [
+         "<style=Summon>Summon:</style>+1|+1 temporary all allies in same lane",
+         "<b>(Zodiacsemble 3)</b> <style=Summon>Summon:</style>+1|+1 temporary all allies in all lane"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 169,
+      "name": "Zodiac Dragon",
+      "description": [
+         "Zodiac allies cost 1 less Mana to Summon"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 170,
+      "name": "Zodiac Mouse",
+      "description": [
+         "<style=Summon>Summon:</style>Create 1 Shard",
+         "<b>(Zodiacsemble 4)</b> <style=Summon>Summon:</style>Create 2 Shards"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 171,
+      "name": "Zodiac Horse",
+      "description": [
+         "<link=\"pierce\"><sprite=16>\n</link>",
+         "<style=Summon>Summon:</style>Deal 1 damage to ALL enemies in the same lane",
+         "<b>(Zodiacsemble 3)</b> <style=Summon>Summon:</style>Deal 1 damage to ALL enemies in all lanes"
+      ],
+      "keyword": [
+         "pierce"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 172,
+      "name": "Zodiac Pig",
+      "description": [
+         "<style=Summon>Summon:</style>Exhaust opposite enemy",
+         "<b>(Zodiacsemble 3)</b> <style=Summon>Summon:</style>Exhaust ALL unit in the same lane"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 173,
+      "name": "Zodiac Monkey",
+      "description": [
+         "<style=Summon>Summon:</style>Get 1 Mana",
+         "<b>(Zodiacsemble 3)</b> <style=Summon>Summon:</style>Get 1 Mana and draw 1 Zodiac"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 174,
+      "name": "Zodiac Tiger",
+      "description": [
+         "<link=\"combo\"><sprite=8></link>\n",
+         "<style=Summon>Summon:</style>Fight opposite enemy",
+         "<b>(Zodiacsemble 3)</b> <style=Summon>Summon:</style>+1|+0 permanently then Fight opposite enemy"
+      ],
+      "keyword": [
+         "combo"
+      ],
+      "hero_number": null
+   },
+   {
+      "id": 175,
+      "name": "Zodiac Rooster",
+      "description": [
+         "<style=Summon>Summon:</style>+2|+0 temporary to ALL other allies in the same lane",
+         "<b>(Zodiacsemble 3)</b> <style=Summon>Summon:</style>+2|+0 temporary to ALL other allies in all lanes"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 176,
+      "name": "Zodiac Buffalo",
+      "description": [
+         "<style=Summon>Summon:</style>Got Breaker 2 permanently",
+         "<b>(Zodiacsemble 3)</b> <style=Summon>Summon:</style>Got Breaker 4 permanently"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 177,
+      "name": "Zodiac Snake",
+      "description": [
+         "<style=Summon>Summon:</style>Defeat a Mortal",
+         "<b>(Zodiacsemble 4)</b> <style=Summon>Summon:</style>Defeat a Unit"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 178,
+      "name": "Zodiac Goat",
+      "description": [
+         "<style=Summon>Summon:</style>Deal 1 damage to ALL Units in the same lane",
+         "<b>(Zodiacsemble 3)</b> <style=Summon>Summon:</style>Deal 1 damage to ALL Units in all lanes"
+      ],
+      "keyword": [],
+      "hero_number": null
+   },
+   {
+      "id": 179,
+      "name": "Zodiac Cat",
+      "description": [
+         "<style=Summon>Summon:</style>Fight 1 enemy in same lane",
+         "<b>(Zodiacsemble 3)</b> <style=Summon>Summon:</style>Get GodSlayer 2 and Fight 1 enemy in same lane"
+      ],
+      "keyword": [],
+      "hero_number": null
+   }
+]

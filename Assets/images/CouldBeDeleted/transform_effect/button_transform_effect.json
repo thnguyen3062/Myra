@@ -1,0 +1,95 @@
+{
+"skeleton": { "hash": "W9MwqEgsM1IX+selp3jUvvexwD0", "spine": "3.8.99", "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Fx", "parent": "root", "color": "ff0000ff" },
+	{ "name": "blue_button_effect", "parent": "Fx", "color": "ff0000ff" },
+	{ "name": "tranform_button_effect", "parent": "blue_button_effect", "color": "ff0000ff" },
+	{ "name": "Images/combat_button2", "parent": "tranform_button_effect", "color": "ff0000ff" },
+	{ "name": "tranform_effect", "parent": "tranform_button_effect", "color": "ff0000ff" },
+	{ "name": "Images/Fx/Intensity_white", "parent": "tranform_effect", "color": "ff0000ff" },
+	{ "name": "Images/Fx/Impact_light_1", "parent": "tranform_effect", "color": "ff0000ff" },
+	{ "name": "Images/Fx/Circle_glow_white", "parent": "tranform_effect", "x": -5.37, "y": -30.41, "color": "ff0000ff" }
+],
+"slots": [
+	{ "name": "Images/Fx/Impact_light_1", "bone": "Images/Fx/Impact_light_1", "blend": "additive" },
+	{ "name": "Images/Fx/Circle_glow_white", "bone": "Images/Fx/Circle_glow_white", "blend": "additive" },
+	{ "name": "Images/Fx/Intensity_white", "bone": "Images/Fx/Intensity_white", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Images/Fx/Circle_glow_white": {
+				"Images/Fx/Circle_glow_white": { "y": -14.31, "width": 500, "height": 500 }
+			},
+			"Images/Fx/Impact_light_1": {
+				"Images/Fx/Impact_light_gold": { "x": 5.67, "y": -39.67, "width": 512, "height": 512 }
+			},
+			"Images/Fx/Intensity_white": {
+				"Images/Fx/Intensity_white": { "width": 512, "height": 512 }
+			}
+		}
+	}
+],
+"events": {
+	"transform_effect": {}
+},
+"animations": {
+	"tranform_button_effect": {
+		"slots": {
+			"Images/Fx/Circle_glow_white": {
+				"color": [
+					{ "time": 0.0333, "color": "ffffff49", "curve": "stepped" },
+					{ "time": 0.1667, "color": "ffffff49" },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0333, "name": "Images/Fx/Circle_glow_white" }
+				]
+			},
+			"Images/Fx/Impact_light_1": {
+				"color": [
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.4667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0333, "name": "Images/Fx/Impact_light_gold" }
+				]
+			},
+			"Images/Fx/Intensity_white": {
+				"color": [
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/Fx/Intensity_white" }
+				]
+			}
+		},
+		"bones": {
+			"Images/Fx/Intensity_white": {
+				"scale": [
+					{ "curve": 0, "c2": 0.52, "c3": 0.75 },
+					{ "time": 0.3333, "x": 3.328, "y": 3.328 }
+				]
+			},
+			"Images/Fx/Impact_light_1": {
+				"scale": [
+					{ "time": 0.0333, "x": 1.408, "y": 1.408, "curve": 0, "c2": 0.68, "c3": 0.75 },
+					{ "time": 0.3333, "x": 2.056, "y": 2.056 }
+				]
+			},
+			"Images/Fx/Circle_glow_white": {
+				"scale": [
+					{ "time": 0.0333, "curve": 0, "c2": 0.61, "c3": 0.75 },
+					{ "time": 0.5, "x": 2.115, "y": 2.115 }
+				]
+			}
+		},
+		"events": [
+			{ "name": "transform_effect" }
+		]
+	}
+}
+}

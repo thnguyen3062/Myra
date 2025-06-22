@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b21181d1cba3ae408a2d785dd54f803, type: 3}
+  m_Name: FontData
+  m_EditorClassIdentifier: 
+  fontDataInfos:
+  - m_NameLanguage: English
+    m_LangID: 1
+    fontAsset: {fileID: 11400000, guid: 807251fa62d5f2c4d915ad309d51e261, type: 2}
+  - m_NameLanguage: Japan
+    m_LangID: 2
+    fontAsset: {fileID: 11400000, guid: 17aa943ccbb6f2943b3f8cd9c489ab47, type: 2}
+  - m_NameLanguage: Korean
+    m_LangID: 3
+    fontAsset: {fileID: 11400000, guid: 362288815bdff7f429f1eb54aa87b2f7, type: 2}
+  - m_NameLanguage: Traditional Chinese
+    m_LangID: 4
+    fontAsset: {fileID: 11400000, guid: b6571aab4fbe96a4badd6b3087d6ac7b, type: 2}
+  - m_NameLanguage: Simplify Chinese
+    m_LangID: 5
+    fontAsset: {fileID: 11400000, guid: d1da2464c38cdb549945ca362bbfe399, type: 2}

@@ -1,0 +1,376 @@
+{
+"skeleton": { "hash": "6ohcsN50yorUYy98R/ExPBKcHL0", "spine": "3.8.99", "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Fx", "parent": "root", "color": "ff0000ff" },
+	{ "name": "blue_button_effect", "parent": "Fx", "color": "ff0000ff" },
+	{ "name": "blue_button_idle", "parent": "blue_button_effect", "color": "ff0000ff" },
+	{ "name": "blue_button_activate", "parent": "blue_button_effect", "color": "ff0000ff" },
+	{ "name": "Images/Blue_button", "parent": "blue_button_activate", "color": "ff0000ff" },
+	{
+		"name": "Images/Fx/blue_line_trail",
+		"parent": "blue_button_idle",
+		"length": 56.38,
+		"rotation": -0.05,
+		"x": -1022.12,
+		"y": 40.88,
+		"scaleX": 0.3712,
+		"scaleY": 0.3712,
+		"color": "ff0000ff"
+	},
+	{ "name": "Images/Fx/blue_line_trail2", "parent": "Images/Fx/blue_line_trail", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail3", "parent": "Images/Fx/blue_line_trail2", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail4", "parent": "Images/Fx/blue_line_trail3", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail5", "parent": "Images/Fx/blue_line_trail4", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail6", "parent": "Images/Fx/blue_line_trail5", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail7", "parent": "Images/Fx/blue_line_trail6", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail8", "parent": "Images/Fx/blue_line_trail7", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail9", "parent": "Images/Fx/blue_line_trail8", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail10", "parent": "Images/Fx/blue_line_trail9", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail11", "parent": "Images/Fx/blue_line_trail10", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail12", "parent": "Images/Fx/blue_line_trail11", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail13", "parent": "Images/Fx/blue_line_trail12", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail14", "parent": "Images/Fx/blue_line_trail13", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail15", "parent": "Images/Fx/blue_line_trail14", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail16", "parent": "Images/Fx/blue_line_trail15", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail17", "parent": "Images/Fx/blue_line_trail16", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail18", "parent": "Images/Fx/blue_line_trail17", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail19", "parent": "Images/Fx/blue_line_trail18", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail20", "parent": "Images/Fx/blue_line_trail19", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail21", "parent": "Images/Fx/blue_line_trail20", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail22", "parent": "Images/Fx/blue_line_trail21", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail23", "parent": "Images/Fx/blue_line_trail22", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail24", "parent": "Images/Fx/blue_line_trail23", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail25", "parent": "Images/Fx/blue_line_trail24", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail26", "parent": "Images/Fx/blue_line_trail25", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail27", "parent": "Images/Fx/blue_line_trail26", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail28", "parent": "Images/Fx/blue_line_trail27", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail29", "parent": "Images/Fx/blue_line_trail28", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_line_trail30", "parent": "Images/Fx/blue_line_trail29", "length": 56.38, "x": 56.38, "color": "ff0000ff" },
+	{ "name": "Images/Fx/blue_button_glow", "parent": "blue_button_activate", "x": 9.09, "y": -37.37, "color": "ff0000ff" },
+	{ "name": "Circle_glow_blue3", "parent": "blue_button_activate", "y": -32.45, "transform": "noScale", "color": "ff0000ff" },
+	{ "name": "enemy_turn_button idle", "parent": "blue_button_effect", "color": "ff0000ff" },
+	{ "name": "Images/ENEMY-TURN", "parent": "enemy_turn_button idle", "color": "ff0000ff" },
+	{ "name": "button_enemy_glow", "parent": "enemy_turn_button idle", "x": -8.46, "y": -45.33, "color": "ff0000ff" },
+	{ "name": "combat_button_idle", "parent": "blue_button_effect", "color": "ff0000ff" },
+	{ "name": "Images/combat_button", "parent": "combat_button_idle", "color": "ff0000ff" },
+	{ "name": "Images/Fx/combat_button_glow", "parent": "Images/combat_button", "x": 7.52, "y": -19.65, "color": "ff0000ff" },
+	{
+		"name": "button_enemy_glow2",
+		"parent": "combat_button_idle",
+		"x": -9.02,
+		"y": -38.5,
+		"scaleX": 0.9425,
+		"scaleY": 0.9425,
+		"color": "ff0000ff"
+	}
+],
+"slots": [
+	{ "name": "Circle_glow_blue3", "bone": "Circle_glow_blue3", "blend": "additive" },
+	{ "name": "Images/Blue_button", "bone": "Images/Blue_button" },
+	{ "name": "Images/Blue_button2", "bone": "blue_button_idle" },
+	{ "name": "Images/Fx/blue_line_trail", "bone": "Images/Fx/blue_line_trail", "blend": "additive" },
+	{ "name": "blue_button_trail_path", "bone": "blue_button_idle", "attachment": "blue_button_trail_path" },
+	{ "name": "Images/Fx/blue_button_glow", "bone": "Images/Fx/blue_button_glow", "blend": "additive" },
+	{ "name": "Images/ENEMY-TURN", "bone": "Images/ENEMY-TURN" },
+	{ "name": "button_enemy_glow", "bone": "button_enemy_glow" },
+	{ "name": "Images/combat_button", "bone": "Images/combat_button" },
+	{ "name": "Images/Fx/combat_button_glow", "bone": "Images/Fx/combat_button_glow" },
+	{ "name": "button_enemy_glow2", "bone": "button_enemy_glow2", "blend": "additive" }
+],
+"path": [
+	{
+		"name": "blue_button_trail_path",
+		"bones": [ "Images/Fx/blue_line_trail", "Images/Fx/blue_line_trail2", "Images/Fx/blue_line_trail3", "Images/Fx/blue_line_trail4", "Images/Fx/blue_line_trail5", "Images/Fx/blue_line_trail6", "Images/Fx/blue_line_trail7", "Images/Fx/blue_line_trail8", "Images/Fx/blue_line_trail9", "Images/Fx/blue_line_trail10", "Images/Fx/blue_line_trail11", "Images/Fx/blue_line_trail12", "Images/Fx/blue_line_trail13", "Images/Fx/blue_line_trail14", "Images/Fx/blue_line_trail15", "Images/Fx/blue_line_trail16", "Images/Fx/blue_line_trail17", "Images/Fx/blue_line_trail18", "Images/Fx/blue_line_trail19", "Images/Fx/blue_line_trail20", "Images/Fx/blue_line_trail21", "Images/Fx/blue_line_trail22", "Images/Fx/blue_line_trail23", "Images/Fx/blue_line_trail24", "Images/Fx/blue_line_trail25", "Images/Fx/blue_line_trail26", "Images/Fx/blue_line_trail27", "Images/Fx/blue_line_trail28", "Images/Fx/blue_line_trail29", "Images/Fx/blue_line_trail30" ],
+		"target": "blue_button_trail_path",
+		"position": 1
+	}
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Circle_glow_blue3": {
+				"Images/Fx/blue_skin/Circle_glow_blue_button": { "width": 500, "height": 500 }
+			},
+			"Images/Blue_button": {
+				"Images/Fx/blue_skin/Blue_button": { "width": 372, "height": 443 }
+			},
+			"Images/Blue_button2": {
+				"Images/Fx/blue_skin/Blue_button": { "width": 372, "height": 443 }
+			},
+			"Images/ENEMY-TURN": {
+				"Images/ENEMY-TURN": { "width": 372, "height": 443 }
+			},
+			"Images/Fx/blue_button_glow": {
+				"Images/Fx/blue_button_glow": { "path": "Images/Fx/blue_skin/blue_button_glow", "width": 672, "height": 634 }
+			},
+			"Images/Fx/blue_line_trail": {
+				"Images/Fx/blue_line_trail": {
+					"type": "mesh",
+					"path": "Images/Fx/blue_skin/blue_line_trail",
+					"uvs": [ 1, 1, 0.97778, 1, 0.95556, 1, 0.93333, 1, 0.91111, 1, 0.88889, 1, 0.86667, 1, 0.84444, 1, 0.82222, 1, 0.8, 1, 0.77778, 1, 0.75556, 1, 0.73333, 1, 0.71111, 1, 0.68889, 1, 0.66667, 1, 0.64444, 1, 0.62222, 1, 0.6, 1, 0.57778, 1, 0.55556, 1, 0.53333, 1, 0.51111, 1, 0.48889, 1, 0.46667, 1, 0.44444, 1, 0.42222, 1, 0.4, 1, 0.37778, 1, 0.35556, 1, 0.33333, 1, 0.31111, 1, 0.28889, 1, 0.26667, 1, 0.24444, 1, 0.22222, 1, 0.2, 1, 0.17778, 1, 0.15556, 1, 0.13333, 1, 0.11111, 1, 0.08889, 1, 0.06667, 1, 0.04444, 1, 0.02222, 1, 0, 1, 0, 0.5, 0, 0, 0.02222, 0, 0.04444, 0, 0.06667, 0, 0.08889, 0, 0.11111, 0, 0.13333, 0, 0.15556, 0, 0.17778, 0, 0.2, 0, 0.22222, 0, 0.24444, 0, 0.26667, 0, 0.28889, 0, 0.31111, 0, 0.33333, 0, 0.35556, 0, 0.37778, 0, 0.4, 0, 0.42222, 0, 0.44444, 0, 0.46667, 0, 0.48889, 0, 0.51111, 0, 0.53333, 0, 0.55556, 0, 0.57778, 0, 0.6, 0, 0.62222, 0, 0.64444, 0, 0.66667, 0, 0.68889, 0, 0.71111, 0, 0.73333, 0, 0.75556, 0, 0.77778, 0, 0.8, 0, 0.82222, 0, 0.84444, 0, 0.86667, 0, 0.88889, 0, 0.91111, 0, 0.93333, 0, 0.95556, 0, 0.97778, 0, 1, 0, 1, 0.5, 0.97778, 0.5, 0.95556, 0.5, 0.93333, 0.5, 0.91111, 0.5, 0.88889, 0.5, 0.86667, 0.5, 0.84444, 0.5, 0.82222, 0.5, 0.8, 0.5, 0.77778, 0.5, 0.75556, 0.5, 0.73333, 0.5, 0.71111, 0.5, 0.68889, 0.5, 0.66667, 0.5, 0.64444, 0.5, 0.62222, 0.5, 0.6, 0.5, 0.57778, 0.5, 0.55556, 0.5, 0.53333, 0.5, 0.51111, 0.5, 0.48889, 0.5, 0.46667, 0.5, 0.44444, 0.5, 0.42222, 0.5, 0.4, 0.5, 0.37778, 0.5, 0.35556, 0.5, 0.33333, 0.5, 0.31111, 0.5, 0.28889, 0.5, 0.26667, 0.5, 0.24444, 0.5, 0.22222, 0.5, 0.2, 0.5, 0.17778, 0.5, 0.15556, 0.5, 0.13333, 0.5, 0.11111, 0.5, 0.08889, 0.5, 0.06667, 0.5, 0.04444, 0.5, 0.02222, 0.5 ],
+					"triangles": [ 95, 96, 90, 2, 3, 95, 95, 90, 91, 94, 95, 91, 2, 95, 94, 1, 2, 94, 94, 91, 92, 93, 94, 92, 1, 94, 93, 0, 1, 93, 96, 97, 89, 4, 97, 96, 3, 4, 96, 96, 89, 90, 3, 96, 95, 5, 6, 98, 98, 87, 88, 97, 98, 88, 5, 98, 97, 4, 5, 97, 97, 88, 89, 99, 100, 86, 6, 7, 99, 99, 86, 87, 98, 99, 87, 6, 99, 98, 100, 85, 86, 7, 100, 99, 101, 84, 85, 100, 101, 85, 8, 101, 100, 7, 8, 100, 9, 10, 102, 102, 103, 83, 102, 83, 84, 101, 102, 84, 9, 102, 101, 8, 9, 101, 103, 82, 83, 103, 104, 82, 11, 104, 103, 104, 81, 82, 10, 11, 103, 10, 103, 102, 12, 13, 105, 105, 80, 81, 104, 105, 81, 12, 105, 104, 11, 12, 104, 105, 106, 80, 106, 79, 80, 106, 107, 79, 14, 107, 106, 13, 14, 106, 13, 106, 105, 15, 16, 108, 108, 77, 78, 107, 108, 78, 15, 108, 107, 108, 109, 77, 107, 78, 79, 14, 15, 107, 109, 76, 77, 109, 110, 76, 17, 110, 109, 16, 17, 109, 16, 109, 108, 111, 74, 75, 110, 111, 75, 18, 111, 110, 17, 18, 110, 110, 75, 76, 112, 73, 74, 112, 113, 73, 20, 113, 112, 18, 19, 111, 19, 20, 112, 111, 112, 74, 19, 112, 111, 114, 71, 72, 20, 21, 113, 113, 114, 72, 21, 114, 113, 113, 72, 73, 115, 70, 71, 21, 22, 114, 115, 116, 70, 22, 23, 115, 114, 115, 71, 22, 115, 114, 117, 68, 69, 116, 117, 69, 24, 117, 116, 23, 24, 116, 116, 69, 70, 23, 116, 115, 118, 119, 67, 118, 67, 68, 117, 118, 68, 25, 118, 117, 24, 25, 117, 25, 26, 118, 119, 120, 66, 119, 66, 67, 27, 120, 119, 26, 27, 119, 26, 119, 118, 120, 121, 65, 120, 65, 66, 28, 29, 121, 121, 64, 65, 28, 121, 120, 27, 28, 120, 29, 30, 122, 121, 122, 64, 29, 122, 121, 122, 123, 63, 122, 63, 64, 123, 62, 63, 124, 61, 62, 123, 124, 62, 31, 124, 123, 30, 31, 123, 30, 123, 122, 32, 33, 125, 124, 125, 61, 32, 125, 124, 125, 126, 60, 125, 60, 61, 31, 32, 124, 126, 59, 60, 127, 58, 59, 126, 127, 59, 34, 127, 126, 33, 34, 126, 33, 126, 125, 35, 36, 128, 128, 57, 58, 127, 128, 58, 35, 128, 127, 34, 35, 127, 128, 129, 57, 36, 129, 128, 130, 55, 56, 129, 130, 56, 37, 130, 129, 36, 37, 129, 129, 56, 57, 38, 39, 131, 131, 54, 55, 130, 131, 55, 38, 131, 130, 37, 38, 130, 131, 132, 54, 132, 53, 54, 39, 132, 131, 132, 133, 53, 40, 133, 132, 39, 40, 132, 133, 134, 52, 41, 134, 133, 40, 41, 133, 133, 52, 53, 134, 51, 52, 135, 50, 51, 135, 136, 50, 42, 43, 135, 42, 135, 134, 134, 135, 51, 41, 42, 134, 46, 47, 48, 137, 46, 48, 45, 46, 137, 44, 45, 137, 137, 48, 49, 136, 137, 49, 44, 137, 136, 43, 44, 136, 136, 49, 50, 43, 136, 135 ],
+					"vertices": [ 1, 35, 91.46, -61.03, 1, 2, 34, 108.66, -61.07, 0.07265, 35, 52.28, -61.07, 0.92735, 3, 33, 125.86, -61.11, 0.01097, 34, 69.48, -61.11, 0.39715, 35, 13.11, -61.11, 0.59188, 4, 32, 143.06, -61.14, 0.00629, 33, 86.68, -61.14, 0.13569, 34, 30.3, -61.14, 0.71379, 35, -26.07, -61.14, 0.14423, 5, 31, 160.25, -61.18, 1.5E-4, 32, 103.88, -61.18, 0.10416, 33, 47.5, -61.18, 0.4866, 34, -8.87, -61.18, 0.407, 35, -65.25, -61.18, 0.00208, 4, 31, 121.08, -61.21, 0.02835, 32, 64.7, -61.21, 0.43572, 33, 8.32, -61.21, 0.47744, 34, -48.05, -61.21, 0.05849, 4, 30, 138.28, -61.25, 5.5E-4, 31, 81.9, -61.25, 0.2127, 32, 25.52, -61.25, 0.6678, 33, -30.85, -61.25, 0.11894, 4, 30, 99.1, -61.29, 0.08287, 31, 42.72, -61.29, 0.59555, 32, -13.65, -61.29, 0.31813, 33, -70.03, -61.29, 0.00344, 4, 29, 116.3, -61.32, 0.02156, 30, 59.92, -61.32, 0.45303, 31, 3.54, -61.32, 0.49006, 32, -52.83, -61.32, 0.03535, 4, 28, 133.49, -61.36, 0.00336, 29, 77.12, -61.36, 0.20176, 30, 20.74, -61.36, 0.69808, 31, -35.63, -61.36, 0.0968, 5, 27, 150.69, -61.4, 0.00271, 28, 94.32, -61.4, 0.1279, 29, 37.94, -61.4, 0.5225, 30, -18.44, -61.4, 0.3452, 31, -74.81, -61.4, 0.0017, 4, 27, 111.51, -61.43, 0.06692, 28, 55.14, -61.43, 0.49436, 29, -1.24, -61.43, 0.38874, 30, -57.61, -61.43, 0.04998, 4, 26, 128.71, -61.47, 0.0032, 27, 72.34, -61.47, 0.35855, 28, 15.96, -61.47, 0.55919, 29, -40.42, -61.47, 0.07906, 4, 25, 145.91, -61.5, 1.3E-4, 26, 89.53, -61.5, 0.13852, 27, 33.16, -61.5, 0.62889, 28, -23.22, -61.5, 0.23246, 4, 25, 106.73, -61.54, 0.05682, 26, 50.36, -61.54, 0.51189, 27, -6.02, -61.54, 0.40666, 28, -62.39, -61.54, 0.02463, 4, 24, 123.93, -61.58, 0.00172, 25, 67.56, -61.58, 0.36083, 26, 11.18, -61.58, 0.5683, 27, -45.2, -61.58, 0.06915, 5, 23, 141.13, -61.61, 0.00131, 24, 84.75, -61.61, 0.11858, 25, 28.38, -61.61, 0.67985, 26, -28, -61.61, 0.19953, 27, -84.37, -61.61, 7.3E-4, 4, 23, 101.95, -61.65, 0.11443, 24, 45.58, -61.65, 0.44117, 25, -10.8, -61.65, 0.43043, 26, -67.18, -61.65, 0.01397, 4, 22, 119.15, -61.69, 0.0113, 23, 62.77, -61.69, 0.51554, 24, 6.4, -61.69, 0.39474, 25, -49.98, -61.69, 0.07842, 4, 22, 79.97, -61.72, 0.13464, 23, 23.6, -61.72, 0.8031, 24, -32.78, -61.72, 0.05901, 25, -89.16, -61.72, 0.00326, 3, 21, 97.17, -61.76, 0.07082, 22, 40.79, -61.76, 0.40096, 23, -15.58, -61.76, 0.52822, 4, 20, 114.37, -61.79, 0.0401, 21, 57.99, -61.79, 0.45948, 22, 1.62, -61.79, 0.31916, 23, -54.76, -61.79, 0.18126, 6, 19, 131.57, -61.83, 2.0E-4, 20, 75.19, -61.83, 0.28444, 21, 18.81, -61.83, 0.64302, 22, -37.56, -61.83, 0.03739, 23, -93.94, -61.83, 0.03494, 25, -206.69, -61.83, 0, 6, 18, 148.76, -61.87, 0.00622, 19, 92.39, -61.87, 0.05929, 20, 36.01, -61.87, 0.65408, 21, -20.36, -61.87, 0.27812, 23, -133.12, -61.87, 0.00229, 25, -245.87, -61.87, 0, 5, 18, 109.59, -61.9, 0.09379, 19, 53.21, -61.9, 0.35964, 20, -3.17, -61.9, 0.50082, 21, -59.54, -61.9, 0.04575, 25, -285.04, -61.9, 0, 6, 17, 126.79, -61.94, 8.7E-4, 18, 70.41, -61.94, 0.43192, 19, 14.03, -61.94, 0.44754, 20, -42.34, -61.94, 0.11837, 21, -98.72, -61.94, 0.0013, 25, -324.22, -61.94, 0, 4, 17, 87.61, -61.98, 0.12632, 18, 31.23, -61.98, 0.69816, 19, -25.14, -61.98, 0.17106, 20, -81.52, -61.98, 0.00446, 5, 16, 104.81, -62.01, 0.06675, 17, 48.43, -62.01, 0.511, 18, -7.95, -62.01, 0.39787, 19, -64.32, -62.01, 0.02439, 25, -402.58, -62.01, 0, 5, 15, 122, -62.05, 0.01961, 16, 65.63, -62.05, 0.36489, 17, 9.25, -62.05, 0.55603, 18, -47.12, -62.05, 0.05947, 25, -441.76, -62.05, 0, 5, 14, 139.2, -62.08, 0.00312, 15, 82.83, -62.08, 0.18466, 16, 26.45, -62.08, 0.65682, 17, -29.93, -62.08, 0.15496, 18, -86.3, -62.08, 4.4E-4, 4, 14, 100.02, -62.12, 0.08746, 15, 43.65, -62.12, 0.53304, 16, -12.73, -62.12, 0.36493, 17, -69.1, -62.12, 0.01457, 4, 13, 117.22, -62.16, 0.02561, 14, 60.85, -62.16, 0.49247, 15, 4.47, -62.16, 0.41536, 16, -51.91, -62.16, 0.06656, 4, 13, 78.04, -62.19, 0.22855, 14, 21.67, -62.19, 0.69811, 15, -34.71, -62.19, 0.0717, 16, -91.08, -62.19, 0.00164, 4, 11, 151.62, -62.23, 0.00367, 12, 95.24, -62.23, 0.07553, 13, 38.87, -62.23, 0.55111, 14, -17.51, -62.23, 0.36969, 4, 11, 112.44, -62.27, 0.06387, 12, 56.06, -62.27, 0.43321, 13, -0.31, -62.27, 0.40565, 14, -56.69, -62.27, 0.09727, 5, 10, 129.64, -62.3, 7.1E-4, 11, 73.26, -62.3, 0.3397, 12, 16.89, -62.3, 0.57357, 13, -39.49, -62.3, 0.07377, 14, -95.86, -62.3, 0.01225, 4, 10, 90.46, -62.34, 0.08923, 11, 34.09, -62.34, 0.66563, 12, -22.29, -62.34, 0.24394, 13, -78.67, -62.34, 0.0012, 4, 9, 107.66, -62.37, 0.06137, 10, 51.28, -62.37, 0.47352, 11, -5.09, -62.37, 0.42297, 12, -61.47, -62.37, 0.04214, 5, 8, 124.86, -62.41, 0.00942, 9, 68.48, -62.41, 0.38187, 10, 12.11, -62.41, 0.53496, 11, -44.27, -62.41, 0.0729, 12, -100.65, -62.41, 8.4E-4, 4, 7, 142.06, -62.45, 0.00537, 8, 85.68, -62.45, 0.1242, 9, 29.3, -62.45, 0.68423, 10, -27.07, -62.45, 0.1862, 4, 7, 102.88, -62.48, 0.11504, 8, 46.5, -62.48, 0.41882, 9, -9.87, -62.48, 0.4475, 10, -66.25, -62.48, 0.01864, 4, 6, 120.08, -62.52, 0.01713, 7, 63.7, -62.52, 0.50475, 8, 7.32, -62.52, 0.37722, 9, -49.05, -62.52, 0.1009, 4, 6, 80.9, -62.56, 0.19987, 7, 24.52, -62.56, 0.73143, 8, -31.85, -62.56, 0.06414, 9, -88.23, -62.56, 0.00457, 3, 6, 41.72, -62.59, 0.6221, 7, -14.66, -62.59, 0.37728, 8, -71.03, -62.59, 6.3E-4, 2, 6, 2.54, -62.63, 0.92211, 7, -53.83, -62.63, 0.07789, 2, 6, -36.64, -62.67, 0.99832, 7, -93.01, -62.67, 0.00168, 1, 6, -36.69, -1.17, 1, 1, 6, -36.75, 60.33, 1, 2, 6, 2.43, 60.37, 0.93742, 7, -53.95, 60.37, 0.06258, 3, 6, 41.61, 60.41, 0.6202, 7, -14.77, 60.41, 0.36951, 8, -71.15, 60.41, 0.01028, 4, 6, 80.78, 60.44, 0.15272, 7, 24.41, 60.44, 0.70645, 8, -31.97, 60.44, 0.14051, 9, -88.34, 60.44, 3.2E-4, 5, 6, 119.96, 60.48, 0.0037, 7, 63.59, 60.48, 0.39879, 8, 7.21, 60.48, 0.54226, 9, -49.17, 60.48, 0.05524, 25, -951.18, 60.48, 0, 5, 7, 102.76, 60.52, 0.06597, 8, 46.39, 60.52, 0.5156, 9, -9.99, 60.52, 0.40115, 10, -66.36, 60.52, 0.01728, 25, -912, 60.52, 0, 5, 8, 85.57, 60.55, 0.1351, 9, 29.19, 60.55, 0.67125, 10, -27.19, 60.55, 0.18906, 11, -83.56, 60.55, 0.00459, 25, -872.82, 60.55, 0, 5, 8, 124.74, 60.59, 0.00417, 9, 68.37, 60.59, 0.34502, 10, 11.99, 60.59, 0.55378, 11, -44.38, 60.59, 0.09702, 25, -833.65, 60.59, 0, 5, 9, 107.55, 60.62, 0.05837, 10, 51.17, 60.62, 0.46315, 11, -5.21, 60.62, 0.46258, 12, -61.58, 60.62, 0.01591, 25, -794.47, 60.62, 0, 5, 9, 146.72, 60.66, 7.5E-4, 10, 90.35, 60.66, 0.11663, 11, 33.97, 60.66, 0.65166, 12, -22.4, 60.66, 0.23097, 25, -755.29, 60.66, 0, 4, 10, 129.53, 60.7, 0.00278, 11, 73.15, 60.7, 0.32597, 12, 16.77, 60.7, 0.59215, 13, -39.6, 60.7, 0.07911, 5, 11, 112.33, 60.73, 0.04971, 12, 55.95, 60.73, 0.46863, 13, -0.42, 60.73, 0.46107, 14, -56.8, 60.73, 0.0206, 25, -676.94, 60.73, 0, 6, 11, 151.5, 60.77, 5.5E-4, 12, 95.13, 60.77, 0.09112, 13, 38.75, 60.77, 0.67698, 14, -17.62, 60.77, 0.22263, 15, -74, 60.77, 0.00873, 25, -637.76, 60.77, 0, 6, 12, 134.31, 60.81, 0.00395, 13, 77.93, 60.81, 0.27805, 14, 21.55, 60.81, 0.59655, 15, -34.82, 60.81, 0.12034, 16, -91.2, 60.81, 0.00111, 25, -598.58, 60.81, 0, 4, 13, 117.11, 60.84, 0.0354, 14, 60.73, 60.84, 0.39329, 15, 4.36, 60.84, 0.49784, 16, -52.02, 60.84, 0.07346, 4, 14, 99.91, 60.88, 0.05264, 15, 43.53, 60.88, 0.57705, 16, -12.84, 60.88, 0.36512, 17, -69.22, 60.88, 0.00519, 4, 15, 82.71, 60.92, 0.18216, 16, 26.34, 60.92, 0.68528, 17, -30.04, 60.92, 0.12871, 18, -86.42, 60.92, 0.00386, 4, 15, 121.89, 60.95, 0.02104, 16, 65.51, 60.95, 0.38307, 17, 9.14, 60.95, 0.51985, 18, -47.24, 60.95, 0.07604, 4, 16, 104.69, 60.99, 0.06727, 17, 48.32, 60.99, 0.48991, 18, -8.06, 60.99, 0.42839, 19, -64.44, 60.99, 0.01444, 4, 16, 143.87, 61.02, 7.6E-4, 17, 87.49, 61.02, 0.12069, 18, 31.12, 61.02, 0.69725, 19, -25.26, 61.02, 0.1813, 6, 17, 126.67, 61.06, 0.00481, 18, 70.3, 61.06, 0.37355, 19, 13.92, 61.06, 0.56597, 20, -42.46, 61.06, 0.05565, 21, -98.83, 61.06, 2.0E-5, 25, -324.34, 61.06, 0, 5, 18, 109.47, 61.1, 0.05999, 19, 53.1, 61.1, 0.53616, 20, -3.28, 61.1, 0.35736, 21, -59.65, 61.1, 0.04647, 25, -285.16, 61.1, 1.0E-5, 6, 18, 148.65, 61.13, 4.7E-4, 19, 92.27, 61.13, 0.13532, 20, 35.9, 61.13, 0.58671, 21, -20.48, 61.13, 0.27215, 22, -76.85, 61.13, 0.00529, 25, -245.98, 61.13, 5.0E-5, 5, 19, 131.45, 61.17, 0.00603, 20, 75.08, 61.17, 0.27858, 21, 18.7, 61.17, 0.59784, 22, -37.68, 61.17, 0.11739, 25, -206.8, 61.17, 1.6E-4, 6, 20, 114.25, 61.21, 0.06427, 21, 57.88, 61.21, 0.38936, 22, 1.5, 61.21, 0.51968, 23, -54.87, 61.21, 0.02656, 24, -111.25, 61.21, 0, 25, -167.63, 61.21, 1.3E-4, 6, 19, 209.81, 61.24, 1.4E-4, 20, 153.43, 61.24, 0.00216, 21, 97.06, 61.24, 0.10493, 22, 40.68, 61.24, 0.61656, 23, -15.7, 61.24, 0.26072, 24, -72.07, 61.24, 0.0155, 7, 19, 248.99, 61.28, 1.9E-4, 20, 192.61, 61.28, 3.6E-4, 21, 136.23, 61.28, 0.00133, 22, 79.86, 61.28, 0.24454, 23, 23.48, 61.28, 0.6405, 24, -32.89, 61.28, 0.10658, 25, -89.27, 61.28, 0.00649, 6, 19, 288.16, 61.31, 6.0E-5, 20, 231.79, 61.31, 2.7E-4, 22, 119.04, 61.31, 0.02181, 23, 62.66, 61.31, 0.42868, 24, 6.28, 61.31, 0.43885, 25, -50.09, 61.31, 0.11034, 6, 19, 327.34, 61.35, 1.0E-5, 20, 270.97, 61.35, 1.1E-4, 23, 101.84, 61.35, 0.07697, 24, 45.46, 61.35, 0.47257, 25, -10.91, 61.35, 0.44419, 26, -67.29, 61.35, 0.00615, 6, 19, 366.52, 61.39, 0, 20, 310.14, 61.39, 3.0E-5, 24, 84.64, 61.39, 0.13272, 25, 28.26, 61.39, 0.71554, 26, -28.11, 61.39, 0.14981, 27, -84.49, 61.39, 0.0019, 5, 20, 349.32, 61.42, 1.0E-5, 24, 123.82, 61.42, 0.01037, 25, 67.44, 61.42, 0.37706, 26, 11.07, 61.42, 0.54483, 27, -45.31, 61.42, 0.06774, 5, 20, 388.5, 61.46, 0, 25, 106.62, 61.46, 0.05298, 26, 50.24, 61.46, 0.53927, 27, -6.13, 61.46, 0.39692, 28, -62.51, 61.46, 0.01083, 4, 26, 89.42, 61.5, 0.15902, 27, 33.04, 61.5, 0.68081, 28, -23.33, 61.5, 0.14895, 29, -79.71, 61.5, 0.01122, 4, 26, 128.6, 61.53, 0.00841, 27, 72.22, 61.53, 0.38172, 28, 15.85, 61.53, 0.44708, 29, -40.53, 61.53, 0.16278, 4, 27, 111.4, 61.57, 0.08368, 28, 55.02, 61.57, 0.28102, 29, -1.35, 61.57, 0.59481, 30, -57.73, 61.57, 0.0405, 5, 27, 150.58, 61.6, 0.00291, 28, 94.2, 61.6, 0.02551, 29, 37.83, 61.6, 0.66359, 30, -18.55, 61.6, 0.30657, 31, -74.93, 61.6, 0.00142, 4, 29, 77, 61.64, 0.22828, 30, 20.63, 61.64, 0.68945, 31, -35.75, 61.64, 0.08113, 32, -92.12, 61.64, 0.00113, 4, 29, 116.18, 61.68, 0.02287, 30, 59.81, 61.68, 0.49127, 31, 3.43, 61.68, 0.43097, 32, -52.95, 61.68, 0.05489, 4, 30, 98.98, 61.71, 0.08496, 31, 42.61, 61.71, 0.61906, 32, -13.77, 61.71, 0.29403, 33, -70.14, 61.71, 0.00194, 3, 31, 81.79, 61.75, 0.24891, 32, 25.41, 61.75, 0.67267, 33, -30.97, 61.75, 0.07842, 4, 31, 120.96, 61.79, 0.03092, 32, 64.59, 61.79, 0.46831, 33, 8.21, 61.79, 0.42953, 34, -48.16, 61.79, 0.07124, 4, 32, 103.77, 61.82, 0.09583, 33, 47.39, 61.82, 0.46894, 34, -8.99, 61.82, 0.42467, 35, -65.36, 61.82, 0.01056, 4, 32, 142.94, 61.86, 0.0031, 33, 86.57, 61.86, 0.09139, 34, 30.19, 61.86, 0.75638, 35, -26.18, 61.86, 0.14913, 2, 34, 69.37, 61.89, 0.45518, 35, 12.99, 61.89, 0.54482, 2, 34, 108.55, 61.93, 0.12237, 35, 52.17, 61.93, 0.87763, 2, 34, 147.72, 61.97, 0.01421, 35, 91.35, 61.97, 0.98579, 1, 35, 91.41, 0.47, 1, 2, 34, 108.6, 0.43, 5.3E-4, 35, 52.23, 0.43, 0.99947, 2, 34, 69.43, 0.39, 0.0163, 35, 13.05, 0.39, 0.9837, 1, 34, 30.25, 0.36, 1, 2, 33, 47.45, 0.32, 0.84611, 34, -8.93, 0.32, 0.15389, 2, 32, 64.64, 0.29, 0.16582, 33, 8.27, 0.29, 0.83418, 1, 32, 25.47, 0.25, 1, 2, 31, 42.67, 0.21, 0.99063, 32, -13.71, 0.21, 0.00937, 2, 30, 59.86, 0.18, 0.3679, 31, 3.49, 0.18, 0.6321, 1, 30, 20.69, 0.14, 1, 1, 29, 37.88, 0.1, 1, 2, 28, 55.08, 0.07, 0.5486, 29, -1.29, 0.07, 0.4514, 1, 28, 15.9, 0.03, 1, 1, 27, 33.1, 0, 1, 2, 26, 50.3, -0.04, 0.73658, 27, -6.08, -0.04, 0.26342, 2, 25, 67.5, -0.08, 0.06077, 26, 11.12, -0.08, 0.93923, 2, 20, 310.2, -0.11, 0, 25, 28.32, -0.11, 1, 2, 24, 45.52, -0.15, 0.923, 25, -10.86, -0.15, 0.077, 2, 23, 62.72, -0.19, 0.23374, 24, 6.34, -0.19, 0.76626, 1, 23, 23.54, -0.22, 1, 1, 22, 40.74, -0.26, 1, 4, 19, 170.69, -0.29, 0, 21, 57.94, -0.29, 0.44695, 22, 1.56, -0.29, 0.55286, 23, -54.82, -0.29, 1.9E-4, 4, 21, 18.76, -0.33, 0.99985, 22, -37.62, -0.33, 1.0E-5, 23, -93.99, -0.33, 1.4E-4, 25, -206.75, -0.33, 0, 1, 20, 35.96, -0.37, 1, 3, 18, 109.53, -0.4, 3.1E-4, 19, 53.15, -0.4, 0.61111, 20, -3.22, -0.4, 0.38857, 3, 18, 70.35, -0.44, 0.00177, 19, 13.98, -0.44, 0.99797, 20, -42.4, -0.44, 2.6E-4, 1, 18, 31.17, -0.48, 1, 3, 17, 48.37, -0.51, 0.81298, 18, -8, -0.51, 0.18702, 25, -402.63, -0.51, 0, 2, 16, 65.57, -0.55, 0.14338, 17, 9.19, -0.55, 0.85662, 2, 14, 139.14, -0.58, 1.0E-5, 16, 26.39, -0.58, 0.99999, 4, 14, 99.97, -0.62, 2.0E-5, 15, 43.59, -0.62, 0.98264, 16, -12.78, -0.62, 0.01726, 17, -69.16, -0.62, 7.0E-5, 2, 14, 60.79, -0.66, 0.32883, 15, 4.41, -0.66, 0.67117, 1, 14, 21.61, -0.69, 1, 1, 13, 38.81, -0.73, 1, 4, 11, 112.38, -0.77, 2.5E-4, 12, 56.01, -0.77, 0.51241, 13, -0.37, -0.77, 0.48668, 14, -56.74, -0.77, 6.7E-4, 2, 12, 16.83, -0.8, 0.99997, 14, -95.92, -0.8, 3.0E-5, 2, 11, 34.03, -0.84, 1, 25, -755.23, -0.84, 0, 2, 10, 51.23, -0.87, 0.69005, 11, -5.15, -0.88, 0.30995, 2, 9, 68.42, -0.91, 0.04063, 10, 12.05, -0.91, 0.95937, 2, 7, 142, -0.95, 3.0E-5, 9, 29.25, -0.95, 0.99997, 3, 7, 102.82, -0.98, 7.0E-5, 8, 46.45, -0.98, 0.92488, 9, -9.93, -0.98, 0.07505, 3, 7, 63.64, -1.02, 0.18133, 8, 7.27, -1.02, 0.81824, 9, -49.11, -1.02, 4.3E-4, 1, 7, 24.47, -1.06, 1, 1, 6, 41.66, -1.09, 1, 2, 6, 2.49, -1.13, 0.99961, 7, -53.89, -1.13, 3.9E-4 ],
+					"hull": 94,
+					"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 24, 24, 26, 26, 28, 28, 30, 30, 32, 32, 34, 34, 36, 36, 38, 38, 40, 40, 42, 42, 44, 44, 46, 46, 48, 48, 50, 50, 52, 52, 54, 54, 56, 56, 58, 58, 60, 60, 62, 62, 64, 64, 66, 66, 68, 68, 70, 70, 72, 72, 74, 74, 76, 76, 78, 78, 80, 80, 82, 82, 84, 84, 86, 86, 88, 88, 90, 90, 92, 92, 94, 94, 96, 96, 98, 98, 100, 100, 102, 102, 104, 104, 106, 106, 108, 108, 110, 110, 112, 112, 114, 114, 116, 116, 118, 118, 120, 120, 122, 122, 124, 124, 126, 126, 128, 128, 130, 130, 132, 132, 134, 134, 136, 136, 138, 138, 140, 140, 142, 142, 144, 144, 146, 146, 148, 148, 150, 150, 152, 152, 154, 154, 156, 156, 158, 158, 160, 160, 162, 162, 164, 164, 166, 166, 168, 168, 170, 170, 172, 172, 174, 174, 176, 176, 178, 178, 180, 180, 182, 182, 184, 184, 186, 186, 0 ],
+					"width": 1692,
+					"height": 60
+				}
+			},
+			"Images/Fx/combat_button_glow": {
+				"Images/Fx/combat_button_glow": { "width": 264, "height": 220 }
+			},
+			"Images/combat_button": {
+				"Images/combat_button": { "width": 372, "height": 443 }
+			},
+			"blue_button_trail_path": {
+				"blue_button_trail_path": {
+					"type": "path",
+					"closed": true,
+					"lengths": [ 244.42, 472.17, 694.39, 926.96 ],
+					"vertexCount": 12,
+					"vertices": [ 79.9, 106.23, -12.48, 105.98, -126.67, 105.67, -167.48, 16.8, -158.05, -52.16, -150.06, -110.64, -67.29, -184.8, 12.7, -178.32, 112.52, -170.24, 155.46, -102.03, 150.3, -34.28, 145.67, 26.65 ]
+				}
+			},
+			"button_enemy_glow": {
+				"Images/Fx/button_enemy_glow/button_enemy_glow_0": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_1": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_2": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_3": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_4": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_5": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_6": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_7": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_8": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_9": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_10": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_11": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_12": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_13": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_14": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_15": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_16": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_17": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_18": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_19": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_20": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_21": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_22": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_23": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_24": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_25": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_26": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_27": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_28": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_29": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_30": { "width": 345, "height": 321 }
+			},
+			"button_enemy_glow2": {
+				"Images/Fx/button_enemy_glow/button_enemy_glow_0": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_1": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_2": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_3": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_4": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_5": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_6": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_7": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_8": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_9": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_10": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_11": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_12": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_13": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_14": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_15": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_16": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_17": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_18": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_19": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_20": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_21": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_22": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_23": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_24": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_25": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_26": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_27": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_28": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_29": { "width": 345, "height": 321 },
+				"Images/Fx/button_enemy_glow/button_enemy_glow_30": { "width": 345, "height": 321 }
+			}
+		}
+	}
+],
+"animations": {
+	"button_activate": {
+		"slots": {
+			"Circle_glow_blue3": {
+				"color": [
+					{ "time": 0.1667, "color": "ffffffff", "curve": 0.313, "c2": 0.63, "c3": 0.676 },
+					{ "time": 0.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1667, "name": "Images/Fx/blue_skin/Circle_glow_blue_button" }
+				]
+			},
+			"Images/Blue_button": {
+				"attachment": [
+					{ "name": "Images/Fx/blue_skin/Blue_button" }
+				]
+			},
+			"Images/Fx/blue_button_glow": {
+				"color": [
+					{ "time": 0.0667, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": 0.881, "c3": 0.75 },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0667, "name": "Images/Fx/blue_button_glow" }
+				]
+			}
+		},
+		"bones": {
+			"Images/Blue_button": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1667, "y": -9.38, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333 }
+				]
+			},
+			"Circle_glow_blue3": {
+				"scale": [
+					{ "time": 0.1667, "x": 0.979, "y": 0.922, "curve": 0.313, "c2": 0.63, "c3": 0.676 },
+					{ "time": 0.3333, "x": 1.743, "y": 1.64 }
+				],
+				"shear": [
+					{ "time": 0.1667, "x": -4.39, "curve": 0.313, "c2": 0.63, "c3": 0.676 },
+					{ "time": 0.3333, "x": -2.84 }
+				]
+			}
+		}
+	},
+	"button_idle": {
+		"slots": {
+			"Images/Blue_button2": {
+				"attachment": [
+					{ "name": "Images/Fx/blue_skin/Blue_button" }
+				]
+			},
+			"Images/Fx/blue_line_trail": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "ffffffff" },
+					{ "time": 1.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/Fx/blue_line_trail" }
+				]
+			}
+		},
+		"path": {
+			"blue_button_trail_path": {
+				"position": [
+					{ "position": 1 },
+					{ "time": 0.8333 },
+					{ "time": 1.6667, "position": -1 }
+				]
+			}
+		}
+	},
+	"combat_button_idle": {
+		"slots": {
+			"Images/Fx/combat_button_glow": {
+				"attachment": [
+					{ "name": "Images/Fx/combat_button_glow" }
+				]
+			},
+			"Images/combat_button": {
+				"attachment": [
+					{ "name": "Images/combat_button" }
+				]
+			},
+			"button_enemy_glow2": {
+				"attachment": [
+					{ "name": "Images/Fx/button_enemy_glow/button_enemy_glow_0" },
+					{ "time": 0.0667, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_1" },
+					{ "time": 0.1333, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_2" },
+					{ "time": 0.2, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_3" },
+					{ "time": 0.2667, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_4" },
+					{ "time": 0.3333, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_5" },
+					{ "time": 0.4, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_6" },
+					{ "time": 0.4667, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_7" },
+					{ "time": 0.5333, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_8" },
+					{ "time": 0.6, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_9" },
+					{ "time": 0.6667, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_10" },
+					{ "time": 0.7333, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_11" },
+					{ "time": 0.8, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_12" },
+					{ "time": 0.8667, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_13" },
+					{ "time": 0.9333, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_14" },
+					{ "time": 1, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_15" },
+					{ "time": 1.0667, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_16" },
+					{ "time": 1.1333, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_17" },
+					{ "time": 1.2, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_18" },
+					{ "time": 1.2667, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_19" },
+					{ "time": 1.3333, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_20" },
+					{ "time": 1.4, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_21" },
+					{ "time": 1.4667, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_22" },
+					{ "time": 1.5333, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_23" },
+					{ "time": 1.6, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_24" },
+					{ "time": 1.6667, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_25" },
+					{ "time": 1.7333, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_26" },
+					{ "time": 1.8, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_27" },
+					{ "time": 1.8667, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_28" },
+					{ "time": 1.9333, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_29" },
+					{ "time": 2, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_30" }
+				]
+			}
+		}
+	},
+	"enemy_turn_button_idle": {
+		"slots": {
+			"Images/ENEMY-TURN": {
+				"attachment": [
+					{ "name": "Images/ENEMY-TURN" }
+				]
+			},
+			"button_enemy_glow": {
+				"attachment": [
+					{ "name": "Images/Fx/button_enemy_glow/button_enemy_glow_0" },
+					{ "time": 0.0667, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_1" },
+					{ "time": 0.1333, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_2" },
+					{ "time": 0.2, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_3" },
+					{ "time": 0.2667, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_4" },
+					{ "time": 0.3333, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_5" },
+					{ "time": 0.4, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_6" },
+					{ "time": 0.4667, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_7" },
+					{ "time": 0.5333, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_8" },
+					{ "time": 0.6, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_9" },
+					{ "time": 0.6667, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_10" },
+					{ "time": 0.7333, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_11" },
+					{ "time": 0.8, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_12" },
+					{ "time": 0.8667, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_13" },
+					{ "time": 0.9333, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_14" },
+					{ "time": 1, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_15" },
+					{ "time": 1.0667, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_16" },
+					{ "time": 1.1333, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_17" },
+					{ "time": 1.2, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_18" },
+					{ "time": 1.2667, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_19" },
+					{ "time": 1.3333, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_20" },
+					{ "time": 1.4, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_21" },
+					{ "time": 1.4667, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_22" },
+					{ "time": 1.5333, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_23" },
+					{ "time": 1.6, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_24" },
+					{ "time": 1.6667, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_25" },
+					{ "time": 1.7333, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_26" },
+					{ "time": 1.8, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_27" },
+					{ "time": 1.8667, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_28" },
+					{ "time": 1.9333, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_29" },
+					{ "time": 2, "name": "Images/Fx/button_enemy_glow/button_enemy_glow_30" }
+				]
+			}
+		}
+	}
+}
+}

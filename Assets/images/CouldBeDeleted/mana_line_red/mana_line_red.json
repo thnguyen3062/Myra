@@ -1,0 +1,52 @@
+{
+"skeleton": {
+	"hash": "nGa7BevwNLV1uPYwokM2BlFgeDI",
+	"spine": "3.8.99",
+	"x": -200.5,
+	"y": -153.5,
+	"width": 401,
+	"height": 307,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Fx", "parent": "root", "color": "ff0000ff" },
+	{ "name": "mana_line", "parent": "Fx", "color": "ff0000ff" },
+	{ "name": "Images/Fx/mana_line_blue", "parent": "mana_line", "color": "ff0000ff" }
+],
+"slots": [
+	{ "name": "Images/Fx/mana_line_blue", "bone": "Images/Fx/mana_line_blue", "attachment": "mana_line_blue" }
+],
+"skins": [
+	{
+		"name": "blue_skin",
+		"attachments": {
+			"Images/Fx/mana_line_blue": {
+				"mana_line_blue": { "name": "Images/Fx/blue_skin/mana_line_red", "width": 401, "height": 307 }
+			}
+		}
+	},
+	{
+		"name": "red_skin",
+		"attachments": {
+			"Images/Fx/mana_line_blue": {
+				"mana_line_blue": { "name": "Images/Fx/red_skin/mana_line_red", "width": 401, "height": 307 }
+			}
+		}
+	}
+],
+"animations": {
+	"mana_line": {
+		"slots": {
+			"Images/Fx/mana_line_blue": {
+				"color": [
+					{ "color": "ffffff9c", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2, "color": "ffffff9c" }
+				]
+			}
+		}
+	}
+}
+}

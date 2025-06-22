@@ -1,0 +1,488 @@
+{
+"skeleton": { "hash": "A3aCRInlNq9jS5Sng5kJIVkDmJ0", "spine": "3.8.99", "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Fx", "parent": "root", "color": "ff0000ff" },
+	{ "name": "blue_mana_unlock", "parent": "Fx", "color": "ff0000ff" },
+	{ "name": "blue_mana_idle", "parent": "Fx", "color": "ff0000ff" },
+	{ "name": "Images/Fx/Mama_idle_motion", "parent": "blue_mana_idle", "color": "ff0000ff" },
+	{ "name": "blue_mana_activating", "parent": "Fx", "color": "ff0000ff" },
+	{ "name": "Images/Fx/Mama_idle_motion2", "parent": "blue_mana_activating", "color": "ff0000ff" },
+	{ "name": "Images/Fx/Intensity_blue", "parent": "blue_mana_activating", "scaleX": 0.2699, "scaleY": 0.2699, "color": "ff0000ff" },
+	{ "name": "blue_intensity", "parent": "blue_mana_unlock", "scaleX": 0.4284, "scaleY": 0.4284, "color": "ff0000ff" },
+	{ "name": "Circle_glow_blue2", "parent": "blue_mana_unlock", "transform": "noScale", "color": "ff0000ff" },
+	{ "name": "blue_sparks2", "parent": "blue_mana_activating", "transform": "noScale", "color": "ff0000ff" },
+	{ "name": "blue_mana_open", "parent": "Fx", "color": "ff0000ff" },
+	{ "name": "blue_mana_close", "parent": "Fx", "color": "ff0000ff" }
+],
+"slots": [
+	{ "name": "blue_mana_close", "bone": "blue_mana_close" },
+	{ "name": "mana_unlock", "bone": "blue_mana_unlock" },
+	{ "name": "Images/RED - ON TURN -Activated2", "bone": "blue_mana_open" },
+	{ "name": "Images/RED - ON TURN -Activated4", "bone": "blue_mana_activating" },
+	{ "name": "Images/RED - ON TURN -Activated3", "bone": "blue_mana_idle" },
+	{ "name": "Images/Fx/Mama_idle_motion", "bone": "Images/Fx/Mama_idle_motion" },
+	{ "name": "Images/Fx/Mama_idle_motion2", "bone": "Images/Fx/Mama_idle_motion2" },
+	{ "name": "Images/Fx/Intensity_blue", "bone": "Images/Fx/Intensity_blue", "blend": "additive" },
+	{ "name": "Images/Fx/Intensity_blue2", "bone": "blue_intensity", "blend": "additive" },
+	{ "name": "blue_sparks2", "bone": "blue_sparks2" },
+	{ "name": "Circle_glow_blue2", "bone": "Circle_glow_blue2", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Images/RED - ON TURN -Activated2": {
+				"Images/RED - ON TURN -Activated": { "width": 68, "height": 62 }
+			},
+			"Images/RED - ON TURN -Activated3": {
+				"Images/RED - ON TURN -Activated": { "width": 68, "height": 62 }
+			},
+			"Images/RED - ON TURN -Activated4": {
+				"Images/RED - ON TURN -Activated": { "width": 68, "height": 62 }
+			},
+			"blue_mana_close": {
+				"Images/RED - ON TURN - Locked": { "width": 68, "height": 62 }
+			},
+			"mana_unlock": {
+				"Images/RED - ON TURN -Activated": { "width": 68, "height": 62 },
+				"Images/RED - ON TURN - Locked": { "width": 68, "height": 62 }
+			}
+		}
+	},
+	{
+		"name": "blue_mana",
+		"attachments": {
+			"Circle_glow_blue2": {
+				"Images/Fx/Circle_glow_blue": { "path": "Images/Fx/blue_mana_skin/Circle_glow_blue", "width": 500, "height": 500 }
+			},
+			"Images/Fx/Intensity_blue": {
+				"Images/Fx/Intensity_blue": { "path": "Images/Fx/blue_mana_skin/Intensity_blue", "width": 512, "height": 512 }
+			},
+			"Images/Fx/Intensity_blue2": {
+				"Images/Fx/Intensity_blue": { "path": "Images/Fx/blue_mana_skin/Intensity_blue", "width": 512, "height": 512 }
+			},
+			"Images/Fx/Mama_idle_motion": {
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_0": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_0", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_1": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_1", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_2": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_2", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_3": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_3", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_4": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_4", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_5": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_5", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_6": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_6", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_7": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_7", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_8": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_8", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_9": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_9", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_10": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_10", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_11": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_11", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_12": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_12", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_13": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_13", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_14": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_14", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_15": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_15", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_16": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_16", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_17": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_17", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_18": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_18", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_19": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_19", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_20": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_20", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_21": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_21", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_22": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_22", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_23": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_23", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_24": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_24", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_25": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_25", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_26": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_26", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_27": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_27", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_28": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_28", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_29": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_29", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_30": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_30", "width": 97, "height": 104 }
+			},
+			"Images/Fx/Mama_idle_motion2": {
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_0": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_0", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_1": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_1", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_2": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_2", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_3": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_3", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_4": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_4", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_5": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_5", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_6": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_6", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_7": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_7", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_8": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_8", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_9": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_9", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_10": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_10", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_11": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_11", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_12": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_12", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_13": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_13", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_14": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_14", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_15": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_15", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_16": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_16", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_17": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_17", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_18": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_18", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_19": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_19", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_20": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_20", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_21": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_21", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_22": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_22", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_23": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_23", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_24": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_24", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_25": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_25", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_26": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_26", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_27": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_27", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_28": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_28", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_29": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_29", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_30": { "path": "Images/Fx/blue_mana_skin/Mama_idle_motion/blue_mama_idle_motion_30", "width": 97, "height": 104 }
+			},
+			"blue_sparks2": {
+				"Images/Fx/blue_sparks/blue_sparks_0": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_0", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_1": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_1", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_2": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_2", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_3": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_3", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_4": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_4", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_5": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_5", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_6": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_6", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_7": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_7", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_8": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_8", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_9": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_9", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_10": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_10", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_11": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_11", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_12": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_12", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_13": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_13", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_14": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_14", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_15": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_15", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_16": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_16", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_17": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_17", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_18": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_18", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_19": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_19", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_20": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_20", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_21": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_21", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_22": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_22", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_23": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_23", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_24": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_24", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_25": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_25", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_26": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_26", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_27": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_27", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_28": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_28", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_29": { "path": "Images/Fx/blue_mana_skin/blue_sparks/blue_sparks_29", "width": 323, "height": 280 }
+			}
+		}
+	},
+	{
+		"name": "red_mana",
+		"attachments": {
+			"Circle_glow_blue2": {
+				"Images/Fx/Circle_glow_blue": { "path": "Images/Fx/red_mana_skin/Circle_glow_blue", "width": 500, "height": 500 }
+			},
+			"Images/Fx/Intensity_blue": {
+				"Images/Fx/Intensity_blue": { "path": "Images/Fx/red_mana_skin/Intensity_blue", "width": 512, "height": 512 }
+			},
+			"Images/Fx/Intensity_blue2": {
+				"Images/Fx/Intensity_blue": { "path": "Images/Fx/red_mana_skin/Intensity_blue", "width": 512, "height": 512 }
+			},
+			"Images/Fx/Mama_idle_motion": {
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_0": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_0", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_1": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_1", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_2": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_2", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_3": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_3", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_4": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_4", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_5": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_5", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_6": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_6", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_7": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_7", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_8": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_8", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_9": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_9", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_10": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_10", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_11": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_11", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_12": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_12", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_13": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_13", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_14": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_14", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_15": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_15", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_16": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_16", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_17": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_17", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_18": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_18", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_19": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_19", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_20": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_20", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_21": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_21", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_22": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_22", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_23": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_23", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_24": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_24", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_25": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_25", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_26": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_26", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_27": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_27", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_28": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_28", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_29": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_29", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_30": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_30", "width": 97, "height": 104 }
+			},
+			"Images/Fx/Mama_idle_motion2": {
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_0": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_0", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_1": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_1", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_2": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_2", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_3": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_3", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_4": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_4", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_5": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_5", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_6": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_6", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_7": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_7", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_8": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_8", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_9": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_9", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_10": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_10", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_11": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_11", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_12": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_12", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_13": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_13", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_14": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_14", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_15": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_15", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_16": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_16", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_17": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_17", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_18": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_18", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_19": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_19", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_20": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_20", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_21": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_21", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_22": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_22", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_23": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_23", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_24": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_24", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_25": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_25", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_26": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_26", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_27": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_27", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_28": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_28", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_29": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_29", "width": 97, "height": 104 },
+				"Images/Fx/Mama_idle_motion/blue_mama_idle_motion_30": { "path": "Images/Fx/red_mana_skin/Mama_idle_motion/blue_mama_idle_motion_30", "width": 97, "height": 104 }
+			},
+			"blue_sparks2": {
+				"Images/Fx/blue_sparks/blue_sparks_0": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_0", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_1": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_1", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_2": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_2", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_3": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_3", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_4": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_4", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_5": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_5", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_6": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_6", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_7": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_7", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_8": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_8", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_9": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_9", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_10": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_10", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_11": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_11", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_12": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_12", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_13": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_13", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_14": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_14", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_15": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_15", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_16": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_16", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_17": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_17", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_18": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_18", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_19": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_19", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_20": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_20", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_21": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_21", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_22": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_22", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_23": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_23", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_24": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_24", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_25": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_25", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_26": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_26", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_27": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_27", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_28": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_28", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_29": { "path": "Images/Fx/red_mana_skin/blue_sparks/blue_sparks_29", "width": 323, "height": 280 }
+			}
+		}
+	}
+],
+"animations": {
+	"mana_activating": {
+		"slots": {
+			"Images/Fx/Intensity_blue": {
+				"attachment": [
+					{ "time": 0.3333, "name": "Images/Fx/Intensity_blue" },
+					{ "time": 0.6667, "name": null }
+				]
+			},
+			"Images/Fx/Mama_idle_motion2": {
+				"color": [
+					{ "time": 0.5, "color": "ffffffff", "curve": 0, "c2": 0.28, "c3": 0.75 },
+					{ "time": 0.6333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_0" },
+					{ "time": 0.0333, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_1" },
+					{ "time": 0.0667, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_2" },
+					{ "time": 0.1, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_3" },
+					{ "time": 0.1333, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_4" },
+					{ "time": 0.1667, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_5" },
+					{ "time": 0.2, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_6" },
+					{ "time": 0.2333, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_7" },
+					{ "time": 0.2667, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_8" },
+					{ "time": 0.3, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_9" },
+					{ "time": 0.3333, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_10" },
+					{ "time": 0.3667, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_11" },
+					{ "time": 0.4, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_12" },
+					{ "time": 0.4333, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_13" },
+					{ "time": 0.4667, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_14" },
+					{ "time": 0.5, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_15" },
+					{ "time": 0.5333, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_16" },
+					{ "time": 0.5667, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_17" },
+					{ "time": 0.6, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_18" },
+					{ "time": 0.6333, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_19" },
+					{ "time": 0.6667, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_20" }
+				]
+			},
+			"Images/RED - ON TURN -Activated4": {
+				"attachment": [
+					{ "name": "Images/RED - ON TURN -Activated" }
+				]
+			},
+			"blue_sparks2": {
+				"attachment": [
+					{ "time": 0.5, "name": "Images/Fx/blue_sparks/blue_sparks_0" },
+					{ "time": 0.5333, "name": "Images/Fx/blue_sparks/blue_sparks_1" },
+					{ "time": 0.5667, "name": "Images/Fx/blue_sparks/blue_sparks_2" },
+					{ "time": 0.6, "name": "Images/Fx/blue_sparks/blue_sparks_3" },
+					{ "time": 0.6333, "name": "Images/Fx/blue_sparks/blue_sparks_4" },
+					{ "time": 0.6667, "name": "Images/Fx/blue_sparks/blue_sparks_5" },
+					{ "time": 0.7, "name": "Images/Fx/blue_sparks/blue_sparks_6" },
+					{ "time": 0.7333, "name": "Images/Fx/blue_sparks/blue_sparks_7" },
+					{ "time": 0.7667, "name": "Images/Fx/blue_sparks/blue_sparks_8" },
+					{ "time": 0.8, "name": "Images/Fx/blue_sparks/blue_sparks_9" },
+					{ "time": 0.8333, "name": "Images/Fx/blue_sparks/blue_sparks_10" },
+					{ "time": 0.8667, "name": "Images/Fx/blue_sparks/blue_sparks_11" },
+					{ "time": 0.9, "name": "Images/Fx/blue_sparks/blue_sparks_12" },
+					{ "time": 0.9333, "name": "Images/Fx/blue_sparks/blue_sparks_13" },
+					{ "time": 0.9667, "name": "Images/Fx/blue_sparks/blue_sparks_14" },
+					{ "time": 1, "name": "Images/Fx/blue_sparks/blue_sparks_15" },
+					{ "time": 1.0333, "name": "Images/Fx/blue_sparks/blue_sparks_16" },
+					{ "time": 1.0667, "name": "Images/Fx/blue_sparks/blue_sparks_17" },
+					{ "time": 1.1, "name": "Images/Fx/blue_sparks/blue_sparks_18" },
+					{ "time": 1.1333, "name": "Images/Fx/blue_sparks/blue_sparks_19" },
+					{ "time": 1.1667, "name": "Images/Fx/blue_sparks/blue_sparks_20" },
+					{ "time": 1.2, "name": "Images/Fx/blue_sparks/blue_sparks_21" },
+					{ "time": 1.2333, "name": "Images/Fx/blue_sparks/blue_sparks_22" },
+					{ "time": 1.2667, "name": "Images/Fx/blue_sparks/blue_sparks_23" },
+					{ "time": 1.3, "name": "Images/Fx/blue_sparks/blue_sparks_24" }
+				]
+			}
+		},
+		"bones": {
+			"Images/Fx/Intensity_blue": {
+				"translate": [
+					{ "time": 0.5333, "curve": 0, "c2": 0.27, "c3": 0.75 },
+					{ "time": 0.6667, "y": 17 }
+				],
+				"scale": [
+					{ "time": 0.3333, "curve": 0, "c2": 0.78, "c3": 0.75 },
+					{ "time": 0.5, "x": 1.586, "y": 1.586, "curve": 0, "c2": 0.53, "c3": 0.75 },
+					{ "time": 0.6667, "x": 0.378, "y": 1.22 }
+				]
+			},
+			"Images/Fx/Mama_idle_motion2": {
+				"translate": [
+					{ "x": 0.45, "y": 8.53 }
+				]
+			},
+			"blue_sparks2": {
+				"scale": [
+					{ "time": 0.5, "x": 0.815, "y": 0.815 }
+				]
+			}
+		}
+	},
+	"mana_close": {
+		"slots": {
+			"blue_mana_close": {
+				"attachment": [
+					{ "name": "Images/RED - ON TURN - Locked" }
+				]
+			}
+		}
+	},
+	"mana_open": {
+		"slots": {
+			"Images/RED - ON TURN -Activated2": {
+				"attachment": [
+					{ "name": "Images/RED - ON TURN -Activated" }
+				]
+			}
+		}
+	},
+	"mana_open_idle": {
+		"slots": {
+			"Images/Fx/Mama_idle_motion": {
+				"attachment": [
+					{ "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_0" },
+					{ "time": 0.0333, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_1" },
+					{ "time": 0.0667, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_2" },
+					{ "time": 0.1, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_3" },
+					{ "time": 0.1333, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_4" },
+					{ "time": 0.1667, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_5" },
+					{ "time": 0.2, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_6" },
+					{ "time": 0.2333, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_7" },
+					{ "time": 0.2667, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_8" },
+					{ "time": 0.3, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_9" },
+					{ "time": 0.3333, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_10" },
+					{ "time": 0.3667, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_11" },
+					{ "time": 0.4, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_12" },
+					{ "time": 0.4333, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_13" },
+					{ "time": 0.4667, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_14" },
+					{ "time": 0.5, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_15" },
+					{ "time": 0.5333, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_16" },
+					{ "time": 0.5667, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_17" },
+					{ "time": 0.6, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_18" },
+					{ "time": 0.6333, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_19" },
+					{ "time": 0.6667, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_20" },
+					{ "time": 0.7, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_21" },
+					{ "time": 0.7333, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_22" },
+					{ "time": 0.7667, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_23" },
+					{ "time": 0.8, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_24" },
+					{ "time": 0.8333, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_25" },
+					{ "time": 0.8667, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_26" },
+					{ "time": 0.9, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_27" },
+					{ "time": 0.9333, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_28" },
+					{ "time": 0.9667, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_29" },
+					{ "time": 1, "name": "Images/Fx/Mama_idle_motion/blue_mama_idle_motion_30" }
+				]
+			},
+			"Images/RED - ON TURN -Activated3": {
+				"attachment": [
+					{ "name": "Images/RED - ON TURN -Activated" }
+				]
+			}
+		},
+		"bones": {
+			"Images/Fx/Mama_idle_motion": {
+				"translate": [
+					{ "x": 0.45, "y": 8.53 }
+				]
+			}
+		}
+	},
+	"mana_unlock": {
+		"slots": {
+			"Circle_glow_blue2": {
+				"color": [
+					{ "time": 0.1, "color": "ffffff6b" },
+					{ "time": 0.4, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": "Images/Fx/Circle_glow_blue" }
+				]
+			},
+			"Images/Fx/Intensity_blue2": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1667, "color": "ffffffff" },
+					{ "time": 0.2667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/Fx/Intensity_blue" }
+				]
+			},
+			"mana_unlock": {
+				"attachment": [
+					{ "time": 0.1667, "name": "Images/RED - ON TURN -Activated" }
+				]
+			}
+		},
+		"bones": {
+			"Circle_glow_blue2": {
+				"scale": [
+					{ "time": 0.1, "x": 0.102, "y": 0.102, "curve": 0, "c2": 0.61, "c3": 0.75 },
+					{ "time": 0.4, "x": 0.264, "y": 0.264 }
+				]
+			},
+			"blue_intensity": {
+				"scale": [
+					{ "x": 0.46, "y": 0.46, "curve": 0, "c2": 0.37, "c3": 0.75 },
+					{ "time": 0.2667, "x": 1.153, "y": 1.153 }
+				]
+			}
+		}
+	}
+}
+}

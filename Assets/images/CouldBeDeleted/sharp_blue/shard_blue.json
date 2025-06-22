@@ -1,0 +1,440 @@
+{
+"skeleton": {
+	"hash": "jtq740CXPzvpPNSjfH10aPNw9Gk",
+	"spine": "3.8.99",
+	"x": -209.75,
+	"y": -66.51,
+	"width": 478.77,
+	"height": 334.34,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Fx", "parent": "root", "color": "ff0000ff" },
+	{ "name": "Images/Gem", "parent": "Fx", "color": "ff0000ff" },
+	{ "name": "Gem_UD", "parent": "Images/Gem", "color": "ff0000ff" },
+	{ "name": "impact", "parent": "Gem_UD", "color": "ff0000ff" },
+	{
+		"name": "Images/Fx/blue_gem_glow",
+		"parent": "Gem_UD",
+		"x": -19.67,
+		"y": 105.24,
+		"scaleX": 0.99,
+		"scaleY": 0.99,
+		"color": "ff0000ff"
+	},
+	{ "name": "blue_mana_ditch", "parent": "Fx", "x": 69.52, "y": 71.87, "color": "ff0000ff" },
+	{
+		"name": "Images/Fx/blue_line_weap",
+		"parent": "blue_mana_ditch",
+		"rotation": -37.13,
+		"x": -54.7,
+		"y": -72.25,
+		"scaleY": 2.5037,
+		"color": "ff0000ff"
+	},
+	{ "name": "blue_mana_ditch_clipping", "parent": "blue_mana_ditch", "color": "0200ffff" },
+	{ "name": "Images/Fx/Intensity_blue3", "parent": "impact", "color": "ff0000ff" },
+	{ "name": "blue_sparks", "parent": "impact", "transform": "noScale", "color": "ff0000ff" },
+	{ "name": "Circle_glow_blue", "parent": "impact", "transform": "noScale", "color": "ff0000ff" },
+	{ "name": "Shard_number", "parent": "Images/Gem", "rotation": 1.77, "x": -158.26, "y": 2.99, "color": "ff0000ff" },
+	{ "name": "1", "parent": "Shard_number", "color": "ff0000ff" },
+	{ "name": "Images/Fx/number_1", "parent": "1", "scaleX": 0.3512, "scaleY": 0.3512, "color": "ff0000ff" },
+	{ "name": "Gem_2_UD", "parent": "Images/Gem", "x": -101.88, "y": 183.38, "color": "ff0000ff" },
+	{
+		"name": "Images/Fx/Number_glow",
+		"parent": "Images/Fx/number_1",
+		"x": 3.48,
+		"y": 0.27,
+		"scaleX": 2.8412,
+		"scaleY": 2.8412,
+		"color": "ff0000ff"
+	}
+],
+"slots": [
+	{ "name": "Shard_number", "bone": "Shard_number", "attachment": "Images/PLATFORM_0000s_0000_Shard-number" },
+	{ "name": "blue_mana_ditch_clipping", "bone": "blue_mana_ditch_clipping", "attachment": "blue_mana_ditch_clipping" },
+	{ "name": "Images/blue_mana_ditch", "bone": "blue_mana_ditch", "attachment": "Images/Fx/blue_skin/PLATFORM_0001s_0000_ON-TURN" },
+	{ "name": "Images/Fx/blue_line_weap", "bone": "Images/Fx/blue_line_weap", "blend": "additive" },
+	{ "name": "Images/Gem", "bone": "Gem_UD", "attachment": "Images/Fx/blue_skin/Gem" },
+	{ "name": "Gem_2_UD", "bone": "Gem_2_UD", "attachment": "Images/Fx/blue_skin/Gem_2" },
+	{ "name": "Images/Fx/blue_gem_glow/blue_gem_glow_2", "bone": "Gem_2_UD" },
+	{ "name": "Images/Fx/blue_gem_glow", "bone": "Images/Fx/blue_gem_glow", "blend": "additive" },
+	{ "name": "blue_sparks", "bone": "blue_sparks" },
+	{ "name": "Circle_glow_blue", "bone": "Circle_glow_blue" },
+	{ "name": "Images/Fx/Intensity_blue3", "bone": "Images/Fx/Intensity_blue3", "blend": "additive" },
+	{ "name": "Images/Fx/Number_glow", "bone": "Images/Fx/Number_glow", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"blue_mana_ditch_clipping": {
+				"blue_mana_ditch_clipping": {
+					"type": "clipping",
+					"end": "Images/Fx/blue_line_weap",
+					"vertexCount": 56,
+					"vertices": [ 88.09, 265.9, 96.69, 160.73, 97.48, 147.43, 64.63, 115.76, 32.96, 80.18, 5.2, 43.43, -20.54, 6.13, -33.79, 15.42, -50.66, 22.11, -68.69, 25.34, -89.93, 24.48, -104.51, 20.04, -114.19, 14.13, -121.76, 7.45, -180.58, 25.58, -132.02, -1.83, -137.1, -14.09, -140.91, -26, -141.96, -33.99, -141.6, -40.53, -140.04, -51.3, -136.1, -61.96, -131.99, -70.39, -165.54, -100.64, -164.01, -101.77, -121.45, -82.49, -113.09, -88.98, -99.96, -97.64, -84.76, -104.49, -65.57, -106.63, -49.35, -105.8, -37.49, -102.84, -24.8, -97.08, -6.47, -84.66, 29.99, -103.19, 28.82, -99.83, 1.29, -72.72, 2.85, -62.93, 6.27, -55.49, 12.57, -38.18, 25.87, -11.2, 40.78, 12.26, 58.77, 34.43, 77.93, 54.77, 99.43, 73.53, 129.15, 95.43, 161.21, 115.76, 177.63, 123.19, 176.46, 142.35, 180.37, 162.29, 192.1, 183.79, 203.05, 197.09, 221.81, 215.47, 183.1, 292.49, 150.65, 277.63, 109.21, 267.86 ],
+					"color": "ce3a3aff"
+				}
+			}
+		}
+	},
+	{
+		"name": "blue_skin",
+		"attachments": {
+			"Circle_glow_blue": {
+				"Images/Fx/Circle_glow_blue": { "path": "Images/Fx/blue_skin/Circle_glow_blue", "width": 500, "height": 500 }
+			},
+			"Gem_2_UD": {
+				"Images/Fx/blue_skin/Gem_2": { "width": 48, "height": 75 }
+			},
+			"Images/Fx/Intensity_blue3": {
+				"Images/Fx/Intensity_blue": { "path": "Images/Fx/blue_skin/Intensity_blue", "width": 512, "height": 512 }
+			},
+			"Images/Fx/Number_glow": {
+				"Images/Fx/Number_glow": { "path": "Images/Fx/blue_skin/Number_glow", "width": 169, "height": 209 }
+			},
+			"Images/Fx/blue_gem_glow": {
+				"Images/Fx/blue_gem_glow/blue_gem_glow_0": { "path": "Images/Fx/blue_skin/blue_gem_glow/blue_gem_glow_0", "width": 409, "height": 427 }
+			},
+			"Images/Fx/blue_gem_glow/blue_gem_glow_2": {
+				"Images/Fx/blue_gem_glow/blue_gem_glow_2": { "path": "Images/Fx/blue_skin/blue_gem_glow/blue_gem_glow_2", "x": 4.21, "y": 0.29, "width": 122, "height": 141 }
+			},
+			"Images/Fx/blue_line_weap": {
+				"Images/Fx/blue_line_weap": { "path": "Images/Fx/blue_skin/blue_line_weap", "width": 500, "height": 88 }
+			},
+			"Images/Gem": {
+				"Images/Fx/blue_skin/Gem": { "x": -19.82, "y": 105.32, "width": 197, "height": 212 }
+			},
+			"Images/blue_mana_ditch": {
+				"Images/Fx/blue_skin/PLATFORM_0001s_0000_ON-TURN": { "x": 7.99, "y": 37.46, "width": 383, "height": 317 }
+			},
+			"Shard_number": {
+				"Images/PLATFORM_0000s_0000_Shard-number": { "x": 1.61, "y": 0.49, "width": 102, "height": 137 }
+			},
+			"blue_sparks": {
+				"Images/Fx/blue_sparks/blue_sparks_0": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_0", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_1": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_1", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_2": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_2", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_3": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_3", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_4": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_4", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_5": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_5", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_6": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_6", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_7": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_7", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_8": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_8", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_9": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_9", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_10": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_10", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_11": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_11", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_12": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_12", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_13": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_13", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_14": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_14", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_15": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_15", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_16": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_16", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_17": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_17", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_18": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_18", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_19": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_19", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_20": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_20", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_21": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_21", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_22": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_22", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_23": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_23", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_24": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_24", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_25": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_25", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_26": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_26", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_27": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_27", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_28": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_28", "width": 323, "height": 280 },
+				"Images/Fx/blue_sparks/blue_sparks_29": { "path": "Images/Fx/blue_skin/blue_sparks/blue_sparks_29", "width": 323, "height": 280 }
+			}
+		}
+	}
+],
+"animations": {
+	"shard_acquire_activate": {
+		"slots": {
+			"Circle_glow_blue": {
+				"color": [
+					{ "time": 1.2, "color": "ffffff2a" },
+					{ "time": 1.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 1.2, "name": "Images/Fx/Circle_glow_blue" }
+				]
+			},
+			"Images/Fx/Intensity_blue3": {
+				"color": [
+					{ "time": 1.2, "color": "ffffffff" },
+					{ "time": 1.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 1.1333, "name": "Images/Fx/Intensity_blue" }
+				]
+			},
+			"Images/Fx/Number_glow": {
+				"color": [
+					{ "time": 1.1667, "color": "ffffff00" },
+					{ "time": 1.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.6667, "color": "ffffffff" },
+					{ "time": 2.2667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 1.1667, "name": "Images/Fx/Number_glow" }
+				]
+			},
+			"Images/Fx/blue_gem_glow": {
+				"color": [
+					{ "color": "ffffff5e", "curve": "stepped" },
+					{ "time": 1.1667, "color": "ffffff5e", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.6667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Images/Fx/blue_gem_glow/blue_gem_glow_0" }
+				]
+			},
+			"Images/Fx/blue_gem_glow/blue_gem_glow_2": {
+				"color": [
+					{ "color": "ffffff5e", "curve": "stepped" },
+					{ "time": 1.1667, "color": "ffffff5e", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.6667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Images/Fx/blue_gem_glow/blue_gem_glow_2" }
+				]
+			},
+			"Images/Fx/blue_line_weap": {
+				"color": [
+					{ "time": 1.3333, "color": "ffffffff" },
+					{ "time": 1.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.7333, "name": "Images/Fx/blue_line_weap" }
+				]
+			},
+			"blue_sparks": {
+				"attachment": [
+					{ "time": 1.2667, "name": "Images/Fx/blue_sparks/blue_sparks_0" },
+					{ "time": 1.3, "name": "Images/Fx/blue_sparks/blue_sparks_1" },
+					{ "time": 1.3333, "name": "Images/Fx/blue_sparks/blue_sparks_2" },
+					{ "time": 1.3667, "name": "Images/Fx/blue_sparks/blue_sparks_3" },
+					{ "time": 1.4, "name": "Images/Fx/blue_sparks/blue_sparks_4" },
+					{ "time": 1.4333, "name": "Images/Fx/blue_sparks/blue_sparks_5" },
+					{ "time": 1.4667, "name": "Images/Fx/blue_sparks/blue_sparks_6" },
+					{ "time": 1.5, "name": "Images/Fx/blue_sparks/blue_sparks_7" },
+					{ "time": 1.5333, "name": "Images/Fx/blue_sparks/blue_sparks_8" },
+					{ "time": 1.5667, "name": "Images/Fx/blue_sparks/blue_sparks_9" },
+					{ "time": 1.6, "name": "Images/Fx/blue_sparks/blue_sparks_10" },
+					{ "time": 1.6333, "name": "Images/Fx/blue_sparks/blue_sparks_11" },
+					{ "time": 1.6667, "name": "Images/Fx/blue_sparks/blue_sparks_12" },
+					{ "time": 1.7, "name": "Images/Fx/blue_sparks/blue_sparks_13" },
+					{ "time": 1.7333, "name": "Images/Fx/blue_sparks/blue_sparks_14" },
+					{ "time": 1.7667, "name": "Images/Fx/blue_sparks/blue_sparks_15" },
+					{ "time": 1.8, "name": "Images/Fx/blue_sparks/blue_sparks_16" },
+					{ "time": 1.8333, "name": "Images/Fx/blue_sparks/blue_sparks_17" },
+					{ "time": 1.8667, "name": "Images/Fx/blue_sparks/blue_sparks_18" },
+					{ "time": 1.9, "name": "Images/Fx/blue_sparks/blue_sparks_19" },
+					{ "time": 1.9333, "name": "Images/Fx/blue_sparks/blue_sparks_20" },
+					{ "time": 1.9667, "name": "Images/Fx/blue_sparks/blue_sparks_21" },
+					{ "time": 2, "name": "Images/Fx/blue_sparks/blue_sparks_22" },
+					{ "time": 2.0333, "name": "Images/Fx/blue_sparks/blue_sparks_23" },
+					{ "time": 2.0667, "name": "Images/Fx/blue_sparks/blue_sparks_24" },
+					{ "time": 2.1, "name": "Images/Fx/blue_sparks/blue_sparks_25" },
+					{ "time": 2.1333, "name": "Images/Fx/blue_sparks/blue_sparks_26" },
+					{ "time": 2.1667, "name": "Images/Fx/blue_sparks/blue_sparks_27" },
+					{ "time": 2.2, "name": "Images/Fx/blue_sparks/blue_sparks_28" },
+					{ "time": 2.2333, "name": "Images/Fx/blue_sparks/blue_sparks_29" },
+					{ "time": 2.2667, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Images/Fx/blue_line_weap": {
+				"translate": [
+					{ "time": 0.7333, "x": 151.86, "y": 200.59 },
+					{ "time": 1.1667, "x": -0.35, "y": -0.46 }
+				],
+				"scale": [
+					{ "time": 1, "curve": 0.567, "c2": 0.01, "c3": 0.75 },
+					{ "time": 1.1667, "y": 3.657 }
+				]
+			},
+			"Gem_UD": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.1333, "y": 7.18, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.2667 }
+				]
+			},
+			"Images/Fx/Intensity_blue3": {
+				"translate": [
+					{ "time": 1.1333, "y": 113.15 }
+				],
+				"scale": [
+					{ "time": 1.1333, "curve": 0, "c2": 0.37, "c3": 0.75 },
+					{ "time": 1.2667, "x": 3.219, "y": 3.219 }
+				]
+			},
+			"blue_sparks": {
+				"translate": [
+					{ "time": 1.2667, "x": -14.48, "y": 97.03 }
+				],
+				"scale": [
+					{ "time": 1.2667, "x": 3.133, "y": 3.133 }
+				]
+			},
+			"Circle_glow_blue": {
+				"translate": [
+					{ "time": 1.2, "y": 106.36 }
+				],
+				"scale": [
+					{ "time": 1.2, "x": 0.491, "y": 0.491, "curve": 0, "c2": 0.49, "c3": 0.552 },
+					{ "time": 1.6667, "x": 2.558, "y": 2.558 }
+				]
+			},
+			"Gem_2_UD": {
+				"translate": [
+					{ "y": 6.78, "curve": 0.314, "c2": 0.27, "c3": 0.657, "c4": 0.64 },
+					{ "time": 0.5667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.7, "y": 10.69, "curve": 0.276, "c3": 0.621, "c4": 0.4 },
+					{ "time": 2.2667, "y": 6.78 }
+				]
+			}
+		}
+	},
+	"shard_can_acquire": {
+		"slots": {
+			"Images/Fx/blue_gem_glow": {
+				"color": [
+					{ "color": "ffffff5e" }
+				],
+				"attachment": [
+					{ "name": "Images/Fx/blue_gem_glow/blue_gem_glow_0" }
+				]
+			},
+			"Images/Fx/blue_gem_glow/blue_gem_glow_2": {
+				"color": [
+					{ "color": "ffffffa5" }
+				],
+				"attachment": [
+					{ "name": "Images/Fx/blue_gem_glow/blue_gem_glow_2" }
+				]
+			},
+			"Images/Fx/blue_line_weap": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffff8f" },
+					{ "time": 1.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/Fx/blue_line_weap" }
+				]
+			}
+		},
+		"bones": {
+			"Images/Fx/blue_line_weap": {
+				"translate": [
+					{ "x": 151.86, "y": 200.59 },
+					{ "time": 1.6667, "x": -91.25, "y": -120.53 }
+				],
+				"scale": [
+					{ "curve": 0.567, "c2": 0.01, "c3": 0.75 },
+					{ "time": 0.3333, "y": 1.089 }
+				]
+			},
+			"Gem_2_UD": {
+				"translate": [
+					{ "y": 3.59, "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 0.5, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5, "y": 7.18, "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 2, "y": 3.59 }
+				]
+			},
+			"Gem_UD": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "y": 7.18, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			}
+		}
+	},
+	"shard_idle": {
+		"slots": {
+			"Images/Fx/blue_gem_glow": {
+				"color": [
+					{ "color": "ffffff7f", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2, "color": "ffffff7f" }
+				],
+				"attachment": [
+					{ "name": "Images/Fx/blue_gem_glow/blue_gem_glow_0" }
+				]
+			},
+			"Images/Fx/blue_gem_glow/blue_gem_glow_2": {
+				"color": [
+					{ "color": "ffffffbf", "curve": 0.375, "c2": 0.5, "c3": 0.75 },
+					{ "time": 0.5, "color": "ffffff7f", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5, "color": "ffffffff", "curve": 0.25, "c3": 0.625, "c4": 0.5 },
+					{ "time": 2, "color": "ffffffbf" }
+				],
+				"attachment": [
+					{ "name": "Images/Fx/blue_gem_glow/blue_gem_glow_2" }
+				]
+			}
+		},
+		"bones": {
+			"Gem_UD": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "y": 7.18, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Gem_2_UD": {
+				"translate": [
+					{ "y": 6.78, "curve": 0.314, "c2": 0.27, "c3": 0.657, "c4": 0.64 },
+					{ "time": 0.5, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5, "y": 10.69, "curve": 0.276, "c3": 0.621, "c4": 0.4 },
+					{ "time": 2, "y": 6.78 }
+				]
+			}
+		}
+	},
+	"shard_idle_no_shard": {
+		"slots": {
+			"Images/Fx/blue_gem_glow": {
+				"color": [
+					{ "color": "ffffff5e" }
+				],
+				"attachment": [
+					{ "name": "Images/Fx/blue_gem_glow/blue_gem_glow_0" }
+				]
+			},
+			"Images/Fx/blue_gem_glow/blue_gem_glow_2": {
+				"color": [
+					{ "color": "ffffff8d" }
+				],
+				"attachment": [
+					{ "name": "Images/Fx/blue_gem_glow/blue_gem_glow_2" }
+				]
+			}
+		},
+		"bones": {
+			"Gem_UD": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "y": 7.18, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2 }
+				]
+			},
+			"Gem_2_UD": {
+				"translate": [
+					{ "y": 6.78, "curve": 0.314, "c2": 0.27, "c3": 0.657, "c4": 0.64 },
+					{ "time": 0.5, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5, "y": 10.69, "curve": 0.276, "c3": 0.621, "c4": 0.4 },
+					{ "time": 2, "y": 6.78 }
+				]
+			}
+		}
+	}
+}
+}

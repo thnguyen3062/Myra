@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e3477839d642e4ebeb61fc4028d304, type: 3}
+  m_Name: KeywordData
+  m_EditorClassIdentifier: 
+  keywordDataInfo:
+  - keyID: breaker
+    keywordName: <size=20><sprite=1></size>   <b>Breaker</b>
+    keywordDescription: Deals X extra damage upon attacking a Tower
+  - keyID: cleave
+    keywordName: <size=20><sprite=4></size>   <b>Cleave</b>
+    keywordDescription: Also deals X damage to the unit next to the Stroke target
+      in the same lane
+  - keyID: overrun
+    keywordName: <size=20><sprite=3></size>   <b>Overrun</b>
+    keywordDescription: Excess damage after striking a unit will be dealt to any
+      unit or Tower behind it.
+  - keyID: combo
+    keywordName: <size=20><sprite=2></size>   <b>Combo</b>
+    keywordDescription: In Combat phase, this unit can be readied X times after combat.
+  - keyID: shield
+    keywordName: Shield
+    keywordDescription: Reduces the next instance of single damage would take to
+      0
+  - keyID: summon
+    keywordName: Summon
+    keywordDescription: Play a Mortal or God to battlefield
+  - keyID: strike
+    keywordName: Strike
+    keywordDescription: Cause damage to another unit
+  - keyID: warcry
+    keywordName: Warcry
+    keywordDescription: Does something when you play it from hand
+  - keyID: zodiac
+    keywordName: Zodiac
+    keywordDescription: After you have at least X Zodiac on board, get better effect
+  - keyID: fight
+    keywordName: Fight
+    keywordDescription: 2 units strike each other
+  - keyID: attack
+    keywordName: Attack
+    keywordDescription: Damage dealt on opponent's HP upon striking
+  - keyID: health
+    keywordName: Health
+    keywordDescription: How much damage can this unit take from opponent
+  - keyID: manacost
+    keywordName: Mana Cost
+    keywordDescription: Amount of mana consumed to Summon this card
+  - keyID: manaavailable
+    keywordName: Mana Available
+    keywordDescription: At the start of each round, you gain a mana gem capacity
+      and refill all mana.
+  - keyID: shard
+    keywordName: Shard
+    keywordDescription: Precious crystal that Gods can consume to increase power
+      and unlock skills
+  - keyID: glory
+    keywordName: Glory
+    keywordDescription: Effect applies after defeating an opponent unit
+  - keyID: prepare
+    keywordName: PREPARE End
+    keywordDescription: When a player turn's ends, trigger effects with this keyword
+  - keyID: combat
+    keywordName: COMBAT Start
+    keywordDescription: When the combat phase starting, trigger effects with this
+      keyword before resolving the combat
+  - keyID: active
+    keywordName: 'Active '
+    keywordDescription: 'ACTIVE: Cost 3 mana. Summon 1 Mortal "The Great Kraken,
+      {0}|3, Cleave {0}, {0} is the number of Kraken''s Tentacle had been summoned"'
+  - keyID: healingtouch
+    keywordName: Healing Touch
+    keywordDescription: 'ACTIVE: Heal 3 to a friendly unit'
+  - keyID: luringthetiger
+    keywordName: Luring The Tiger
+    keywordDescription: 'ACTIVE: Swap position of 2 friendly unit'

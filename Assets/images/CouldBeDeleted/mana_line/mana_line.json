@@ -1,0 +1,52 @@
+{
+"skeleton": {
+	"hash": "ydTXOK637ck5y1jacYXmlzmhiQ4",
+	"spine": "3.8.99",
+	"x": -138,
+	"y": -193.5,
+	"width": 276,
+	"height": 387,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Fx", "parent": "root", "color": "ff0000ff" },
+	{ "name": "mana_line", "parent": "Fx", "color": "ff0000ff" },
+	{ "name": "Images/Fx/mana_line_blue", "parent": "mana_line", "color": "ff0000ff" }
+],
+"slots": [
+	{ "name": "Images/Fx/mana_line_blue", "bone": "Images/Fx/mana_line_blue", "attachment": "mana_line_blue" }
+],
+"skins": [
+	{
+		"name": "blue_skin",
+		"attachments": {
+			"Images/Fx/mana_line_blue": {
+				"mana_line_blue": { "name": "Images/Fx/blue_skin/mana_line_blue", "width": 276, "height": 387 }
+			}
+		}
+	},
+	{
+		"name": "red_skin",
+		"attachments": {
+			"Images/Fx/mana_line_blue": {
+				"mana_line_blue": { "name": "Images/Fx/blue_skin/mana_line_blue", "path": "Images/Fx/red_skin/mana_line_blue", "width": 276, "height": 387 }
+			}
+		}
+	}
+],
+"animations": {
+	"mana_line": {
+		"slots": {
+			"Images/Fx/mana_line_blue": {
+				"color": [
+					{ "color": "ffffff9c", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2, "color": "ffffff9c" }
+				]
+			}
+		}
+	}
+}
+}

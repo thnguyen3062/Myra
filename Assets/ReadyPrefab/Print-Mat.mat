@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Print-Mat
+  m_Shader: {fileID: 4800000, guid: c1f4688834f90cb41aab7a9c24cdfa5f, type: 3}
+  m_ShaderKeywords: EFFECTS_LAYER_1_ON EFFECTS_LAYER_2_ON EFFECTS_LAYER_3_OFF EFFECTS_LAYER_4_OFF
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DistMask:
+        m_Texture: {fileID: 2800000, guid: 7e2f969c590fbe8428efb59b2c60cefd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistMax:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistTex:
+        m_Texture: {fileID: 2800000, guid: 2ab744252ac17564db1fb4983d11b854, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EffectsLayer1Motion:
+        m_Texture: {fileID: 2800000, guid: a3f287377a1193342806088f2a3a4a0e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EffectsLayer1Tex:
+        m_Texture: {fileID: 2800000, guid: f6cb520a227728e44a57a9de3c111ffa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EffectsLayer2Motion:
+        m_Texture: {fileID: 2800000, guid: c51a020f0b10f834f8fccc48526f7749, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EffectsLayer2Tex:
+        m_Texture: {fileID: 2800000, guid: b6eeb58a2e4e0e6459bd011c9e0ede61, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EffectsLayer3Motion:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EffectsLayer3Tex:
+        m_Texture: {fileID: 2800000, guid: 9f3c58d3e4da749499d5cf376feb6225, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EffectsLayer4Motion:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EffectsLayer4Tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _EffectsLayer1Background: 1
+    - _EffectsLayer1Enabled: 0
+    - _EffectsLayer1Foreground: 0
+    - _EffectsLayer1MotionSpeed: 5
+    - _EffectsLayer1Rotation: 0
+    - _EffectsLayer2Background: 1
+    - _EffectsLayer2Foreground: 1
+    - _EffectsLayer2MotionSpeed: 10
+    - _EffectsLayer2Rotation: 0
+    - _EffectsLayer3Background: 0
+    - _EffectsLayer3Foreground: 1
+    - _EffectsLayer3MotionSpeed: 0
+    - _EffectsLayer3Rotation: -15
+    - _EffectsLayer4Foreground: 0
+    - _EffectsLayer4MotionSpeed: 0
+    - _EffectsLayer4Rotation: 0
+    m_Colors:
+    - _EffectsLayer1Color: {r: 0.8584906, g: 0.4301798, b: 0.3523051, a: 0.341}
+    - _EffectsLayer1P3vot: {r: 0, g: 0, b: 0, a: 0}
+    - _EffectsLayer1Pivot: {r: 0, g: 0, b: 0, a: 0}
+    - _EffectsLayer1PivotScale: {r: 0.5, g: 0.5, b: 1, a: 1}
+    - _EffectsLayer1Translation: {r: -0, g: 0, b: 0, a: 0}
+    - _EffectsLayer2Color: {r: 1, g: 0, b: 0, a: 0.72156864}
+    - _EffectsLayer2Pivot: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _EffectsLayer2PivotScale: {r: 0.5, g: 0.5, b: 0.7, a: 0.25}
+    - _EffectsLayer2Translation: {r: 0, g: 0.1, b: 0, a: 0}
+    - _EffectsLayer3Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EffectsLayer3Pivot: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _EffectsLayer3PivotScale: {r: 0.5, g: 0.5, b: 0.7, a: 0.25}
+    - _EffectsLayer3Translation: {r: 0.02, g: -0.05, b: 0, a: 0}
+    - _EffectsLayer4Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EffectsLayer4PivotScale: {r: 0.5, g: 0.5, b: 1, a: 1}
+    - _EffectsLayer4Translation: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

@@ -1,0 +1,425 @@
+{
+"skeleton": {
+	"hash": "mNBH9C0Lev2g/Ue+FRmdXZh2P3w",
+	"spine": "3.8.99",
+	"x": 151,
+	"y": -955,
+	"width": 777,
+	"height": 831,
+	"images": "./images/",
+	"audio": "E:/_Working/Myth/Rank/RankIcon_Gold"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Root", "parent": "root", "length": 72.71, "rotation": 89.48, "x": 541.6, "y": -494.95 },
+	{ "name": "4Stones", "parent": "Root", "length": 39.52, "rotation": -88.04, "x": -2.72, "y": 1.03 },
+	{ "name": "BGFr", "parent": "Root", "length": 34.84, "rotation": -89.48, "x": 173.2, "y": 4.24 },
+	{ "name": "BGStone", "parent": "Root", "length": 39.28, "rotation": -88.12, "x": 5.84, "y": 2.51 },
+	{ "name": "BotBG", "parent": "Root", "length": 42.66, "rotation": -85.94, "x": -243.52, "y": -9.78 },
+	{ "name": "BotStone", "parent": "Root", "length": 22.8, "rotation": 0.52, "x": -248.9, "y": -0.74 },
+	{ "name": "InnerRing", "parent": "Root", "length": 30.64, "rotation": -178.65, "x": -2.21, "y": 2.97 },
+	{ "name": "TopStone", "parent": "Root", "length": 26.95, "rotation": -90.16, "x": 231.97, "y": 3.85 }
+],
+"slots": [
+	{ "name": "BotBGFr", "bone": "root", "attachment": "BotBGFr" },
+	{ "name": "BGFr", "bone": "root", "attachment": "BGFr" },
+	{ "name": "BGStone", "bone": "root", "attachment": "BGStone" },
+	{ "name": "InnerRing", "bone": "root", "attachment": "InnerRing" },
+	{ "name": "BtmStone", "bone": "root", "attachment": "BtmStone" },
+	{ "name": "4Stones", "bone": "root", "attachment": "4Stones" },
+	{ "name": "TopStone", "bone": "root", "attachment": "TopStone" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"4Stones": {
+				"4Stones": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 1, 2, 211.64, -193.74, 1, 1, 2, -223.22, -182.77, 1, 1, 2, -213.67, 196.11, 1, 1, 2, 221.2, 185.14, 1 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 435,
+					"height": 379
+				}
+			},
+			"BGFr": {
+				"BGFr": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 1, 3, 389.08, -199.28, 1, 1, 3, -387.92, -199.28, 1, 1, 3, -387.92, 197.72, 1, 1, 3, 389.08, 197.72, 1 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 777,
+					"height": 397
+				}
+			},
+			"BGStone": {
+				"BGStone": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 1, 4, 348.07, -373.31, 1, 1, 4, -363.72, -356.36, 1, 1, 4, -346.35, 373.43, 1, 1, 4, 365.45, 356.49, 1 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 712,
+					"height": 730
+				}
+			},
+			"BotBGFr": {
+				"BotBGFr": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 1, 5, 318.82, -236.58, 1, 1, 5, -343.91, -195.59, 1, 1, 5, -317.3, 234.59, 1, 1, 5, 345.43, 193.59, 1 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 664,
+					"height": 431
+				}
+			},
+			"BtmStone": {
+				"BtmStone": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 1, 6, -36.16, -37.91, 1, 1, 6, -36.16, 38.09, 1, 1, 6, 35.84, 38.09, 1, 1, 6, 35.84, -37.91, 1 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 76,
+					"height": 72
+				}
+			},
+			"InnerRing": {
+				"InnerRing": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 1, 7, 206.81, 201.42, 1, 1, 7, 200.9, -206.54, 1, 1, 7, -207.06, -200.63, 1, 1, 7, -201.14, 207.33, 1 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 408,
+					"height": 408
+				}
+			},
+			"TopStone": {
+				"TopStone": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 1, 8, 80.77, -51.1, 1, 1, 8, -79.21, -52.98, 1, 1, 8, -80.46, 53.01, 1, 1, 8, 79.53, 54.9, 1 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 160,
+					"height": 106
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"RankIconGold_Off": {
+		"bones": {
+			"Root": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"4Stones": {
+				"rotate": [
+					{},
+					{ "time": 0.6, "angle": 178.56, "curve": "stepped" },
+					{ "time": 0.7333, "angle": 178.56, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 178.56 },
+					{ "time": 0.9333 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 0.6, "curve": "stepped" },
+					{ "time": 1.2333 },
+					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"BGFr": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.2, "x": -63.68, "y": -0.57, "curve": "stepped" },
+					{ "time": 1.1333, "x": -63.68, "y": -0.57, "curve": "stepped" },
+					{ "time": 1.2, "x": -63.68, "y": -0.57 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 1.1333 },
+					{ "time": 1.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"BGStone": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.4333 },
+					{ "time": 0.5667, "angle": 178.64, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 178.64, "curve": "stepped" },
+					{ "time": 2, "angle": 178.64 }
+				],
+				"translate": [
+					{ "x": 1.35, "y": 0.01 },
+					{ "time": 0.4333, "x": 1.35, "y": 0.01 },
+					{ "time": 0.5, "x": -6.87, "y": 10.1 },
+					{ "time": 0.5667, "x": -14.89, "y": -1.49 },
+					{ "time": 1.3333, "x": -13.8, "y": -0.12 },
+					{ "time": 2, "x": -18.97, "y": -0.17 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 1.3333 },
+					{ "time": 1.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"BotBG": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.2, "x": 65.75, "y": 0.59, "curve": "stepped" },
+					{ "time": 1.1, "x": 65.75, "y": 0.59 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 1.1 },
+					{ "time": 1.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"BotStone": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.2, "x": 207.27, "y": 1.87, "curve": "stepped" },
+					{ "time": 2, "x": 207.27, "y": 1.87 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 1.9333 },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"InnerRing": {
+				"rotate": [
+					{},
+					{ "time": 0.7333, "angle": -0.83 },
+					{ "time": 0.8333, "angle": -90.83 },
+					{ "time": 0.9333, "angle": 89.17, "curve": "stepped" },
+					{ "time": 1.4667, "angle": 89.17 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 1.4 },
+					{ "time": 1.4667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"TopStone": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.2, "x": -185.65, "y": -1.67, "curve": "stepped" },
+					{ "time": 2, "x": -185.65, "y": -1.67 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 1.9333 },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"RankIconGold_On": {
+		"bones": {
+			"Root": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"4Stones": {
+				"rotate": [
+					{},
+					{ "time": 0.9333, "angle": 178.56 },
+					{ "time": 1.2333 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 },
+					{ "time": 0.9333, "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"BGFr": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 1.4, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{},
+					{ "time": 1.2, "x": -55.56, "y": -0.5 },
+					{ "time": 1.4, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1, "x": 0, "y": 0 },
+					{ "time": 1.2, "curve": "stepped" },
+					{ "time": 1.4, "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"BGStone": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.7667, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.7667, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6333, "x": 0, "y": 0 },
+					{ "time": 0.7667, "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"BotBG": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 1.4, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{},
+					{ "time": 1.2, "x": 53.24, "y": 0.48 },
+					{ "time": 1.4, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1, "x": 0, "y": 0 },
+					{ "time": 1.2, "curve": "stepped" },
+					{ "time": 1.4, "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"BotStone": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.2333, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "x": 210.42, "y": 1.9 },
+					{ "time": 0.2333, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.2333, "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"InnerRing": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.4333, "curve": "stepped" },
+					{ "time": 0.5667, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 0.4333, "curve": "stepped" },
+					{ "time": 0.5667, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0 },
+					{ "time": 0.5667, "curve": "stepped" },
+					{ "time": 2 }
+				]
+			},
+			"TopStone": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.2333, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"translate": [
+					{ "x": -186.09, "y": -1.68 },
+					{ "time": 0.2333, "curve": "stepped" },
+					{ "time": 2 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 0.2333, "curve": "stepped" },
+					{ "time": 2 }
+				]
+			}
+		}
+	}
+}
+}

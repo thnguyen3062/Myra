@@ -1,0 +1,1551 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe55b4cdc0ec9184c93127b7093c8052, type: 3}
+  m_Name: ProjectileData
+  m_EditorClassIdentifier: 
+  projectileInfo:
+  - skillName: 1
+    skillID: 1
+    effectID: 2
+    type: 18
+    requireProjectile: 0
+  - skillName: 2
+    skillID: 2
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 3
+    skillID: 3
+    effectID: 11
+    type: 13
+    requireProjectile: 0
+  - skillName: 5
+    skillID: 5
+    effectID: 2
+    type: 18
+    requireProjectile: 0
+  - skillName: 6
+    skillID: 6
+    effectID: 4
+    type: 17
+    requireProjectile: 0
+  - skillName: 8
+    skillID: 8
+    effectID: 10
+    type: 16
+    requireProjectile: 0
+  - skillName: 9
+    skillID: 9
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 9
+    skillID: 9
+    effectID: 9
+    type: 21
+    requireProjectile: 0
+  - skillName: 12
+    skillID: 12
+    effectID: 5
+    type: 12
+    requireProjectile: 0
+  - skillName: 14
+    skillID: 14
+    effectID: 11
+    type: 27
+    requireProjectile: 0
+  - skillName: 15
+    skillID: 15
+    effectID: 1
+    type: 26
+    requireProjectile: 0
+  - skillName: 16
+    skillID: 16
+    effectID: 11
+    type: 27
+    requireProjectile: 0
+  - skillName: 17
+    skillID: 17
+    effectID: 11
+    type: 27
+    requireProjectile: 0
+  - skillName: 17
+    skillID: 17
+    effectID: 0
+    type: 11
+    requireProjectile: 0
+  - skillName: 19
+    skillID: 19
+    effectID: 11
+    type: 13
+    requireProjectile: 0
+  - skillName: 20
+    skillID: 20
+    effectID: 7
+    type: 10
+    requireProjectile: 0
+  - skillName: 22
+    skillID: 22
+    effectID: 0
+    type: 11
+    requireProjectile: 0
+  - skillName: 23
+    skillID: 23
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 24
+    skillID: 24
+    effectID: 11
+    type: 13
+    requireProjectile: 0
+  - skillName: 26
+    skillID: 26
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 27
+    skillID: 27
+    effectID: 1
+    type: 28
+    requireProjectile: 0
+  - skillName: 28
+    skillID: 28
+    effectID: 1
+    type: 29
+    requireProjectile: 0
+  - skillName: 29
+    skillID: 29
+    effectID: 10
+    type: 30
+    requireProjectile: 0
+  - skillName: 30
+    skillID: 30
+    effectID: 1
+    type: 28
+    requireProjectile: 0
+  - skillName: 31
+    skillID: 31
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 34
+    skillID: 34
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 35
+    skillID: 35
+    effectID: 1
+    type: 11
+    requireProjectile: 0
+  - skillName: 36
+    skillID: 36
+    effectID: 10
+    type: 16
+    requireProjectile: 0
+  - skillName: 37
+    skillID: 37
+    effectID: 8
+    type: 11
+    requireProjectile: 0
+  - skillName: 38
+    skillID: 38
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 39
+    skillID: 39
+    effectID: 10
+    type: 16
+    requireProjectile: 0
+  - skillName: 40
+    skillID: 40
+    effectID: 2
+    type: 23
+    requireProjectile: 0
+  - skillName: 41
+    skillID: 41
+    effectID: 1
+    type: 11
+    requireProjectile: 0
+  - skillName: 42
+    skillID: 42
+    effectID: 6
+    type: 0
+    requireProjectile: 1
+  - skillName: 43
+    skillID: 43
+    effectID: 6
+    type: 0
+    requireProjectile: 1
+  - skillName: 45
+    skillID: 45
+    effectID: 6
+    type: 0
+    requireProjectile: 1
+  - skillName: 49
+    skillID: 49
+    effectID: 0
+    type: 11
+    requireProjectile: 0
+  - skillName: 50
+    skillID: 50
+    effectID: 12
+    type: 34
+    requireProjectile: 0
+  - skillName: 51
+    skillID: 51
+    effectID: 6
+    type: 35
+    requireProjectile: 0
+  - skillName: 52
+    skillID: 52
+    effectID: 6
+    type: 36
+    requireProjectile: 0
+  - skillName: 55
+    skillID: 55
+    effectID: 12
+    type: 20
+    requireProjectile: 0
+  - skillName: 56
+    skillID: 56
+    effectID: 12
+    type: 20
+    requireProjectile: 0
+  - skillName: 57
+    skillID: 57
+    effectID: 6
+    type: 14
+    requireProjectile: 0
+  - skillName: 59
+    skillID: 59
+    effectID: 5
+    type: 12
+    requireProjectile: 0
+  - skillName: 60
+    skillID: 60
+    effectID: 9
+    type: 17
+    requireProjectile: 0
+  - skillName: 62
+    skillID: 62
+    effectID: 6
+    type: 9
+    requireProjectile: 1
+  - skillName: 65
+    skillID: 65
+    effectID: 6
+    type: 14
+    requireProjectile: 0
+  - skillName: 66
+    skillID: 66
+    effectID: 12
+    type: 20
+    requireProjectile: 0
+  - skillName: 68
+    skillID: 68
+    effectID: 5
+    type: 12
+    requireProjectile: 0
+  - skillName: 70
+    skillID: 70
+    effectID: 6
+    type: 8
+    requireProjectile: 1
+  - skillName: 72
+    skillID: 72
+    effectID: 1
+    type: 40
+    requireProjectile: 0
+  - skillName: 73
+    skillID: 73
+    effectID: 14
+    type: 41
+    requireProjectile: 0
+  - skillName: 73
+    skillID: 73
+    effectID: 9
+    type: 17
+    requireProjectile: 0
+  - skillName: 75
+    skillID: 75
+    effectID: 9
+    type: 40
+    requireProjectile: 0
+  - skillName: 76
+    skillID: 76
+    effectID: 6
+    type: 3
+    requireProjectile: 1
+  - skillName: 77
+    skillID: 77
+    effectID: 0
+    type: 39
+    requireProjectile: 0
+  - skillName: 78
+    skillID: 78
+    effectID: 5
+    type: 12
+    requireProjectile: 0
+  - skillName: 60
+    skillID: 60
+    effectID: 6
+    type: 2
+    requireProjectile: 1
+  - skillName: 64
+    skillID: 64
+    effectID: 7
+    type: 10
+    requireProjectile: 0
+  - skillName: 82
+    skillID: 82
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 83
+    skillID: 83
+    effectID: 5
+    type: 12
+    requireProjectile: 0
+  - skillName: 84
+    skillID: 84
+    effectID: 6
+    type: 7
+    requireProjectile: 1
+  - skillName: 85
+    skillID: 85
+    effectID: 6
+    type: 49
+    requireProjectile: 0
+  - skillName: 86
+    skillID: 86
+    effectID: 6
+    type: 5
+    requireProjectile: 1
+  - skillName: 87
+    skillID: 87
+    effectID: 6
+    type: 14
+    requireProjectile: 0
+  - skillName: 88
+    skillID: 88
+    effectID: 6
+    type: 5
+    requireProjectile: 0
+  - skillName: 89
+    skillID: 89
+    effectID: 11
+    type: 13
+    requireProjectile: 0
+  - skillName: 90
+    skillID: 90
+    effectID: 6
+    type: 14
+    requireProjectile: 0
+  - skillName: 91
+    skillID: 91
+    effectID: 5
+    type: 12
+    requireProjectile: 0
+  - skillName: 93
+    skillID: 93
+    effectID: 6
+    type: 5
+    requireProjectile: 0
+  - skillName: 95
+    skillID: 95
+    effectID: 6
+    type: 5
+    requireProjectile: 1
+  - skillName: 96
+    skillID: 96
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 98
+    skillID: 98
+    effectID: 11
+    type: 13
+    requireProjectile: 0
+  - skillName: 99
+    skillID: 99
+    effectID: 1
+    type: 11
+    requireProjectile: 0
+  - skillName: 100
+    skillID: 100
+    effectID: 5
+    type: 12
+    requireProjectile: 0
+  - skillName: 101
+    skillID: 101
+    effectID: 13
+    type: 11
+    requireProjectile: 0
+  - skillName: 102
+    skillID: 102
+    effectID: 1
+    type: 11
+    requireProjectile: 0
+  - skillName: 103
+    skillID: 103
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 106
+    skillID: 106
+    effectID: 2
+    type: 18
+    requireProjectile: 0
+  - skillName: 107
+    skillID: 107
+    effectID: 11
+    type: 13
+    requireProjectile: 0
+  - skillName: 109
+    skillID: 109
+    effectID: 0
+    type: 11
+    requireProjectile: 0
+  - skillName: 110
+    skillID: 110
+    effectID: 5
+    type: 12
+    requireProjectile: 0
+  - skillName: 111
+    skillID: 111
+    effectID: 6
+    type: 14
+    requireProjectile: 0
+  - skillName: 112
+    skillID: 112
+    effectID: 10
+    type: 16
+    requireProjectile: 0
+  - skillName: 113
+    skillID: 113
+    effectID: 6
+    type: 14
+    requireProjectile: 0
+  - skillName: 114
+    skillID: 114
+    effectID: 5
+    type: 12
+    requireProjectile: 0
+  - skillName: 118
+    skillID: 118
+    effectID: 0
+    type: 33
+    requireProjectile: 0
+  - skillName: 119
+    skillID: 119
+    effectID: 0
+    type: 33
+    requireProjectile: 0
+  - skillName: 120
+    skillID: 120
+    effectID: 0
+    type: 32
+    requireProjectile: 0
+  - skillName: 121
+    skillID: 121
+    effectID: 0
+    type: 33
+    requireProjectile: 0
+  - skillName: 122
+    skillID: 122
+    effectID: 12
+    type: 42
+    requireProjectile: 0
+  - skillName: 123
+    skillID: 123
+    effectID: 6
+    type: 43
+    requireProjectile: 0
+  - skillName: 124
+    skillID: 124
+    effectID: 6
+    type: 43
+    requireProjectile: 0
+  - skillName: 124
+    skillID: 124
+    effectID: 11
+    type: 44
+    requireProjectile: 0
+  - skillName: 125
+    skillID: 125
+    effectID: 6
+    type: 43
+    requireProjectile: 0
+  - skillName: 126
+    skillID: 126
+    effectID: 11
+    type: 44
+    requireProjectile: 0
+  - skillName: 127
+    skillID: 127
+    effectID: 6
+    type: 35
+    requireProjectile: 0
+  - skillName: 128
+    skillID: 128
+    effectID: 6
+    type: 35
+    requireProjectile: 0
+  - skillName: 129
+    skillID: 129
+    effectID: 0
+    type: 37
+    requireProjectile: 0
+  - skillName: 130
+    skillID: 130
+    effectID: 6
+    type: 38
+    requireProjectile: 0
+  - skillName: 131
+    skillID: 131
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 132
+    skillID: 132
+    effectID: 1
+    type: 11
+    requireProjectile: 0
+  - skillName: 133
+    skillID: 133
+    effectID: 0
+    type: 11
+    requireProjectile: 0
+  - skillName: 135
+    skillID: 135
+    effectID: 0
+    type: 11
+    requireProjectile: 0
+  - skillName: 136
+    skillID: 136
+    effectID: 7
+    type: 11
+    requireProjectile: 0
+  - skillName: 137
+    skillID: 137
+    effectID: 11
+    type: 13
+    requireProjectile: 0
+  - skillName: 138
+    skillID: 138
+    effectID: 0
+    type: 11
+    requireProjectile: 0
+  - skillName: 139
+    skillID: 139
+    effectID: 7
+    type: 10
+    requireProjectile: 0
+  - skillName: 140
+    skillID: 140
+    effectID: 0
+    type: 11
+    requireProjectile: 0
+  - skillName: 141
+    skillID: 141
+    effectID: 10
+    type: 19
+    requireProjectile: 0
+  - skillName: 143
+    skillID: 143
+    effectID: 10
+    type: 19
+    requireProjectile: 0
+  - skillName: 144
+    skillID: 144
+    effectID: 0
+    type: 11
+    requireProjectile: 0
+  - skillName: 145
+    skillID: 145
+    effectID: 0
+    type: 11
+    requireProjectile: 0
+  - skillName: 146
+    skillID: 146
+    effectID: 7
+    type: 11
+    requireProjectile: 0
+  - skillName: 147
+    skillID: 147
+    effectID: 0
+    type: 11
+    requireProjectile: 0
+  - skillName: 149
+    skillID: 149
+    effectID: 7
+    type: 10
+    requireProjectile: 0
+  - skillName: 151
+    skillID: 151
+    effectID: 6
+    type: 49
+    requireProjectile: 0
+  - skillName: 156
+    skillID: 156
+    effectID: 6
+    type: 48
+    requireProjectile: 0
+  - skillName: 158
+    skillID: 158
+    effectID: 2
+    type: 18
+    requireProjectile: 0
+  - skillName: 158
+    skillID: 158
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 159
+    skillID: 159
+    effectID: 2
+    type: 18
+    requireProjectile: 0
+  - skillName: 160
+    skillID: 160
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 161
+    skillID: 161
+    effectID: 1
+    type: 10
+    requireProjectile: 0
+  - skillName: 162
+    skillID: 162
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 164
+    skillID: 164
+    effectID: 2
+    type: 18
+    requireProjectile: 0
+  - skillName: 165
+    skillID: 165
+    effectID: 9
+    type: 17
+    requireProjectile: 0
+  - skillName: 165
+    skillID: 165
+    effectID: 10
+    type: 16
+    requireProjectile: 0
+  - skillName: 166
+    skillID: 166
+    effectID: 7
+    type: 10
+    requireProjectile: 0
+  - skillName: 167
+    skillID: 167
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 171
+    skillID: 171
+    effectID: 6
+    type: 14
+    requireProjectile: 0
+  - skillName: 172
+    skillID: 172
+    effectID: 6
+    type: 14
+    requireProjectile: 0
+  - skillName: 173
+    skillID: 173
+    effectID: 9
+    type: 17
+    requireProjectile: 0
+  - skillName: 174
+    skillID: 174
+    effectID: 9
+    type: 17
+    requireProjectile: 0
+  - skillName: 175
+    skillID: 175
+    effectID: 3
+    type: 11
+    requireProjectile: 0
+  - skillName: 176
+    skillID: 176
+    effectID: 3
+    type: 10
+    requireProjectile: 0
+  - skillName: 176
+    skillID: 176
+    effectID: 5
+    type: 12
+    requireProjectile: 0
+  - skillName: 177
+    skillID: 177
+    effectID: 10
+    type: 16
+    requireProjectile: 0
+  - skillName: 178
+    skillID: 178
+    effectID: 10
+    type: 16
+    requireProjectile: 0
+  - skillName: 178
+    skillID: 178
+    effectID: 1
+    type: 11
+    requireProjectile: 0
+  - skillName: 179
+    skillID: 179
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 180
+    skillID: 180
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 181
+    skillID: 181
+    effectID: 7
+    type: 11
+    requireProjectile: 0
+  - skillName: 182
+    skillID: 182
+    effectID: 7
+    type: 11
+    requireProjectile: 0
+  - skillName: 183
+    skillID: 183
+    effectID: 6
+    type: 17
+    requireProjectile: 0
+  - skillName: 184
+    skillID: 184
+    effectID: 6
+    type: 17
+    requireProjectile: 0
+  - skillName: 185
+    skillID: 185
+    effectID: 6
+    type: 14
+    requireProjectile: 0
+  - skillName: 186
+    skillID: 186
+    effectID: 6
+    type: 14
+    requireProjectile: 0
+  - skillName: 187
+    skillID: 187
+    effectID: 10
+    type: 16
+    requireProjectile: 0
+  - skillName: 188
+    skillID: 188
+    effectID: 10
+    type: 16
+    requireProjectile: 0
+  - skillName: 188
+    skillID: 188
+    effectID: 8
+    type: 11
+    requireProjectile: 0
+  - skillName: 189
+    skillID: 189
+    effectID: 11
+    type: 13
+    requireProjectile: 0
+  - skillName: 192
+    skillID: 192
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 193
+    skillID: 193
+    effectID: 1
+    type: 11
+    requireProjectile: 0
+  - skillName: 194
+    skillID: 194
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 196
+    skillID: 196
+    effectID: 11
+    type: 13
+    requireProjectile: 0
+  - skillName: 199
+    skillID: 199
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 200
+    skillID: 200
+    effectID: 7
+    type: 10
+    requireProjectile: 0
+  - skillName: 204
+    skillID: 204
+    effectID: 20
+    type: 11
+    requireProjectile: 0
+  - skillName: 206
+    skillID: 206
+    effectID: 5
+    type: 12
+    requireProjectile: 0
+  - skillName: 207
+    skillID: 207
+    effectID: 3
+    type: 11
+    requireProjectile: 0
+  - skillName: 211
+    skillID: 211
+    effectID: 1
+    type: 28
+    requireProjectile: 0
+  - skillName: 212
+    skillID: 212
+    effectID: 1
+    type: 29
+    requireProjectile: 0
+  - skillName: 213
+    skillID: 213
+    effectID: 1
+    type: 28
+    requireProjectile: 0
+  - skillName: 214
+    skillID: 214
+    effectID: 1
+    type: 28
+    requireProjectile: 0
+  - skillName: 215
+    skillID: 215
+    effectID: 12
+    type: 31
+    requireProjectile: 0
+  - skillName: 216
+    skillID: 216
+    effectID: 0
+    type: 33
+    requireProjectile: 0
+  - skillName: 217
+    skillID: 217
+    effectID: 0
+    type: 32
+    requireProjectile: 0
+  - skillName: 218
+    skillID: 218
+    effectID: 0
+    type: 33
+    requireProjectile: 0
+  - skillName: 219
+    skillID: 219
+    effectID: 8
+    type: 39
+    requireProjectile: 0
+  - skillName: 220
+    skillID: 220
+    effectID: 9
+    type: 40
+    requireProjectile: 0
+  - skillName: 223
+    skillID: 223
+    effectID: 0
+    type: 39
+    requireProjectile: 0
+  - skillName: 224
+    skillID: 224
+    effectID: 12
+    type: 42
+    requireProjectile: 0
+  - skillName: 225
+    skillID: 225
+    effectID: 6
+    type: 45
+    requireProjectile: 0
+  - skillName: 226
+    skillID: 226
+    effectID: 6
+    type: 43
+    requireProjectile: 0
+  - skillName: 226
+    skillID: 226
+    effectID: 11
+    type: 44
+    requireProjectile: 0
+  - skillName: 227
+    skillID: 227
+    effectID: 6
+    type: 45
+    requireProjectile: 0
+  - skillName: 228
+    skillID: 228
+    effectID: 11
+    type: 44
+    requireProjectile: 0
+  - skillName: 229
+    skillID: 229
+    effectID: 0
+    type: 37
+    requireProjectile: 0
+  - skillName: 230
+    skillID: 230
+    effectID: 6
+    type: 38
+    requireProjectile: 0
+  - skillName: 231
+    skillID: 231
+    effectID: 0
+    type: 25
+    requireProjectile: 0
+  - skillName: 233
+    skillID: 233
+    effectID: 11
+    type: 27
+    requireProjectile: 0
+  - skillName: 234
+    skillID: 234
+    effectID: 11
+    type: 27
+    requireProjectile: 0
+  - skillName: 235
+    skillID: 235
+    effectID: 2
+    type: 18
+    requireProjectile: 0
+  - skillName: 236
+    skillID: 236
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 237
+    skillID: 237
+    effectID: 2
+    type: 18
+    requireProjectile: 0
+  - skillName: 240
+    skillID: 240
+    effectID: 5
+    type: 12
+    requireProjectile: 0
+  - skillName: 242
+    skillID: 242
+    effectID: 6
+    type: 14
+    requireProjectile: 0
+  - skillName: 243
+    skillID: 243
+    effectID: 11
+    type: 13
+    requireProjectile: 0
+  - skillName: 243
+    skillID: 243
+    effectID: 14
+    type: 22
+    requireProjectile: 0
+  - skillName: 246
+    skillID: 246
+    effectID: 11
+    type: 13
+    requireProjectile: 0
+  - skillName: 247
+    skillID: 247
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 248
+    skillID: 148
+    effectID: 10
+    type: 19
+    requireProjectile: 0
+  - skillName: 249
+    skillID: 249
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 250
+    skillID: 250
+    effectID: 0
+    type: 11
+    requireProjectile: 0
+  - skillName: 254
+    skillID: 254
+    effectID: 8
+    type: 10
+    requireProjectile: 0
+  - skillName: 255
+    skillID: 255
+    effectID: 9
+    type: 21
+    requireProjectile: 0
+  - skillName: 256
+    skillID: 256
+    effectID: 4
+    type: 10
+    requireProjectile: 0
+  - skillName: 257
+    skillID: 257
+    effectID: 5
+    type: 12
+    requireProjectile: 0
+  - skillName: 257
+    skillID: 257
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 258
+    skillID: 258
+    effectID: 8
+    type: 10
+    requireProjectile: 0
+  - skillName: 259
+    skillID: 259
+    effectID: 7
+    type: 10
+    requireProjectile: 0
+  - skillName: 254
+    skillID: 254
+    effectID: 8
+    type: 10
+    requireProjectile: 0
+  - skillName: 260
+    skillID: 260
+    effectID: 11
+    type: 13
+    requireProjectile: 0
+  - skillName: 261
+    skillID: 261
+    effectID: 7
+    type: 10
+    requireProjectile: 0
+  - skillName: 270
+    skillID: 270
+    effectID: 0
+    type: 40
+    requireProjectile: 0
+  - skillName: 271
+    skillID: 271
+    effectID: 14
+    type: 41
+    requireProjectile: 0
+  - skillName: 271
+    skillID: 271
+    effectID: 9
+    type: 17
+    requireProjectile: 0
+  - skillName: 273
+    skillID: 273
+    effectID: 9
+    type: 40
+    requireProjectile: 0
+  - skillName: 279
+    skillID: 279
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 280
+    skillID: 280
+    effectID: 1
+    type: 11
+    requireProjectile: 0
+  - skillName: 281
+    skillID: 281
+    effectID: 1
+    type: 11
+    requireProjectile: 0
+  - skillName: 283
+    skillID: 283
+    effectID: 11
+    type: 13
+    requireProjectile: 0
+  - skillName: 293
+    skillID: 293
+    effectID: 0
+    type: 11
+    requireProjectile: 0
+  - skillName: 294
+    skillID: 294
+    effectID: 6
+    type: 48
+    requireProjectile: 0
+  - skillName: 295
+    skillID: 295
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 296
+    skillID: 296
+    effectID: 4
+    type: 15
+    requireProjectile: 0
+  - skillName: 298
+    skillID: 298
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 299
+    skillID: 299
+    effectID: 11
+    type: 13
+    requireProjectile: 0
+  - skillName: 300
+    skillID: 300
+    effectID: 0
+    type: 11
+    requireProjectile: 0
+  - skillName: 301
+    skillID: 301
+    effectID: 14
+    type: 22
+    requireProjectile: 0
+  - skillName: 303
+    skillID: 303
+    effectID: 6
+    type: 48
+    requireProjectile: 0
+  - skillName: 306
+    skillID: 306
+    effectID: 0
+    type: 11
+    requireProjectile: 0
+  - skillName: 307
+    skillID: 307
+    effectID: 6
+    type: 48
+    requireProjectile: 1
+  - skillName: 309
+    skillID: 309
+    effectID: 0
+    type: 13
+    requireProjectile: 0
+  - skillName: 310
+    skillID: 310
+    effectID: 14
+    type: 22
+    requireProjectile: 0
+  - skillName: 310
+    skillID: 310
+    effectID: 6
+    type: 14
+    requireProjectile: 0
+  - skillName: 313
+    skillID: 313
+    effectID: 12
+    type: 20
+    requireProjectile: 0
+  - skillName: 331
+    skillID: 331
+    effectID: 10
+    type: 15
+    requireProjectile: 0
+  - skillName: 333
+    skillID: 333
+    effectID: 2
+    type: 18
+    requireProjectile: 0
+  - skillName: 363
+    skillID: 363
+    effectID: 9
+    type: 17
+    requireProjectile: 0
+  - skillName: 431
+    skillID: 431
+    effectID: 1
+    type: 28
+    requireProjectile: 0
+  - skillName: 432
+    skillID: 432
+    effectID: 1
+    type: 29
+    requireProjectile: 0
+  - skillName: 434
+    skillID: 434
+    effectID: 1
+    type: 28
+    requireProjectile: 0
+  - skillName: 435
+    skillID: 435
+    effectID: 1
+    type: 28
+    requireProjectile: 0
+  - skillName: 436
+    skillID: 436
+    effectID: 1
+    type: 29
+    requireProjectile: 0
+  - skillName: 437
+    skillID: 437
+    effectID: 10
+    type: 30
+    requireProjectile: 0
+  - skillName: 438
+    skillID: 438
+    effectID: 12
+    type: 31
+    requireProjectile: 0
+  - skillName: 439
+    skillID: 439
+    effectID: 0
+    type: 33
+    requireProjectile: 0
+  - skillName: 440
+    skillID: 440
+    effectID: 0
+    type: 32
+    requireProjectile: 0
+  - skillName: 441
+    skillID: 441
+    effectID: 12
+    type: 34
+    requireProjectile: 0
+  - skillName: 442
+    skillID: 442
+    effectID: 6
+    type: 35
+    requireProjectile: 0
+  - skillName: 443
+    skillID: 443
+    effectID: 0
+    type: 37
+    requireProjectile: 0
+  - skillName: 444
+    skillID: 444
+    effectID: 6
+    type: 38
+    requireProjectile: 0
+  - skillName: 446
+    skillID: 446
+    effectID: 7
+    type: 27
+    requireProjectile: 0
+  - skillName: 447
+    skillID: 447
+    effectID: 11
+    type: 27
+    requireProjectile: 0
+  - skillName: 448
+    skillID: 448
+    effectID: 1
+    type: 26
+    requireProjectile: 0
+  - skillName: 449
+    skillID: 449
+    effectID: 11
+    type: 27
+    requireProjectile: 0
+  - skillName: 450
+    skillID: 450
+    effectID: 7
+    type: 10
+    requireProjectile: 0
+  - skillName: 451
+    skillID: 451
+    effectID: 1
+    type: 11
+    requireProjectile: 0
+  - skillName: 452
+    skillID: 452
+    effectID: 0
+    type: 10
+    requireProjectile: 0
+  - skillName: 453
+    skillID: 453
+    effectID: 1
+    type: 11
+    requireProjectile: 0
+  - skillName: 454
+    skillID: 454
+    effectID: 7
+    type: 11
+    requireProjectile: 0
+  - skillName: 455
+    skillID: 455
+    effectID: 1
+    type: 11
+    requireProjectile: 0
+  - skillName: 456
+    skillID: 456
+    effectID: 1
+    type: 11
+    requireProjectile: 0
+  - skillName: 457
+    skillID: 457
+    effectID: 11
+    type: 13
+    requireProjectile: 0
+  - skillName: 458
+    skillID: 458
+    effectID: 1
+    type: 11
+    requireProjectile: 0
+  - skillName: 459
+    skillID: 459
+    effectID: 7
+    type: 11
+    requireProjectile: 0
+  - skillName: 460
+    skillID: 460
+    effectID: 6
+    type: 48
+    requireProjectile: 0
+  - skillName: 460
+    skillID: 460
+    effectID: 11
+    type: 13
+    requireProjectile: 0
+  - skillName: 461
+    skillID: 461
+    effectID: 12
+    type: 20
+    requireProjectile: 0
+  - skillName: 462
+    skillID: 462
+    effectID: 7
+    type: 11
+    requireProjectile: 0
+  - skillName: 463
+    skillID: 463
+    effectID: 3
+    type: 46
+    requireProjectile: 0
+  - skillName: 464
+    skillID: 464
+    effectID: 1
+    type: 46
+    requireProjectile: 0
+  - skillName: 466
+    skillID: 466
+    effectID: 1
+    type: 47
+    requireProjectile: 0
+  - skillName: 472
+    skillID: 472
+    effectID: 5
+    type: 12
+    requireProjectile: 0
+  - skillName: 473
+    skillID: 473
+    effectID: 3
+    type: 46
+    requireProjectile: 0
+  - skillName: 474
+    skillID: 474
+    effectID: 1
+    type: 46
+    requireProjectile: 0
+  projectile:
+  - type: 0
+    muzzle: {fileID: 5230334140166594115, guid: 9e1e42de043cc1d4e84d1860a633a96e, type: 3}
+    projectile: {fileID: 1858709150906596974, guid: caaf34985d8eeaa4a8a9f32ee461e11b, type: 3}
+    impact: {fileID: 4406967817500648197, guid: a72dd5f98bc1e8e4fa51a16a5cb738e7, type: 3}
+  - type: 1
+    muzzle: {fileID: 5230334140166594115, guid: 9e1e42de043cc1d4e84d1860a633a96e, type: 3}
+    projectile: {fileID: 1858709150906596974, guid: caaf34985d8eeaa4a8a9f32ee461e11b, type: 3}
+    impact: {fileID: 4406967817500648197, guid: a72dd5f98bc1e8e4fa51a16a5cb738e7, type: 3}
+  - type: 2
+    muzzle: {fileID: 0}
+    projectile: {fileID: 8016913923979285515, guid: c916f84f59f892349bc7cb9a0d6b2cb9, type: 3}
+    impact: {fileID: 1987447064473525497, guid: 99e02f7d31d034c4d9a4bd31ebe82fcb, type: 3}
+  - type: 3
+    muzzle: {fileID: 5230334140166594115, guid: 9e1e42de043cc1d4e84d1860a633a96e, type: 3}
+    projectile: {fileID: 1858709150906596974, guid: caaf34985d8eeaa4a8a9f32ee461e11b, type: 3}
+    impact: {fileID: 4406967817500648197, guid: a72dd5f98bc1e8e4fa51a16a5cb738e7, type: 3}
+  - type: 4
+    muzzle: {fileID: 5230334140166594115, guid: 9e1e42de043cc1d4e84d1860a633a96e, type: 3}
+    projectile: {fileID: 1858709150906596974, guid: caaf34985d8eeaa4a8a9f32ee461e11b, type: 3}
+    impact: {fileID: 4406967817500648197, guid: a72dd5f98bc1e8e4fa51a16a5cb738e7, type: 3}
+  - type: 5
+    muzzle: {fileID: 5230334140166594115, guid: 9e1e42de043cc1d4e84d1860a633a96e, type: 3}
+    projectile: {fileID: 1858709150906596974, guid: caaf34985d8eeaa4a8a9f32ee461e11b, type: 3}
+    impact: {fileID: 4406967817500648197, guid: a72dd5f98bc1e8e4fa51a16a5cb738e7, type: 3}
+  - type: 6
+    muzzle: {fileID: 5230334140166594115, guid: 9e1e42de043cc1d4e84d1860a633a96e, type: 3}
+    projectile: {fileID: 1858709150906596974, guid: caaf34985d8eeaa4a8a9f32ee461e11b, type: 3}
+    impact: {fileID: 4406967817500648197, guid: a72dd5f98bc1e8e4fa51a16a5cb738e7, type: 3}
+  - type: 7
+    muzzle: {fileID: 5230334140166594115, guid: 9e1e42de043cc1d4e84d1860a633a96e, type: 3}
+    projectile: {fileID: 1858709150906596974, guid: caaf34985d8eeaa4a8a9f32ee461e11b, type: 3}
+    impact: {fileID: 4406967817500648197, guid: a72dd5f98bc1e8e4fa51a16a5cb738e7, type: 3}
+  - type: 8
+    muzzle: {fileID: 0}
+    projectile: {fileID: 4175650771373387779, guid: be8e0bb25ca7e0e4da0e9c6faf84935f, type: 3}
+    impact: {fileID: 3612713939211624002, guid: 406f45b23a00111498d1100393e8d928, type: 3}
+  - type: 9
+    muzzle: {fileID: 0}
+    projectile: {fileID: 923926198710195635, guid: 26c789caf52a4be4d893c327e9a413e8, type: 3}
+    impact: {fileID: 0}
+  - type: 10
+    muzzle: {fileID: 866789417871042315, guid: 28696bde41416ba478c302e24563c923, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 4478123082838078377, guid: 971707d01966fc746b1be47d65c84ede, type: 3}
+  - type: 11
+    muzzle: {fileID: 866789417871042315, guid: 28696bde41416ba478c302e24563c923, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 0}
+  - type: 12
+    muzzle: {fileID: 513017281497936988, guid: d2606d39214ee2742938138ffe22603d, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 0}
+  - type: 13
+    muzzle: {fileID: 1481139132144383131, guid: 34656f9ae8562644582101c3691075b3, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 0}
+  - type: 14
+    muzzle: {fileID: 5040974049755353327, guid: 985864eb256befe4b994a90c90ff0b39, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 4406967817500648197, guid: a72dd5f98bc1e8e4fa51a16a5cb738e7, type: 3}
+  - type: 15
+    muzzle: {fileID: 7037232666214690399, guid: 984b510241f54eb498e5fcd5486a4124, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 0}
+  - type: 17
+    muzzle: {fileID: 1653763284987097004, guid: 08eaef624dc38bc4a898f9cc5da50f32, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 4949565484328735463, guid: 934196b88d6ba75419d4ca1a63d5d5c0, type: 3}
+  - type: 18
+    muzzle: {fileID: 866789417871042315, guid: 28696bde41416ba478c302e24563c923, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 605407802227908953, guid: 14c1f4e06dd54bc47a51759d03197b42, type: 3}
+  - type: 16
+    muzzle: {fileID: 7037232666214690399, guid: 984b510241f54eb498e5fcd5486a4124, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 0}
+  - type: 19
+    muzzle: {fileID: 1826730554743407321, guid: 1c0b2661b9cb6bd4b906d49e663d577c, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 0}
+  - type: 20
+    muzzle: {fileID: 1826730554743407321, guid: 1c0b2661b9cb6bd4b906d49e663d577c, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 0}
+  - type: 21
+    muzzle: {fileID: 866789417871042315, guid: 28696bde41416ba478c302e24563c923, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 4478123082838078377, guid: 971707d01966fc746b1be47d65c84ede, type: 3}
+  - type: 22
+    muzzle: {fileID: 7037232666214690399, guid: 984b510241f54eb498e5fcd5486a4124, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 0}
+  - type: 23
+    muzzle: {fileID: 367582840291690283, guid: 6eb3f72ac04c43542bb48d80315953bc, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 0}
+  - type: 24
+    muzzle: {fileID: 513017281497936988, guid: d2606d39214ee2742938138ffe22603d, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 0}
+  - type: 25
+    muzzle: {fileID: 7931481806473230868, guid: f68d200bbee059041befbcab96d8cf45, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 4478123082838078377, guid: 971707d01966fc746b1be47d65c84ede, type: 3}
+  - type: 26
+    muzzle: {fileID: 7931481806473230868, guid: f68d200bbee059041befbcab96d8cf45, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 0}
+  - type: 27
+    muzzle: {fileID: 7931481806473230868, guid: f68d200bbee059041befbcab96d8cf45, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 0}
+  - type: 28
+    muzzle: {fileID: 2493640401717257338, guid: ee15a36dd5b4c574cb105da9cf259f48, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 0}
+  - type: 29
+    muzzle: {fileID: 4137459136448351386, guid: 940dcad3fa8107d4aad347c34ae039c7, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 0}
+  - type: 30
+    muzzle: {fileID: 2493640401717257338, guid: ee15a36dd5b4c574cb105da9cf259f48, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 2671631099540723662, guid: f4f2c2ee99f293d4482ed47ebaf100f7, type: 3}
+  - type: 31
+    muzzle: {fileID: 2166435155466230538, guid: cc63aeec2fedb5e43ac53a2d14550c9e, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 0}
+  - type: 32
+    muzzle: {fileID: 2166435155466230538, guid: cc63aeec2fedb5e43ac53a2d14550c9e, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 4825480200124373015, guid: 2dc1b60fc056cd842a94558f1bf9837d, type: 3}
+  - type: 33
+    muzzle: {fileID: 2166435155466230538, guid: cc63aeec2fedb5e43ac53a2d14550c9e, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 5266404825738776823, guid: 4a84014d5a30c974a8c166e82df27de4, type: 3}
+  - type: 34
+    muzzle: {fileID: 6931719278874516583, guid: 63e14fae786c310408ce022afacb37c3, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 0}
+  - type: 35
+    muzzle: {fileID: 6931719278874516583, guid: 63e14fae786c310408ce022afacb37c3, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 1098862781192186398, guid: e815026ba0513ee47922e4faf30ab280, type: 3}
+  - type: 36
+    muzzle: {fileID: 6931719278874516583, guid: 63e14fae786c310408ce022afacb37c3, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 1098862781192186398, guid: e815026ba0513ee47922e4faf30ab280, type: 3}
+  - type: 37
+    muzzle: {fileID: 498327834509867933, guid: e9859bb91f8950648aed374e6d56f7b3, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 4478123082838078377, guid: 971707d01966fc746b1be47d65c84ede, type: 3}
+  - type: 38
+    muzzle: {fileID: 1519279168672107010, guid: e3970b359da791a4ebac25a33a4ab106, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 5400144399629107372, guid: d1643e3a733ab3d48ad22a67a1755c89, type: 3}
+  - type: 39
+    muzzle: {fileID: 7863852234651708540, guid: bb3b761dbfd6bd34693dcb864a398d89, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 1098444406762812029, guid: e4d3c77b4a7acca43ae241c4c79e072f, type: 3}
+  - type: 40
+    muzzle: {fileID: 7863852234651708540, guid: bb3b761dbfd6bd34693dcb864a398d89, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 0}
+  - type: 41
+    muzzle: {fileID: 7863852234651708540, guid: bb3b761dbfd6bd34693dcb864a398d89, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 0}
+  - type: 42
+    muzzle: {fileID: 6554913496988700280, guid: bf8788c23f4a0614c9037396c3d33658, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 0}
+  - type: 43
+    muzzle: {fileID: 6554913496988700280, guid: bf8788c23f4a0614c9037396c3d33658, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 0}
+  - type: 44
+    muzzle: {fileID: 6554913496988700280, guid: bf8788c23f4a0614c9037396c3d33658, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 0}
+  - type: 45
+    muzzle: {fileID: 5998386297773428812, guid: 92e1e6349372deb40b811bd71cd8e8d6, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 1504794598212500797, guid: 2152959443cbc3b47994c82c6c902463, type: 3}
+  - type: 46
+    muzzle: {fileID: 7291083773019436175, guid: 40e3f99ead5038b449c2c2dcbe2c6201, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 0}
+  - type: 47
+    muzzle: {fileID: 3442475058276145776, guid: 8684614a373f57044b3327aca9ad711e, type: 3}
+    projectile: {fileID: 0}
+    impact: {fileID: 4478123082838078377, guid: 971707d01966fc746b1be47d65c84ede, type: 3}
+  - type: 48
+    muzzle: {fileID: 5230334140166594115, guid: 9e1e42de043cc1d4e84d1860a633a96e, type: 3}
+    projectile: {fileID: 1858709150906596974, guid: caaf34985d8eeaa4a8a9f32ee461e11b, type: 3}
+    impact: {fileID: 4406967817500648197, guid: a72dd5f98bc1e8e4fa51a16a5cb738e7, type: 3}
+  - type: 49
+    muzzle: {fileID: 0}
+    projectile: {fileID: 0}
+    impact: {fileID: 4406967817500648197, guid: a72dd5f98bc1e8e4fa51a16a5cb738e7, type: 3}
