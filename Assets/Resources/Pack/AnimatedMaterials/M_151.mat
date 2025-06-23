@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_151
+  m_Shader: {fileID: 4800000, guid: ed0182d84dc892840bf6c0c12d3409e1, type: 3}
+  m_ShaderKeywords: EFFECTS_LAYER_1_ON EFFECTS_LAYER_2_ON EFFECTS_LAYER_3_ON EFFECTS_LAYER_4_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CardColorMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortionAndRippleTexture:
+        m_Texture: {fileID: 2800000, guid: b9b177f1c86ebad43b5c410fbe0acf23, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EF1Motion:
+        m_Texture: {fileID: 2800000, guid: e8ce35b642c1a9748b1a433165177029, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EF1Tex:
+        m_Texture: {fileID: 2800000, guid: b5c18cb7c7bb82a4b8df40746a2c25bc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EF2Motion:
+        m_Texture: {fileID: 2800000, guid: a86d66aab126af34c9d419889500a133, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EF2Tex:
+        m_Texture: {fileID: 2800000, guid: 13b33f2b845f242479656aceee3102a8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EF3Motion:
+        m_Texture: {fileID: 2800000, guid: 4e08200e46f73304a851aec44af348b0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EF3Tex:
+        m_Texture: {fileID: 2800000, guid: 1c4fe4137808f83418a015b6a548d85b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EF4Motion:
+        m_Texture: {fileID: 2800000, guid: d76e8760255d9d4408f89bfa1d3f0da9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EF4Tex:
+        m_Texture: {fileID: 2800000, guid: c3b61e3a950482d41925ce292738533c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a28dc0e6ee1b83042a2eabbbd699ed08, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ZoneMask:
+        m_Texture: {fileID: 2800000, guid: b54eedc05ea100244927c13797b127b6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _EF1BackAndForth: 1
+    - _EF1BreatheX: 0
+    - _EF1BreatheY: 0
+    - _EF1Distorted: 1
+    - _EF1DistortionIntensity: 0.02
+    - _EF1Foreground: 0
+    - _EF1Intensity: 1.5
+    - _EF1IsAdditive: 1
+    - _EF1IsBlinkOffset: 0
+    - _EF1IsBlinking: 0
+    - _EF1IsCutPart: 0
+    - _EF1MotionSpeed: 0
+    - _EF1Oscillate: 0
+    - _EF1Rotation: -0.3
+    - _EF2BackAndForth: 0
+    - _EF2BreatheX: 0
+    - _EF2BreatheY: 1
+    - _EF2Distorted: 1
+    - _EF2DistortionIntensity: 0.025
+    - _EF2Foreground: 0
+    - _EF2Intensity: 1.2
+    - _EF2IsAdditive: 0
+    - _EF2IsBlinkOffset: 0
+    - _EF2IsBlinking: 0
+    - _EF2IsCutPart: 1
+    - _EF2MotionSpeed: 0
+    - _EF2Oscillate: 0
+    - _EF2Rotation: 0
+    - _EF3BackAndForth: 1
+    - _EF3BreatheX: 0
+    - _EF3BreatheY: 0
+    - _EF3Distorted: 1
+    - _EF3DistortionIntensity: 0.025
+    - _EF3Foreground: 0
+    - _EF3Intensity: 1
+    - _EF3IsAdditive: 0
+    - _EF3IsBlinkOffset: 0
+    - _EF3IsBlinking: 0
+    - _EF3IsCutPart: 1
+    - _EF3MotionSpeed: 0
+    - _EF3Oscillate: 1
+    - _EF3Rotation: -8.16
+    - _EF4BackAndForth: 0
+    - _EF4BreatheX: 0
+    - _EF4BreatheY: 0
+    - _EF4Distorted: 1
+    - _EF4DistortionIntensity: 0.025
+    - _EF4Foreground: 0
+    - _EF4Intensity: 2
+    - _EF4IsAdditive: 1
+    - _EF4IsBlinkOffset: 0
+    - _EF4IsBlinking: 1
+    - _EF4IsCutPart: 0
+    - _EF4MotionSpeed: 3.27
+    - _EF4Oscillate: 1
+    - _EF4Rotation: 0
+    - _IsShaking: 1
+    - _RippleDistort: 0
+    - _RippleSize: 0.05
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _Tired: 0
+    m_Colors:
+    - _ColTileOff: {r: 1, g: 1, b: 0, a: 0}
+    - _DistortionScroll: {r: 3, g: 3, b: 0, a: 0}
+    - _DistortionSpeed: {r: 3, g: 3, b: 0, a: 0}
+    - _EF1BackForthOsciCycleMag: {r: 5, g: 3, b: 3, a: 7}
+    - _EF1BlinkSpdDurOffsetAdd: {r: 0, g: 0, b: 0, a: 0}
+    - _EF1BreatheXYFregMag: {r: 1, g: 1, b: 1, a: 1}
+    - _EF1Color: {r: 1, g: 0.8043918, b: 0.7216981, a: 1}
+    - _EF1PivotScale: {r: 0.5, g: 0.5, b: 1, a: 1}
+    - _EF1Translation: {r: 0, g: 0, b: 0, a: 0}
+    - _EF2BackForthOsciCycleMag: {r: 5, g: 2, b: 1, a: 1}
+    - _EF2BlinkSpdDurOffsetAdd: {r: 0, g: 0, b: 0, a: 0}
+    - _EF2BreatheXYFregMag: {r: 1, g: 1, b: 0.2, a: 1}
+    - _EF2Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EF2PivotScale: {r: 0.5, g: 0.5, b: 1, a: 1}
+    - _EF2Translation: {r: 0, g: 0, b: 0, a: 0}
+    - _EF3BackForthOsciCycleMag: {r: 5, g: 2, b: 5, a: 30}
+    - _EF3BlinkSpdDurOffsetAdd: {r: 0, g: 0, b: 0, a: 0}
+    - _EF3BreatheXYFregMag: {r: 1, g: 1, b: 0, a: 0}
+    - _EF3Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EF3PivotScale: {r: 0.2, g: 0.5, b: 1, a: 1}
+    - _EF3Translation: {r: 0, g: 0, b: 0, a: 0}
+    - _EF4BackForthOsciCycleMag: {r: 1, g: 1, b: 1, a: 1}
+    - _EF4BlinkSpdDurOffsetAdd: {r: 1, g: 9, b: 1, a: 0}
+    - _EF4BreatheXYFregMag: {r: 1, g: 1, b: 1, a: 1}
+    - _EF4Color: {r: 1, g: 0.7310173, b: 0.48584908, a: 1}
+    - _EF4PivotScale: {r: 0.5, g: 0.5, b: 1, a: 1}
+    - _EF4Translation: {r: 0, g: 0, b: 0, a: 0}
+    - _RippleThings: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _ShakeThings: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _TileOff: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

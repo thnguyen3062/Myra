@@ -942,19 +942,21 @@ public class HomeSceneNew : GameListener
     // Start is called before the first frame update
     void Start()
     {
-        if (!GamePrefs.isLoggedIn)
-            videoBackground.SetActive(true);
-        else
-            HomeUI.SetActive(true);
-        loginBtn.SetActive(false);
-        loginFBBtn.SetActive(false);
-        Game.main.socket.CheckVersion(Application.version);
+        //if (!GamePrefs.isLoggedIn)
+        //    videoBackground.SetActive(true);
+        //else
+        //    HomeUI.SetActive(true);
+        //loginBtn.SetActive(false);
+        //loginFBBtn.SetActive(false);
+        //Game.main.socket.CheckVersion(Application.version);
 
-        if (GameData.main.isX2Login)
-        {
-            GameData.main.isX2Login = false;
-            PopupConfirm.Show(content: LangHandler.Get("toast-28", "DUPLICATE LOG IN."));
-        }
+        //if (GameData.main.isX2Login)
+        //{
+        //    GameData.main.isX2Login = false;
+        //    PopupConfirm.Show(content: LangHandler.Get("toast-28", "DUPLICATE LOG IN."));
+        //}
+        GamePrefs.isLoggedIn = true;
+        InitData();
     }
 
     // Update is called once per frame

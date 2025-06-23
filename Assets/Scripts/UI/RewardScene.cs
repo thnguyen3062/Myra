@@ -233,10 +233,10 @@ public class RewardScene : GameListener
                 GameData.main.listHomeChestProps.Add(hcEmpty);
                 GameData.main.listHomeChestProps.Add(hcEmpty);
                 GameData.main.listHomeChestProps.Add(hcEmpty);
-                Game.main.LoadScene("HomeSceneNew",
-               () => {
-                   HomeSceneNew.instance.UpdateHomeChestTut();
-               }, delay: 0.3f, curtain: true);
+                Game.main.LoadScene("BattleSceneTutorial", () =>
+                {
+                    BattleSceneTutorial.instance.SetTutorial(1);
+                }, delay: 0.3f, curtain: true);
             }
             
             if (GameData.main.userProgressionState == 6)

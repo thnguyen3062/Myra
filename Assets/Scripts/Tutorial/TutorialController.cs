@@ -55,10 +55,6 @@ public class TutorialController : MonoBehaviour
     }
     private void Start()
     {
-        if (GameData.main.userProgressionState < 1)
-            m_TutorialID = 0;
-        else
-            m_TutorialID = 1;
         BattleSceneTutorial.instance.onGameDealCard += GameDealCard;
         BattleSceneTutorial.instance.onGameBattleSimulation += GameBattleSimulation;
         BattleSceneTutorial.instance.onGameChooseWayRequest += GameChooseWayRequest;
@@ -80,10 +76,6 @@ public class TutorialController : MonoBehaviour
 
     private float timeToPause = 10f;
     bool counting = false;
-    private void Update()
-    {
-        
-    }
     public void PassTut(int ind)
     {
         if(ind == 0)

@@ -11,6 +11,7 @@ using GIKCore.Bundle;
 using GIKCore.Lang;
 using GIKCore.DB;
 using GIKCore.Sound;
+using UnityEngine.SceneManagement;
 //using OneSignalSDK;
 //using OneSignalSDK;
 
@@ -63,7 +64,7 @@ public class SplashScene : GameListener
 
     private void LoadConfigDone()
     {
-        if (!Game.main.http.GetResource())
+        
             LoadAssetDone();
     }
 
@@ -199,7 +200,13 @@ public class SplashScene : GameListener
         m_ImgFill.fillAmount = 1f;
         onLoadAssetFromCache = false;
         m_GuideSlides.SetActive(false);
-        PopupDeviceUUID.Get();
+        //PopupDeviceUUID.Get();
+        SoundHandler.main.Init("BackgroundMusicMain");
+
+        Game.main.LoadScene("BattleSceneTutorial", () =>
+        {
+            BattleSceneTutorial.instance.SetTutorial(0);
+        }, delay: 0.3f, curtain: true);
     }
     private void DownloadProgress()
     {
@@ -307,7 +314,7 @@ public class SplashScene : GameListener
     void Update()
     {
         DownloadProgress();
-        DoTryGetConfig(Time.deltaTime);
-        DoTryGetResource(Time.deltaTime);
+        //DoTryGetConfig(Time.deltaTime);
+        //DoTryGetResource(Time.deltaTime);
     }
 }

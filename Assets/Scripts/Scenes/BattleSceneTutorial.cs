@@ -7337,15 +7337,6 @@ public class BattleSceneTutorial : GameListener
     {
         //battleState = BATTLE_STATE.NORMAL;
 
-        //if (!PlayerPrefs.HasKey("TutorialIndex"))
-        //{
-        //    PlayerPrefs.SetInt("TutorialIndex", 0);
-        //    m_TutorialControllers[0].SetActive(true);
-        //}
-        //else
-        //{
-        //    m_TutorialControllers[PlayerPrefs.GetInt("TutorialIndex", 0)].SetActive(true);
-        //}
 
         SoundHandler.main.Init("BackgroundMusicBattle");
 
